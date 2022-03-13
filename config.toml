@@ -22,6 +22,7 @@ enableGitInfo = true
 
 # Missing translations will default to this content language
 defaultContentLanguage = "ja"
+defaultContentLanguageInSubdir = false
 
 [params.info]
 description = "Fraxinusプロジェクト"
