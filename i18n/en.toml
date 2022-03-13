@@ -53,10 +53,10 @@ other = "Gopher"
 other = "Go Home..."
 
 [lastUpdated]
-other = "更新日"
+other = "Last updated"
 
 [publishDate]
-other = "公開日"
+other = "Publish date"
 
 [leaveAComment]
 other = "Leave a comment"
@@ -145,7 +145,7 @@ other = "Social Menu"
 other = "Comment!"
 
 [tableOfContents]
-other = "目次"
+other = "Table of Contents"
 
 [tag]
 one = "Tag"
