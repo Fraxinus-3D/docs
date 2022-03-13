@@ -18,6 +18,8 @@ pygmentsCodefences = true
 
 enableEmoji = true
 
+enableGitInfo = true
+
 # Missing translations will default to this content language
 defaultContentLanguage = "ja"
 
