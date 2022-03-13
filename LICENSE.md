@@ -28,7 +28,7 @@ SOFTWARE.
 ---
 
 <a name="CC-BY-NC-SA"></a>
-Files in 'static/images' and 'docs' are:
+Files in `static/images` and `content` are:
 
 
 ```
