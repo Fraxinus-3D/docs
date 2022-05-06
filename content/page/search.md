@@ -6,4 +6,5 @@ outputs:
   - html
   - json
 menu: main
+weight: 100
 ---

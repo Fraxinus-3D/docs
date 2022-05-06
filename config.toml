@@ -109,7 +109,7 @@ page = "/:slug/"
 
 [[menu.main]]
 name = "Repo"
-weight = -10
+weight = 80
 identifier = "repository"
 url = "https://github.com/fraxinus-3d/docs"
 
