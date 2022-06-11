@@ -117,7 +117,7 @@ other = "Reply to {{ .Author }}"
 other = "says"
 
 [search]
-other = "検索"
+other = "Search"
 
 [searchResultEmpty]
 other = "Nothing found!"
