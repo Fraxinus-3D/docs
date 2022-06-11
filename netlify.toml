@@ -3,7 +3,7 @@ publish = "public"
 command = "hugo --gc --minify --enableGitInfo"
 
 [context.production.environment]
-HUGO_VERSION = "0.94.0"
+HUGO_VERSION = "0.100.2"
 HUGO_ENV = "production"
 
 # Deploy Preview context: all deploys generated from
@@ -12,7 +12,7 @@ HUGO_ENV = "production"
 command = "hugo --gc --minify --enableGitInfo --buildFuture -b $DEPLOY_PRIME_URL"
 
 [context.deploy-preview.environment]
-HUGO_VERSION = "0.94.0"
+HUGO_VERSION = "0.100.2"
 
 # Branch Deploy context: all deploys that are not from
 # a pull/merge request or from the Production branch 
@@ -21,4 +21,4 @@ HUGO_VERSION = "0.94.0"
 command = "hugo --gc --minify --enableGitInfo -b $DEPLOY_PRIME_URL"
 
 [context.branch-deploy.environment]
-HUGO_VERSION = "0.94.0"
+HUGO_VERSION = "0.100.2"
