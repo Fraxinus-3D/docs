@@ -1,0 +1,47 @@
+{{- $defaultConfig := .Site.Data.config.default.widgets.search -}}
+{{- $configData := ( or .Site.Data.config.widgets.search $defaultConfig ) -}}
+{{- $lang := .Site.Language.Lang -}}
+{{- $config := ( ( index $configData $lang ) | default $configData ) -}}
+
+{{ if and .Site.IsMultiLingual (not .Site.Params.settings.DisableLanguageSwitchingButton)}}
+<section class='widget widget-language sep-after'>
+  <header>
+    <h4 class='title widget-title'>
+      {{- $config.title | default ( i18n "language_select" ) -}}
+    </h4>
+  </header>
+  <a class="padding">
+    <i class="fas fa-language fa-fw"></i>
+    <div class="select-style">
+      <select id="select-language" onchange="location = this.value;">
+        {{ $siteLanguages := .Site.Languages}}
+        {{ $pageLang := .Page.Lang}}
+        {{ range .Page.AllTranslations }}
+        {{ $translation := .}}
+        {{ range $siteLanguages }}
+        {{ if eq $translation.Lang .Lang }}
+        {{ $selected := false }}
+        {{ if eq $pageLang .Lang}}
+        <option id="{{ $translation.Language }}" value="{{ $translation.Permalink }}" selected>{{ .LanguageName }}
+        </option>
+        {{ else }}
+        <option id="{{ $translation.Language }}" value="{{ $translation.Permalink }}">{{ .LanguageName }}</option>
+        {{ end }}
+        {{ end }}
+        {{ end }}
+        {{ end }}
+      </select>
+      <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+        x="0px" y="0px" width="255px" height="255px" viewBox="0 0 255 255" style="enable-background:new 0 0 255 255;"
+        xml:space="preserve">
+        <g>
+          <g id="arrow-drop-down">
+            <polygon points="0,63.75 127.5,191.25 255,63.75 		" />
+          </g>
+        </g>
+      </svg>
+    </div>
+  </a>
+  {{end}}
+
+</section>

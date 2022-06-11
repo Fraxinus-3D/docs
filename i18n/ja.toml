@@ -156,3 +156,6 @@ other = "Toggle Sidebar"
 
 [website]
 other = "Website"
+
+[language_select]
+other = "Language"
