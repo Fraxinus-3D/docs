@@ -23,6 +23,8 @@ Discord招待リンク：[https://discord.gg/cnYvPCVKf4](https://discord.gg/cnYv
 
 Fraxinus1kと3eについて詳しくはこちら：[Fraxinusについて](/about)
 
+組立について詳しくはこちら：[組立](/docs/assembly)
+
 ![](/images/Fraxinus1k.jpg)
 
 ![](/images/Fraxinus3e.jpg)
