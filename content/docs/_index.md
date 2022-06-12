@@ -8,3 +8,5 @@ menu:
 weight: -250
 slug: docs
 ---
+
+* [組立資料](./assembly)

@@ -7,6 +7,7 @@
 {{ end }}
 
 <div class='container list-container'>
+  <h2>{{- default ( i18n "update_history" ) -}}</h2>
   {{ range ( where .Site.RegularPages "Type" "ne" "page" ).GroupByDate "2006" }}
   <div class='archive-group sep-after'>
     <h3>{{ .Key }}</h3>

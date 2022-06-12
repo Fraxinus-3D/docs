@@ -159,3 +159,6 @@ other = "Website"
 
 [language_select]
 other = "Language"
+
+[update_history]
+other = "Update History"
