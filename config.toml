@@ -31,8 +31,8 @@ defaultContentLanguageInSubdir = false
 
     [params.assets]
     favicon = "favicon.ico"
-    customCSS = ["css/custom.css"]
-    customJS = ["js/custom.js"]
+    customCSS = ["css/featherlight.min.css", "css/custom.css"]
+    customJS = ["js/jquery-3.3.1.min.js", "js/featherlight.min.js", "js/jquery.sticky.js", "js/clipboard.min.js", "js/image-featherlight.js", "js/custom.js"]
     gopher = "" # used in 404 template ( Generator: https://gopherize.me )
 
     [params.copyright]

@@ -27,3 +27,12 @@ svg:not(:root) {
 }
 /* end for Lang Select */
 
+/* CSS for featherlight image */
+.featherlight img {
+    margin: 0 !important;
+}
+
+.entry-content a.featherlight-img{
+    border-bottom: none;
+}
+/* end for featherlight image */
