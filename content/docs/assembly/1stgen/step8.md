@@ -13,6 +13,9 @@ aliases:
   - /docs/assembly/step8/
 ---
 
+本ページでは[STEP7](../step7)までで組立たフレームに電装一式を取り付けるまでを紹介します。  
+本ページ内の画像はクリックすると拡大できます。
+
 ![](/images/fraxinus-assembly-8-electronics-0.jpg)
 ![](/images/fraxinus-assembly-8-electronics-1.jpg)
 ![](/images/fraxinus-assembly-8-electronics-2.jpg)

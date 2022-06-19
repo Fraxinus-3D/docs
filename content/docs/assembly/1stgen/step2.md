@@ -13,6 +13,9 @@ aliases:
   - /docs/assembly/step2/
 ---
 
+本ページでは[STEP1](../step1)で調達した部品の加工について紹介します。  
+本ページ内の画像はクリックすると拡大できます。
+
 ![](/images/fraxinus-assembly-2-parts-0.jpg)
 ![](/images/fraxinus-assembly-2-parts-1.jpg)
 ![](/images/fraxinus-assembly-2-parts-2.jpg)

@@ -13,6 +13,9 @@ aliases:
   - /docs/assembly/step5/
 ---
 
+本ページでは[STEP4](../step4)までで組立たフレームにXキャリッジを取り付けるまでを紹介します。  
+本ページ内の画像はクリックすると拡大できます。
+
 ![](/images/fraxinus-assembly-5-x-carriage-0.jpg)
 ![](/images/fraxinus-assembly-5-x-carriage-1.jpg)
 ![](/images/fraxinus-assembly-5-x-carriage-2.jpg)

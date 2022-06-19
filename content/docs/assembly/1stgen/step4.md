@@ -13,6 +13,9 @@ aliases:
   - /docs/assembly/step4/
 ---
 
+本ページでは[STEP3](../step3)で組立たフレームにZベッドを取り付けるまでを紹介します。  
+本ページ内の画像はクリックすると拡大できます。
+
 ![](/images/fraxinus-assembly-4-z-bed-0.jpg)
 ![](/images/fraxinus-assembly-4-z-bed-1.jpg)
 ![](/images/fraxinus-assembly-4-z-bed-2.jpg)

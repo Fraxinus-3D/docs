@@ -9,7 +9,7 @@ tags:
   - Fraxinus-1st-gen
 menu:
   sidebar:
-    name: 組立
+    name: 組立資料
 ---
 
 ## 組立前の注意事項

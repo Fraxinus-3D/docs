@@ -13,6 +13,9 @@ aliases:
   - /docs/assembly/step6/
 ---
 
+本ページでは[STEP5](../step5)までで組立たフレームにXキャリッジを取り付けるまでを紹介します。  
+本ページ内の画像はクリックすると拡大できます。
+
 ![](/images/fraxinus-assembly-6-xy-gantry-0.jpg)
 ![](/images/fraxinus-assembly-6-xy-gantry-1.jpg)
 ![](/images/fraxinus-assembly-6-xy-gantry-2.jpg)

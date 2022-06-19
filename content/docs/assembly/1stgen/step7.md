@@ -13,6 +13,9 @@ aliases:
   - /docs/assembly/step7/
 ---
 
+本ページでは[STEP6](../step6)までで組立たフレームにベルトとベッドを取り付けるまでを紹介します。  
+本ページ内の画像はクリックすると拡大できます。
+
 ![](/images/fraxinus-assembly-7-bed-0.jpg)
 ![](/images/fraxinus-assembly-7-bed-1.jpg)
 ![](/images/fraxinus-assembly-7-bed-2.jpg)

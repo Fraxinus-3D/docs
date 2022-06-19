@@ -13,6 +13,9 @@ aliases:
   - /docs/assembly/step3/
 ---
 
+本ページでは[STEP2](../step2)で加工した部品の組立について紹介します。  
+本ページ内の画像はクリックすると拡大できます。
+
 ![](/images/fraxinus-assembly-3-frame-0.jpg)
 ![](/images/fraxinus-assembly-3-frame-1.jpg)
 ![](/images/fraxinus-assembly-3-frame-2.jpg)
