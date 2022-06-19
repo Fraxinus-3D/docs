@@ -9,6 +9,8 @@ tags:
 toc: false
 authors: ["fraxinus"]
 weight: -60
+aliases:
+  - /docs/assembly/step6/
 ---
 
 

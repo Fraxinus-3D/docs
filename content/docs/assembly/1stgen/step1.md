@@ -1,6 +1,6 @@
 ---
 date: 2022-06-13T01:02:10+09:00
-lastmod: 2022-06-13T01:02:10+09:00
+lastmod: 2022-06-19T16:02:10+09:00
 title: STEP1 部品の手配と印刷
 categories:
   - 組立
@@ -9,6 +9,8 @@ tags:
 toc: false
 authors: ["fraxinus"]
 weight: -10
+aliases:
+  - /docs/assembly/step1/
 ---
 
 ## 部品手配
@@ -29,6 +31,8 @@ STLデータとBOM Listを元に印刷を行います。データはオススメ
   * ウォールカウント：3以上
 
 （STLデータまもなく公開予定）
+
+* Fraxinus 1st gen.: [https://github.com/Fraxinus-3D/Fraxinus-Hardware/tree/main/Fraxinus-1stGen/stl](https://github.com/Fraxinus-3D/Fraxinus-Hardware/tree/main/Fraxinus-1stGen/stl)
 
 ![](/images/fraxinus-assembly-1-print-list.jpg)
 ![](/images/fraxinus-assembly-1-print-jig.jpg)
