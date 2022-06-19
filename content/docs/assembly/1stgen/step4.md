@@ -13,6 +13,7 @@ aliases:
   - /docs/assembly/step4/
 ---
 
+![](/images/fraxinus-assembly-4-z-bed-0.jpg)
 ![](/images/fraxinus-assembly-4-z-bed-1.jpg)
 ![](/images/fraxinus-assembly-4-z-bed-2.jpg)
 ![](/images/fraxinus-assembly-4-z-bed-3.jpg)
