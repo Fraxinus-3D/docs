@@ -13,6 +13,13 @@ aliases:
   - /docs/assembly/step5/
 ---
 
+![](/images/fraxinus-assembly-5-x-carriage-0.jpg)
+![](/images/fraxinus-assembly-5-x-carriage-1.jpg)
+![](/images/fraxinus-assembly-5-x-carriage-2.jpg)
+![](/images/fraxinus-assembly-5-x-carriage-3.jpg)
+![](/images/fraxinus-assembly-5-x-carriage-4.jpg)
+![](/images/fraxinus-assembly-5-x-carriage-5.jpg)
+![](/images/fraxinus-assembly-5-x-carriage-6.jpg)
 
 ## NEXT
 
