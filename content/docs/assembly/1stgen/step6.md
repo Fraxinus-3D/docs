@@ -13,6 +13,14 @@ aliases:
   - /docs/assembly/step6/
 ---
 
+![](/images/fraxinus-assembly-6-xy-gantry-0.jpg)
+![](/images/fraxinus-assembly-6-xy-gantry-1.jpg)
+![](/images/fraxinus-assembly-6-xy-gantry-2.jpg)
+![](/images/fraxinus-assembly-6-xy-gantry-3.jpg)
+![](/images/fraxinus-assembly-6-xy-gantry-4.jpg)
+![](/images/fraxinus-assembly-6-xy-gantry-5.jpg)
+![](/images/fraxinus-assembly-6-xy-gantry-6.jpg)
+![](/images/fraxinus-assembly-6-xy-gantry-7.jpg)
 
 ## NEXT
 
