@@ -40,3 +40,14 @@ Fraxinus3eは[Ender-3 V2](https://www.creality.com/products/ender-3-v2-3d-printe
 
 ![](/images/Fraxinus-photo-1.jpg)
 ![](/images/Fraxinus-photo-2.jpg)
+
+## Special Thanks / 謝辞
+
+素晴らしいデザイン性とCoreXYの魅力を世界に広めて頂き、情報も積極的に共有頂けているVORON DESIGN社に感謝と御礼を申し上げます。  
+https://vorondesign.com/
+
+また素晴らしい性能と求めやすい価格、配置しやすいコンパクトさを両立したKP3Sを設計・製造・販売頂いているKingroon社に感謝と御礼を申し上げます。  
+https://kingroon.com/
+
+Contributor : Klipper_jp group , Fraxinus group  
+fantaro, tiryoh, popato, caesar, Баклажаны, おいしいチャーハン, ねず民, yuma, Eitoku, nrtkbb, mazu-bunkai, くうき, proko, まる。, みやた, pen-hori, psycho0h3ed, 孔明, tomorrow56, koma50, touken0515, f1zzy-boy, okuyasu, ochisamu, pirotsuku, and all member who participates in the test build.
