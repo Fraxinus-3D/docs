@@ -13,7 +13,14 @@ aliases:
   - /docs/assembly/step3/
 ---
 
-
+![](/images/fraxinus-assembly-3-frame-1.jpg)
+![](/images/fraxinus-assembly-3-frame-2.jpg)
+![](/images/fraxinus-assembly-3-frame-3.jpg)
+![](/images/fraxinus-assembly-3-frame-4.jpg)
+![](/images/fraxinus-assembly-3-frame-5.jpg)
+![](/images/fraxinus-assembly-3-frame-6.jpg)
+![](/images/fraxinus-assembly-3-frame-7.jpg)
+![](/images/fraxinus-assembly-3-frame-8.jpg)
 ## NEXT
 
 [STEP4](../step4)
