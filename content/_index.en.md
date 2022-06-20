@@ -1,5 +1,8 @@
 ---
 title: Home
+description: Fraxinus is a compact 3D printer for home and small workshop use.  
+images:
+- images/Fraxinus-1.jpg
 menu:
   - main
   - sidebar

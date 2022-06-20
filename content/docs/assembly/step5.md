@@ -2,6 +2,9 @@
 date: 2022-06-13T01:02:10+09:00
 lastmod: 2022-06-13T01:02:10+09:00
 title: STEP5 Xキャリッジの組立
+description: 本ページではSTEP4までで組立たフレームにXキャリッジを取り付けるまでを紹介します。  
+images:
+  - /images/fraxinus-assembly-5-x-carriage-0.jpg
 categories:
   - 組立
 tags:

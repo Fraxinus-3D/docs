@@ -1,6 +1,8 @@
 ---
 title: About
-description: Fraxinusについて
+description: Fraxinusの特徴やコンセプトについて
+images:
+- images/Fraxinus-1.jpg
 menu: main
 weight: -210
 ---

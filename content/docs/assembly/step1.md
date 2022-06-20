@@ -2,6 +2,9 @@
 date: 2022-06-13T01:02:10+09:00
 lastmod: 2022-06-19T16:02:10+09:00
 title: STEP1 部品の手配と印刷
+description: 本ページではFraxinus組み立てに必要な部品手配と部品印刷について紹介します。  
+images:
+  - /images/fraxinus-assembly-1-print-list.jpg
 categories:
   - 組立
 tags:

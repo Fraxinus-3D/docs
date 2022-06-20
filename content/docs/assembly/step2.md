@@ -2,6 +2,9 @@
 date: 2022-06-13T01:02:10+09:00
 lastmod: 2022-06-19T17:01:43+09:00
 title: STEP2 部品の加工
+description: 本ページではSTEP1で調達した部品の加工について紹介します。  
+images:
+  - /images/fraxinus-assembly-2-parts-0.jpg
 categories:
   - 組立
 tags:

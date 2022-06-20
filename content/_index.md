@@ -1,5 +1,8 @@
 ---
 title: Home
+description: Fraxinus（フラクシネス）公式サイトです。FraxinusはCoreXY型のコンパクトな3Dプリンターです。
+images:
+- images/Fraxinus-1.jpg
 menu:
   - main
   - sidebar
