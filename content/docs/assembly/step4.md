@@ -5,12 +5,12 @@ title: STEP4 Zベッドの組立
 categories:
   - 組立
 tags:
-  - Fraxinus-1st-gen
+  - Fraxinus
 toc: false
 authors: ["fraxinus"]
 weight: -40
 aliases:
-  - /docs/assembly/step4/
+  - /docs/assembly/1stgen/step4/
 ---
 
 本ページでは[STEP3](../step3)で組立たフレームにZベッドを取り付けるまでを紹介します。  

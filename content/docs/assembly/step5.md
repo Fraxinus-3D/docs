@@ -5,12 +5,12 @@ title: STEP5 Xキャリッジの組立
 categories:
   - 組立
 tags:
-  - Fraxinus-1st-gen
+  - Fraxinus
 toc: false
 authors: ["fraxinus"]
 weight: -50
 aliases:
-  - /docs/assembly/step5/
+  - /docs/assembly/1stgen/step5/
 ---
 
 本ページでは[STEP4](../step4)までで組立たフレームにXキャリッジを取り付けるまでを紹介します。  

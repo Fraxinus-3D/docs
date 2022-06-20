@@ -5,12 +5,12 @@ title: STEP1 部品の手配と印刷
 categories:
   - 組立
 tags:
-  - Fraxinus-1st-gen
+  - Fraxinus
 toc: false
 authors: ["fraxinus"]
 weight: -10
 aliases:
-  - /docs/assembly/step1/
+  - /docs/assembly/1stgen/step1/
 ---
 
 
@@ -36,7 +36,8 @@ STLデータとBOM Listを元に印刷を行います。データはオススメ
 
 （STLデータまもなく公開予定）
 
-* Fraxinus 1st gen.: [https://github.com/Fraxinus-3D/Fraxinus-Hardware/tree/main/Fraxinus-1stGen/stl](https://github.com/Fraxinus-3D/Fraxinus-Hardware/tree/main/Fraxinus-1stGen/stl)
+* Fraxinus1k: [https://github.com/Fraxinus-3D/Fraxinus-Hardware/tree/main/Fraxinus1k/STLs](https://github.com/Fraxinus-3D/Fraxinus-Hardware/tree/main/Fraxinus1k/STLs)
+* Fraxinus3e: [https://github.com/Fraxinus-3D/Fraxinus-Hardware/tree/main/Fraxinus3e/STLs](https://github.com/Fraxinus-3D/Fraxinus-Hardware/tree/main/Fraxinus3e/STLs)
 
 ![](/images/fraxinus-assembly-1-print-list.jpg)
 ![](/images/fraxinus-assembly-1-print-jig.jpg)

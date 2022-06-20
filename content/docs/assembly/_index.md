@@ -6,7 +6,7 @@ categories:
   - 組立
 slug: assembly
 tags:
-  - Fraxinus-1st-gen
+  - Fraxinus
 menu:
   sidebar:
     name: 組立資料
@@ -28,21 +28,13 @@ menu:
     * 持っていない場合は、借りられる環境を探すか、この機会に揃えて頂く必要があります
 
 
-## Fraxinus (1st gen.)の組立方
+## Fraxinusの組立方
 
-* [STEP1 部品の手配と印刷](./1stgen/step1)
-* [STEP2 部品の加工](./1stgen/step2)
-* [STEP3 フレームの組立](./1stgen/step3)
-* [STEP4 Zベッドの組立](./1stgen/step4)
-* [STEP5 Xキャリッジの組立](./1stgen/step5)
-* [STEP6 XYガントリーの組立](./1stgen/step6)
-* [STEP7 ベルトとベッドの組立](./1stgen/step7)
-* [STEP8 電装の組立](./1stgen/step8)
-
-## Fraxinus1kの組立方
-
-（未公開）
-
-## Fraxinus3eの組立方
-
-（未公開）
+* [STEP1 部品の手配と印刷](./step1)
+* [STEP2 部品の加工](./step2)
+* [STEP3 フレームの組立](./step3)
+* [STEP4 Zベッドの組立](./step4)
+* [STEP5 Xキャリッジの組立](./step5)
+* [STEP6 XYガントリーの組立](./step6)
+* [STEP7 ベルトとベッドの組立](./step7)
+* [STEP8 電装の組立](./step8)

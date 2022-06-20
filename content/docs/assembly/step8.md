@@ -5,12 +5,12 @@ title: STEP8 電装の組立
 categories:
   - 組立
 tags:
-  - Fraxinus-1st-gen
+  - Fraxinus
 toc: false
 authors: ["fraxinus"]
 weight: -80
 aliases:
-  - /docs/assembly/step8/
+  - /docs/assembly/1stgen/step8/
 ---
 
 本ページでは[STEP7](../step7)までで組立たフレームに電装一式を取り付けるまでを紹介します。  

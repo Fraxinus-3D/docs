@@ -5,12 +5,12 @@ title: STEP2 部品の加工
 categories:
   - 組立
 tags:
-  - Fraxinus-1st-gen
+  - Fraxinus
 toc: false
 authors: ["fraxinus"]
 weight: -20
 aliases:
-  - /docs/assembly/step2/
+  - /docs/assembly/1stgen/step2/
 ---
 
 本ページでは[STEP1](../step1)で調達した部品の加工について紹介します。  

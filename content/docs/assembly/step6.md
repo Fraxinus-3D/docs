@@ -5,12 +5,12 @@ title: STEP6 XYガントリーの組立
 categories:
   - 組立
 tags:
-  - Fraxinus-1st-gen
+  - Fraxinus
 toc: false
 authors: ["fraxinus"]
 weight: -60
 aliases:
-  - /docs/assembly/step6/
+  - /docs/assembly/1stgen/step6/
 ---
 
 本ページでは[STEP5](../step5)までで組立たフレームにXキャリッジを取り付けるまでを紹介します。  

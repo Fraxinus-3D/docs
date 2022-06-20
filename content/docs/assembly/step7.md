@@ -5,12 +5,12 @@ title: STEP7 ベルトとベッドの組立
 categories:
   - 組立
 tags:
-  - Fraxinus-1st-gen
+  - Fraxinus
 toc: false
 authors: ["fraxinus"]
 weight: -70
 aliases:
-  - /docs/assembly/step7/
+  - /docs/assembly/1stgen/step7/
 ---
 
 本ページでは[STEP6](../step6)までで組立たフレームにベルトとベッドを取り付けるまでを紹介します。  

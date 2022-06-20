@@ -5,12 +5,12 @@ title: STEP3 フレームの組立
 categories:
   - 組立
 tags:
-  - Fraxinus-1st-gen
+  - Fraxinus
 toc: false
 authors: ["fraxinus"]
 weight: -30
 aliases:
-  - /docs/assembly/step3/
+  - /docs/assembly/1stgen/step3/
 ---
 
 本ページでは[STEP2](../step2)で加工した部品の組立について紹介します。  
