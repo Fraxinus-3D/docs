@@ -22,6 +22,9 @@ Fraxinus1kは[Kingroon KP3S](https://jp.kingroon.com/products/3d-printer-kp3s)�
 
 ![](/images/Fraxinus1k.jpg)
 
+* Kingroon KP3S購入先候補
+  * Amazon.co.jp：[https://amzn.to/3I2wbK0](https://amzn.to/3ysvYfN)
+
 ## Fraxinus3e
 
 Fraxinus3eは[Ender-3 V2](https://www.creality.com/products/ender-3-v2-3d-printer-csco)やその互換機をアップサイクルして作製する事が出来るCoreXYの構造を持つ3Dプリンターです。  
@@ -31,6 +34,11 @@ Fraxinus3eは[Ender-3 V2](https://www.creality.com/products/ender-3-v2-3d-printe
 * 印刷サイズ：215x220x220mm
 
 ![](/images/Fraxinus3e.jpg)
+
+* Creality Ender-3 V2購入先候補
+  * Amazon.co.jp：[https://amzn.to/3ysd5tq](https://amzn.to/3ysd5tq)
+* VOXELAB Aquila（互換機）購入先候補
+  * Amazon.co.jp：[https://amzn.to/3ysvYfN](https://amzn.to/3ysvYfN)
 
 ## Fraxinusのサイズ
 
@@ -65,3 +73,7 @@ https://kingroon.com/
 
 Contributor : Klipper_jp group , Fraxinus group  
 fantaro, tiryoh, popato, caesar, Баклажаны, おいしいチャーハン, ねず民, yuma, Eitoku, nrtkbb, mazu-bunkai, くうき, proko, まる。, みやた, pen-hori, psycho0h3ed, 孔明, tomorrow56, koma50, touken0515, f1zzy-boy, okuyasu, ochisamu, pirotsuku, and all member who participates in the test build.
+
+## このサイトについて
+
+当サイトは、amazon.co.jpを宣伝しリンクすることによってサイトが紹介料を獲得できる手段を提供することを目的に設定されたアフィリエイト宣伝プログラムである、 Amazonアソシエイト・プログラムの参加者です。
