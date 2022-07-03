@@ -37,10 +37,12 @@ STLデータとBOM Listを元に印刷を行います。データはオススメ
   * 押出幅：0.45mm以上
   * ウォールカウント：3以上
 
-（STLデータまもなく公開予定）
+STLデータ
 
-* Fraxinus1k: [https://github.com/Fraxinus-3D/Fraxinus-Hardware/tree/main/Fraxinus1k/STLs](https://github.com/Fraxinus-3D/Fraxinus-Hardware/tree/main/Fraxinus1k/STLs)
-* Fraxinus3e: [https://github.com/Fraxinus-3D/Fraxinus-Hardware/tree/main/Fraxinus3e/STLs](https://github.com/Fraxinus-3D/Fraxinus-Hardware/tree/main/Fraxinus3e/STLs)
+* Fraxinus1k: [https://github.com/Fraxinus-3D/Fraxinus-Hardware/tree/main/Fraxinus1k](https://github.com/Fraxinus-3D/Fraxinus-Hardware/tree/main/Fraxinus1k)
+
+[https://github.com/Fraxinus-3D/Fraxinus-Hardware/archive/refs/heads/main.zip](https://github.com/Fraxinus-3D/Fraxinus-Hardware/archive/refs/heads/main.zip)より最新版のハードウェアデータをまとめてZIPファイルでダウンロードできます。  
+ダウンロード前に[README](https://github.com/Fraxinus-3D/Fraxinus-Hardware/blob/main/README.md)に記載のライセンスと免責事項についてご確認ください。ダウンロード時点で同意したものとします。
 
 ![](/images/fraxinus-assembly-1-print-list.jpg)
 ![](/images/fraxinus-assembly-1-print-jig.jpg)
