@@ -23,7 +23,7 @@ Fraxinus1kは[Kingroon KP3S](https://jp.kingroon.com/products/3d-printer-kp3s)�
 ![](/images/Fraxinus1k.jpg)
 
 * Kingroon KP3S購入先候補
-  * Amazon.co.jp：[https://amzn.to/3I2wbK0](https://amzn.to/3ysvYfN)
+  * Amazon.co.jp：[https://amzn.to/3I2wbK0](https://amzn.to/3I2wbK0)
 
 ## Fraxinus3e
 
