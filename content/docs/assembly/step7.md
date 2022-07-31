@@ -1,8 +1,8 @@
 ---
 date: 2022-06-13T01:02:10+09:00
 lastmod: 2022-06-13T01:02:10+09:00
-title: STEP7 ベルトとベッドの組立
-description: 本ページではSTEP6までで組立たフレームにベルトとベッドを取り付けるまでを紹介します。  
+title: STEP7 ベルトとヘッドの組立
+description: 本ページではSTEP6までで組立たフレームにベルトとヘッドを取り付けるまでを紹介します。  
 images:
   - /images/fraxinus-assembly-7-bed-0.jpg
 categories:
@@ -16,7 +16,7 @@ aliases:
   - /docs/assembly/1stgen/step7/
 ---
 
-本ページでは[STEP6](../step6)までで組立たフレームにベルトとベッドを取り付けるまでを紹介します。  
+本ページでは[STEP6](../step6)までで組立たフレームにベルトとヘッドを取り付けるまでを紹介します。  
 本ページ内の画像はクリックすると拡大できます。
 
 ![](/images/fraxinus-assembly-7-bed-0.jpg)

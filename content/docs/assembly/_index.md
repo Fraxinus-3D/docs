@@ -36,5 +36,5 @@ menu:
 * [STEP4 Zベッドの組立](./step4)
 * [STEP5 Xキャリッジの組立](./step5)
 * [STEP6 XYガントリーの組立](./step6)
-* [STEP7 ベルトとベッドの組立](./step7)
+* [STEP7 ベルトとヘッドの組立](./step7)
 * [STEP8 電装の組立](./step8)
