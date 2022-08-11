@@ -1,11 +1,9 @@
 ---
 title: プロジェクトロードマップ
 description: Fraxinusプロジェクトのロードマップ  
-linkTitle: Project Roadmap
 weight: -100
 slug: roadmap
 menu:
-  main:
   sidebar:
     name: ロードマップ
 date: 2022-08-11T17:02:10+09:00

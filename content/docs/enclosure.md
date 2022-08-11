@@ -1,7 +1,6 @@
 ---
 title: エンクロージャ
 description: 本ページではエンクロージャ版Fraxinusについて紹介します。
-linkTitle: Enclusure
 weight: 10
 slug: enclosure
 date: 2022-08-11T17:42:10+09:00
