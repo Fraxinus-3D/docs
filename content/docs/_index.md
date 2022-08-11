@@ -12,3 +12,4 @@ menu:
 
 * [組立資料](./assembly)
 * [プロジェクトロードマップ](./roadmap)
+* [エンクロージャ](./enclosure)
