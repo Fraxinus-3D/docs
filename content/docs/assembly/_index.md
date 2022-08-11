@@ -2,6 +2,7 @@
 date: 2022-06-13T01:01:10+09:00
 lastmod: 2022-06-19T10:01:10+09:00
 title: 組立
+weight: -200
 categories:
   - 組立
 slug: assembly
