@@ -115,6 +115,12 @@ weight = 80
 identifier = "repository"
 url = "https://github.com/fraxinus-3d/docs"
 
+[[menu.main]]
+name = "Discord"
+weight = 90
+identifier = "discord"
+url = "https://discord.gg/cnYvPCVKf4"
+
 [blackfriday]
 hrefTargetBlank = true
 

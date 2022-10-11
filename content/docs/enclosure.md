@@ -3,6 +3,9 @@ title: エンクロージャ
 description: 本ページではエンクロージャ版Fraxinusについて紹介します。
 weight: 10
 slug: enclosure
+menu:
+  sidebar:
+    name: エンクロージャ
 date: 2022-08-11T17:42:10+09:00
 lastmod: 2022-08-11T17:42:10+09:00
 ---
