@@ -2,7 +2,8 @@
 ### https://raw.github.com/github/gitignore/ce5da10a3a43c4dd8bd9572eda17c0a37ee0eac1/community/Golang/Hugo.gitignore
 
 # Generated files by hugo
-/public/
+/public/*
+!/public/_redirects
 /resources/_gen/
 /assets/jsconfig.json
 hugo_stats.json
@@ -89,5 +90,4 @@ Temporary Items
 
 # .nfs files are created when an open file is removed but is still being accessed
 .nfs*
-
 
