@@ -15,7 +15,7 @@ Although it is compact, it still retains the high-speed capabilities thanks to i
 Currently, we are developing two models with print sizes of 170mm³ and 220mm³.
 
 Fraxinus is being developed and tested on the Discord community.  
-Invite link: https://discord.gg/cnYvPCVKf4
+Invite link: https://fraxinus.jp/discord
 
 * [About Fraxinus](/en/about)
 

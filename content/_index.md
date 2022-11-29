@@ -23,7 +23,7 @@ Fraxinus1kと3eは共通設計部品が多く流用やアップデートがで�
 
 Fraxinusは現在Discordコミュニティによって開発・情報公開がされています。興味を持って頂きましたらぜひ設計開発や検討、ノウハウ共有と、何より同好の方々との交流を楽しくご一緒できると嬉しいです！
 
-Discord招待リンク：[https://discord.gg/cnYvPCVKf4](https://discord.gg/cnYvPCVKf4)
+Discord招待リンク：[https://fraxinus.jp/discord](https://fraxinus.jp/discord)
 
 Fraxinus1kと3eについて詳しくはこちら：[Fraxinusについて](/about)
 
