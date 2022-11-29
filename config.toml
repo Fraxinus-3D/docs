@@ -119,7 +119,7 @@ url = "https://github.com/fraxinus-3d/docs"
 name = "Discord"
 weight = 90
 identifier = "discord"
-url = "https://fraxinus.jp/discord"
+url = "/discord"
 
 [blackfriday]
 hrefTargetBlank = true
