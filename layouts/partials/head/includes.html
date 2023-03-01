@@ -1,0 +1,16 @@
+<link rel='icon' href='{{ ( or .Site.Params.assets.favicon_svg "favicon.svg" ) | relURL }}' type='image/svg+xml'>
+<link rel='icon alternate' href='{{ ( or .Site.Params.assets.favicon_png "favicon.png" ) | relURL }}' type='image/png'>
+
+<link rel='stylesheet' href='{{ print "/assets/css/" .Site.Data.assets.main.css | relURL  }}'>
+
+{{- if or ( .Site.Params.settings.rtl ) ( eq .Site.Language.LanguageDirection "rtl" ) -}}
+  <link rel='stylesheet' href='{{ print "/assets/css/" .Site.Data.assets.rtl.css | relURL  }}'>
+{{- end -}}
+
+{{- range .Site.Params.assets.customCSS -}}
+  <link rel='stylesheet' href='{{ . | relURL }}'>
+{{- end -}}
+
+{{- partial "head/css" . -}}
+
+{{- partial "head/analytics" . -}}

@@ -30,7 +30,8 @@ defaultContentLanguageInSubdir = false
     title404 = "Nothing's here!"
 
     [params.assets]
-    favicon = "favicon.ico"
+    favicon_svg = "favicon.svg"
+    favicon_png = "favicon.png"
     customCSS = ["css/featherlight.min.css", "css/custom.css"]
     customJS = ["js/jquery-3.3.1.min.js", "js/featherlight.min.js", "js/jquery.sticky.js", "js/clipboard.min.js", "js/image-featherlight.js", "js/custom.js"]
     gopher = "" # used in 404 template ( Generator: https://gopherize.me )
