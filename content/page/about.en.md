@@ -1,6 +1,9 @@
 ---
 title: About
 description: About Fraxinus
+tags:
+  - Fraxinus1k
+  - Fraxinus3e
 menu: main
 weight: -210
 ---

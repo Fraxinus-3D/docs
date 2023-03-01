@@ -3,6 +3,9 @@ title: About
 description: Fraxinusの特徴やコンセプトについて
 images:
 - images/Fraxinus-1.jpg
+tags:
+  - Fraxinus1k
+  - Fraxinus3e
 menu: main
 weight: -210
 ---
