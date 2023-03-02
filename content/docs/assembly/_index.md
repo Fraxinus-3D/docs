@@ -47,9 +47,17 @@ menu:
 組立手順書の貢献者（順不同敬称略）
 
 * fukumay
+* nrtkbb
+* F1zzy-Boy
+* mazu-bunkai
+* tomorrow56
+* Eitoku
+* まる。
+* Pen-holi
+* Proko
 * tiryoh
 * odaki
 * SummerOrange
 * kusa0
 * ysk1025
-* sato4645🐟
+* sato4645
