@@ -55,6 +55,7 @@ menu:
 * まる。
 * Pen-holi
 * Proko
+* 京都タラレバ息子
 * tiryoh
 * odaki
 * SummerOrange
