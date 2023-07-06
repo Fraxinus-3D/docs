@@ -134,3 +134,8 @@ hrefTargetBlank = true
     lang = "en"
     languageName = "English"
     weight = 10
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true

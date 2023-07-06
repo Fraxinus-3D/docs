@@ -14,6 +14,7 @@ menu:
     name: 組立資料
 ---
 
+
 ## 組立前の注意事項
 
 * まずKP3S＋Klipper+3D Touchで印刷を経験することを強くお勧めします
@@ -41,6 +42,15 @@ menu:
 * [STEP7 XYガントリーの組立](./1k/step7)
 * [STEP8 ベルトとヘッドの組立](./1k/step8)
 * [STEP9 電装の組立](./1k/step9)
+
+## PDF版
+
+Speaker DeckにPDF版も公開しています
+
+English Version: [Assembly Document](/en/docs/assembly/)
+
+<script defer class="speakerdeck-embed" data-id="3ac376056d5b48b3ad62afa6e1e962af" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script>
+
 
 ## 貢献者/Contributors
 
