@@ -31,7 +31,20 @@ menu:
     * 持っていない場合は、借りられる環境を探すか、この機会に揃えて頂く必要があります
 
 
+## PDF版
+
+v0.9 (2023年3月更新)
+
+Speaker DeckにPDF版も公開しています（2023年7月2日公開）  
+https://speakerdeck.com/fukumay/fraxinus1k-zu-li-shuo-ming-shu-japanese-v-0-dot-9
+
+English Version: [Assembly Document](/en/docs/assembly/)
+
+<script defer class="speakerdeck-embed" data-id="3ac376056d5b48b3ad62afa6e1e962af" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script>
+
 ## Fraxinus1kの組立方
+
+v0.9 (2023年3月更新)
 
 * [STEP1 部品の手配と印刷](./1k/step1)
 * [STEP2 部品の加工](./1k/step2)
@@ -42,14 +55,6 @@ menu:
 * [STEP7 XYガントリーの組立](./1k/step7)
 * [STEP8 ベルトとヘッドの組立](./1k/step8)
 * [STEP9 電装の組立](./1k/step9)
-
-## PDF版
-
-Speaker DeckにPDF版も公開しています
-
-English Version: [Assembly Document](/en/docs/assembly/)
-
-<script defer class="speakerdeck-embed" data-id="3ac376056d5b48b3ad62afa6e1e962af" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script>
 
 
 ## 貢献者/Contributors

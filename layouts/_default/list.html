@@ -11,8 +11,8 @@
 <div class='container list-container'>
   <h2>{{- default ( i18n "update_history" ) -}}</h2>
   <ul class='list'>
-    {{ range .Paginator.Pages }}
-      {{ .Render "li" }}
+    {{ range .Paginator.Pages.ByDate.Reverse }}
+      {{ .Render "li.lastupdated" }}
     {{ end }}
   </ul>
 

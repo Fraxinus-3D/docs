@@ -49,7 +49,7 @@ defaultContentLanguageInSubdir = false
     archiveDateFormat = "Jan 02"
     hideEntryNavigation = ["page"] # boolean / array of sections
     hideEntryMeta = ["page"] # boolean / array of sections
-    showReadingTime = true
+    showReadingTime = false
     showLastmod = true
     taxonomyCloudShuffle = true
     accentColor = "#e46c0a"
@@ -139,3 +139,6 @@ hrefTargetBlank = true
   [markup.goldmark]
     [markup.goldmark.renderer]
       unsafe = true
+
+[frontmatter]
+  lastmod = [":git", "lastmod", "date", "publishDate"]
