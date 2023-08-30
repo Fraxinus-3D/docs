@@ -12,14 +12,14 @@ lastmod: 2022-08-11T17:42:10+09:00
 
 There are two types of enclosures for Fraxinus1k and one for Fraxinus3e.
 
-## Fraxinu1kc
+## Fraxinus1kc
 
 ![](/images/Fraxinus1kc-photo-1.jpg)
 
-## Fraxinu1kc2
+## Fraxinus1kc2
 
 ![](/images/Fraxinus1kc2-photo-1.jpg)
 
-## Fraxinu3ec
+## Fraxinus3ec
 
 ![](/images/Fraxinus3ec-photo-1.jpg)
