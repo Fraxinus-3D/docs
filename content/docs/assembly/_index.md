@@ -1,6 +1,6 @@
 ---
 date: 2022-06-13T01:01:10+09:00
-lastmod: 2023-03-01T23:06:35+09:00
+lastmod: 2023-11-04T00:21:08+09:00
 title: 組立
 weight: -200
 categories:
@@ -33,6 +33,8 @@ menu:
 
 ## PDF版
 
+### Fraxinus1k
+
 v0.9 (2023年3月更新)
 
 Speaker DeckにPDF版も公開しています（2023年7月2日公開）  
@@ -41,6 +43,12 @@ https://speakerdeck.com/fukumay/fraxinus1k-zu-li-shuo-ming-shu-japanese-v-0-dot-
 English Version: [Assembly Document](/en/docs/assembly/)
 
 <script defer class="speakerdeck-embed" data-id="3ac376056d5b48b3ad62afa6e1e962af" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script>
+
+### Fraxinus3t
+
+v0.9 (2023年11月更新)
+
+<script defer class="speakerdeck-embed" data-id="8d097bdb68a94c89adc554b83052494e" data-ratio="1.7777777777777777" src="//speakerdeck.com/assets/embed.js"></script>
 
 ## Fraxinus1kの組立方
 
