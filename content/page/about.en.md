@@ -10,9 +10,10 @@ weight: -210
 
 Fraxinus is a compact 3D printer for home and small workshop use.  
 Although it is compact, it still retains the high-speed capabilities thanks to its CoreXY design.  
-Currently, we are developing two models with print sizes of 170mm³ and 220mm³.
+Currently, we are developing 4 models with print sizes of 70mm³, 170mm³, 220mm³ and 310mm³.
 
 ![](/images/Fraxinus-1.jpg)
+
 ## Fraxinus1k
 
 * Body size: 260x285x356mm (excluding print head and tube)
@@ -26,6 +27,20 @@ Currently, we are developing two models with print sizes of 170mm³ and 220mm³.
 * Print size: 215x220x220mm
 
 ![](/images/Fraxinus3e.jpg)
+
+## Fraxinus5ts
+
+* Body size: 410x440x510mm (excluding print head and tube)
+* Print size: 310x310x310mm
+
+![](/images/Fraxinus5ts.jpg)
+
+## Fraxinus00w
+
+* Body size: 153x152x176mm (excluding print head and tube)
+* Print size: 70x70x70mm
+
+![](/images/Fraxinus00w.jpg)
 
 ## Size of Fraxinus
 

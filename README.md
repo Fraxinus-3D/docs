@@ -2,12 +2,16 @@
 
 CoreXY構造を採用したコンパクト3Dプリンター「Fraxinus（フラクシネス）」プロジェクトのウェブサイト
 
-現在印刷サイズは170mm角と220mm角の2機種を展開しています。
+2023年11月現在印刷サイズは70mm角、170mm角、220mm角、310mm角の4種を展開しています。  
 
 ![](./static/images/Fraxinus1k.jpg)
 ![](./static/images/Fraxinus3e.jpg)
+![](./static/images/Fraxinus5ts.jpg)
+![](./static/images/Fraxinus00w.jpg)
 
 ## License
+
+(C) 2022-2023 Fraxinus Project
 
 `static/images`および`content`フォルダ内のファイルは[CC BY-NC-SA 4.0](https://github.com/Fraxinus-3D/docs/blob/main/LICENSE.md#CC-BY-NC-SA)（[日本語](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.ja)）で公開されています。
 

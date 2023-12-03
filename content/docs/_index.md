@@ -13,4 +13,4 @@ menu:
 * [組立資料](./assembly)
 * [プロジェクトロードマップ](./roadmap)
 * [エンクロージャ](./enclosure)
-* [トライデント版](./docs/trident)
+* [トライデント版](./trident)
