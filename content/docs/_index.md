@@ -13,4 +13,5 @@ menu:
 * [組立資料](./assembly)
 * [プロジェクトロードマップ](./roadmap)
 * [エンクロージャ](./enclosure)
-* [トライデント版](./trident)
+* [トライデント](./trident)
+* [マイクロ3Dプリンタ](./micro-printers)
