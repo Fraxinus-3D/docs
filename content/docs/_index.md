@@ -14,4 +14,5 @@ menu:
 * [プロジェクトロードマップ](./roadmap)
 * [エンクロージャ](./enclosure)
 * [トライデント](./trident)
+* [フライングガントリー](./flying-gantry)
 * [マイクロ3Dプリンタ](./micro-printers)
