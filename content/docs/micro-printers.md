@@ -14,7 +14,23 @@ Fraxinusシリーズはアクリルフレームを用いた、コンパクトで
 
 現在5種類（00, 00w, 00w2, 00w3, 0w）あります。
 
+* [Fraxinus00](#fraxinus00)
+* [Fraxinus00w](#fraxinus00w)
+* [Fraxinus00w2](#fraxinus00w2)
+* [Fraxinus00w3](#fraxinus00w3)
+* [Fraxinus0w](#fraxinus0w)
+
 ![](/images/Fraxinus0-front-view.jpg)
+
+<iframe src="https://myhub.autodesk360.com/ue28e8020/shares/public/SH30dd5QT870c25f12fcc160aba4160a8417?mode=embed" width="700" height="555" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
+
+
+**3Dモデルのライセンスについて**  
+下記のライセンスのモデルを含みます。
+
+* [Hummingbird Extruder](https://github.com/nhchiu/VoronMods/tree/main/Extruders/Hummingbird)
+  * [@nhchiu](https://www.printables.com/@nhchiu)
+  * [GPL-3.0](https://github.com/nhchiu/VoronMods/blob/main/LICENSE)
 
 
 ## Fraxinus00
