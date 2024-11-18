@@ -12,7 +12,7 @@ layout: home
 
 Fraxinus is a compact 3D printer for home and small workshop use.  
 Although it is compact, it still retains the high-speed capabilities thanks to its CoreXY design.  
-Currently, we are developing 4 models with print sizes of 70mm³, 170mm³, 220mm³ and 310mm³.  
+Currently, we are developing 5 models with print sizes of 70mm³, 170mm³, 220mm³, 310mm³ and 510mm³.  
 There are aloso [enclosure version](/en/docs/enclosure/) and [trident version](/en/docs/trident/).
 
 Fraxinus is being developed and tested on the Discord community.  

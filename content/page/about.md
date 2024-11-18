@@ -12,8 +12,8 @@ weight: -210
 
 Fraxinus（フラクシネス）は自宅利用や省スペース工房で魅力的な3Dプリンターです。  
 コンパクトでありながらCoreXY構造が持つ高速動作を実現しています。  
-2023年11月現在印刷サイズは70mm角、170mm角、220mm角、310mm角の4種を展開しています。  
-[エンクロージャ版](../docs/enclosure)、[トライデント版](../docs/trident)、[フライングガントリー](../docs/flying-gantry)や[マイクロ3Dプリンタ](../docs/micro-printers)など複数のバリエーションがあります。
+2024年11月現在印刷サイズは70mm角、170mm角、220mm角、310mm角、510mm角の5種を展開しています。  
+[エンクロージャ版](../docs/enclosure)や[トライデント版](../docs/trident)、[フライングガントリー版](../docs/flying-gantry)、[マイクロ3Dプリンタ](../docs/micro-printers)もあります。
 
 ![](/images/Fraxinus-1.jpg)
 
