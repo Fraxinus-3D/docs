@@ -22,7 +22,13 @@ Fraxinusシリーズはアクリルフレームを用いた、コンパクトで
 
 ![](/images/Fraxinus0-front-view.jpg)
 
-<iframe src="https://myhub.autodesk360.com/ue28e8020/shares/public/SH30dd5QT870c25f12fcc160aba4160a8417?mode=embed" width="700" height="555" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
+<div style="width: 100%; aspect-ratio: 1.33;">
+  <iframe
+    style="width: 100%; height: 100%;"
+    src="https://myhub.autodesk360.com/ue28e8020/shares/public/SH30dd5QT870c25f12fcc160aba4160a8417?mode=embed"
+    allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true" frameborder="0">
+  </iframe>
+</div>
 
 
 **3Dモデルのライセンスについて**  
