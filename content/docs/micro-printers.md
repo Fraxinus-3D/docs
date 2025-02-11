@@ -20,6 +20,8 @@ Fraxinusシリーズはアクリルフレームを用いた、コンパクトで
 * [Fraxinus00w3](#fraxinus00w3)
 * [Fraxinus0w](#fraxinus0w)
 
+そのほかにもコミュニティメンバーが設計製作した Fraxinus00cw や [Fraxinus00tw](#fraxinus00tw) もあります。
+
 ![](/images/Fraxinus0-front-view.jpg)
 
 <div style="width: 100%; aspect-ratio: 1.33;">
@@ -76,3 +78,9 @@ Fraxinusシリーズはアクリルフレームを用いた、コンパクトで
 ![](/images/Fraxinus0w-rev2.jpg)
 
 ![](/images/Fraxinus0w-compare.jpg)
+
+## Fraxinus00tw
+
+SummerOrange氏設計の某おしゃれトースター風マイクロ3Dプリンタ
+
+![](/images/Fraxinus00tw.png)
