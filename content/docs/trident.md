@@ -10,7 +10,7 @@ date: 2023-07-06T09:28:10+09:00
 lastmod: 2023-11-04T00:21:08+09:00
 ---
 
-Fraxinus3eとFraxinus1kにはトライデント版のFraxinus3tcとFraxinus1tc2があります。
+Fraxinus3eとFraxinus1kにはトライデント型ベッド調整機構を搭載したFraxinus3tcとFraxinus1tc2があります。
 
 <div style="width: 100%; aspect-ratio: 1.33;">
   <iframe

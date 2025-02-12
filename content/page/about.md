@@ -17,9 +17,29 @@ Fraxinus（フラクシネス）は自宅利用や省スペース工房で魅力
 
 ![](/images/Fraxinus-1.jpg)
 
+## Fraxinus00w3
+
+Fraxinus00w3はCoreXYの構造を持つコンパクトな3Dプリンターです。  
+USB-PD電源やモバイルバッテリーで動作可能で、出先でのデモや機能紹介に好適です。
+
+* 本体サイズ：147x160x147mm（上部ヘッド、チューブ凸除く）
+* 印刷サイズ：66x70x66mm
+
+![](/images/Fraxinus00w3-1.jpg)
+
+## Fraxinus0w
+
+Fraxinus0w rev2はCoreXYの構造を持つコンパクトな3Dプリンターです。  
+USB-PD電源やモバイルバッテリーで動作可能で、出先でのデモや機能紹介に好適です。
+
+* 本体サイズ：147x160x147mm（上部ヘッド、チューブ凸除く）
+* 印刷サイズ：66x70x66mm
+
+![](/images/Fraxinus00w3-1.jpg)
+
 ## Fraxinus1k
 
-Fraxinus1kは[Kingroon KP3S](https://jp.kingroon.com/products/3d-printer-kp3s)をアップサイクルして作製する事が出来るCoreXYの構造を持つ3Dプリンターです。  
+Fraxinus1kは[Kingroon KP3S](https://jp.kingroon.com/products/3d-printer-kp3s)をアップサイクルして作製できるCoreXYの構造を持つ3Dプリンターです。  
 高速動作が可能で、KP3Sと近似の170mm角程度の印刷サイズを持ち、よりコンパクトにできます。
 
 * 本体サイズ：260x285x356mm（上部ヘッド、チューブ凸除く）
@@ -29,7 +49,7 @@ Fraxinus1kは[Kingroon KP3S](https://jp.kingroon.com/products/3d-printer-kp3s)�
 
 ## Fraxinus3e
 
-Fraxinus3eは[Ender-3 V2](https://www.creality.com/products/ender-3-v2-3d-printer-csco)やその互換機をアップサイクルして作製する事が出来るCoreXYの構造を持つ3Dプリンターです。  
+Fraxinus3eは[Ender-3 V2](https://www.creality.com/products/ender-3-v2-3d-printer-csco)やその互換機をアップサイクルして作製できるCoreXYの構造を持つ3Dプリンターです。  
 高速動作が可能で、Ender-3 V2と近似の220mm角程度の印刷サイズを持ち、大幅に本体をサイズダウンできます。
 
 * 本体サイズ：310x335x373mm（上部ヘッド、チューブ凸除く）
@@ -37,9 +57,19 @@ Fraxinus3eは[Ender-3 V2](https://www.creality.com/products/ender-3-v2-3d-printe
 
 ![](/images/Fraxinus3e.jpg)
 
+## Fraxinus3tcl
+
+Fraxinus3tclはトライデント型ベッド調整機構を搭載した低背トップハットなCoreXYの構造を持つ3Dプリンターです。Fraxinus3eがベースになっています。  
+高速動作が可能で、印刷/材料エリアフルカバー型のため220mm角の印刷サイズを持ちます。
+
+* 本体サイズ：310x335x429mm（上部ヘッド、チューブ凸除く）
+* 印刷サイズ：220x220x220mm
+
+![](/images/Fraxinus3tcl.jpg)
+
 ## Fraxinus5ts
 
-Fraxinus5tsは[Kingroon KP5L](https://jp.kingroon.com/products/kingroon-kp5l-3d-printer)をアップサイクルして作製する事が出来るCoreXYの構造を持つ3Dプリンターです。  
+Fraxinus5tsは[Kingroon KP5L](https://jp.kingroon.com/products/kingroon-kp5l-3d-printer)をアップサイクルして作製できるCoreXYの構造を持つ3Dプリンターです。  
 高速動作が可能で、KP5Lと近似の310mm角程度の印刷サイズを持ち、よりコンパクトにできます。
 
 * 本体サイズ：410x440x510mm（上部ヘッド、チューブ凸除く）
@@ -47,21 +77,10 @@ Fraxinus5tsは[Kingroon KP5L](https://jp.kingroon.com/products/kingroon-kp5l-3d-
 
 ![](/images/Fraxinus5ts.jpg)
 
-## Fraxinus00w
-
-Fraxinus00wはCoreXYの構造を持つコンパクトな3Dプリンターです。  
-USB-PD電源やモバイルバッテリーで動作可能で、出先でのデモや機能紹介に好適です。
-
-* 本体サイズ：153x152x176mm（上部ヘッド、チューブ凸除く）
-* 印刷サイズ：70x70x70mm
-
-![](/images/Fraxinus00w.jpg)
-
 ## Fraxinusのサイズ
 
 ![](/images/Fraxinus-2.jpg)
 ![](/images/Fraxinus-3.jpg)
-![](/images/Fraxinus-4.jpg)
 
 ## 実際の写真
 

@@ -29,14 +29,16 @@ Fraxinusについて詳しくはこちら：[Fraxinusについて](/about)
 
 組立について詳しくはこちら：[組立](/docs/assembly)
 
+![](/images/Fraxinus00w3-1.jpg)
+
+![](/images/Fraxinus0w-rev2.jpg)
+
 ![](/images/Fraxinus1k.jpg)
 
 ![](/images/Fraxinus3e.jpg)
 
 ![](/images/Fraxinus5ts.jpg)
 
-![](/images/Fraxinus00w.jpg)
-
 ![](/images/Fraxinus-2.jpg)
 
-![](/images/Fraxinus-4.jpg)
+![](/images/Fraxinus-3.jpg)

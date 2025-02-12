@@ -20,14 +20,16 @@ Invite link: https://fraxinus.jp/discord
 
 * [About Fraxinus](/en/about)
 
+![](/images/Fraxinus00w3-1.jpg)
+
+![](/images/Fraxinus0w-rev2.jpg)
+
 ![](/images/Fraxinus1k.jpg)
 
 ![](/images/Fraxinus3e.jpg)
 
 ![](/images/Fraxinus5ts.jpg)
 
-![](/images/Fraxinus00w.jpg)
-
 ![](/images/Fraxinus-2.jpg)
 
-![](/images/Fraxinus-4.jpg)
+![](/images/Fraxinus-3.jpg)
