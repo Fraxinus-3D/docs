@@ -11,7 +11,7 @@ CoreXY構造を採用したコンパクト3Dプリンター「Fraxinus（フラ�
 
 ## License
 
-(C) 2022-2023 Fraxinus Project
+(C) 2022-2025 Fraxinus Project
 
 `static/images`および`content`フォルダ内のファイルは[CC BY-NC-SA 4.0](https://github.com/Fraxinus-3D/docs/blob/main/LICENSE.md#CC-BY-NC-SA)（[日本語](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.ja)）で公開されています。
 
