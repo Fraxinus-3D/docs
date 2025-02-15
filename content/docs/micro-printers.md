@@ -20,7 +20,7 @@ Fraxinusシリーズはアクリルフレームを用いた、コンパクトで
 * [Fraxinus00w3](#fraxinus00w3)
 * [Fraxinus0w](#fraxinus0w)
 
-そのほかにもコミュニティメンバーが設計製作した [Fraxinus00cw](#fraxinus00cw) や [Fraxinus00tw](#fraxinus00tw) もあります。
+そのほかにも[コミュニティメンバーが設計製作したプリンタ](../community)もあります。
 
 ![](/images/Fraxinus0-front-view.jpg)
 
@@ -78,15 +78,3 @@ Fraxinusシリーズはアクリルフレームを用いた、コンパクトで
 ![](/images/Fraxinus0w-rev2.jpg)
 
 ![](/images/Fraxinus0w-compare.jpg)
-
-## Fraxinus00cw
-
-c-bata氏設計のエンクロージャタイプのマイクロ3Dプリンタ（[解説記事](https://nwpct1.hatenablog.com/entry/fraxinus-00cw)）
-
-![](/images/Fraxinus00cw.png)
-
-## Fraxinus00tw
-
-SummerOrange氏設計の某おしゃれトースター風マイクロ3Dプリンタ
-
-![](/images/Fraxinus00tw.png)
