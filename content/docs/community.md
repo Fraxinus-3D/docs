@@ -54,14 +54,18 @@ proko氏による初代Frainusのカスタム （[関連ポストまとめ](http
 
 ## Fraxinus5tsベース
 
-## Fraxinus5ts IDEX
+### Fraxinus5ts IDEX
 
 MLT氏によるFraxinus5tsのIDEX（デュアルヘッド）化カスタム
 
 ![](/images/Fraxinus5ts_IDEX.jpg)
 
-## Fraxinus5ts
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">idex化したFraxinus5tが無事動きました！ 待機中のヘッドの垂れがひどいから、次は蓋用のシリコン板と、清掃用のシリコン板の取り付けかな？<a href="https://twitter.com/hashtag/Fraxinus?src=hash&amp;ref_src=twsrc%5Etfw">#Fraxinus</a> <a href="https://t.co/kfGqN7gzRc">pic.twitter.com/kfGqN7gzRc</a></p>&mdash; MLT (@qYOYZTLynzjzpJC) <a href="https://twitter.com/qYOYZTLynzjzpJC/status/1732466387749400890?ref_src=twsrc%5Etfw">December 6, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+### Fraxinus5ts DAKSH Tool Changer
 
 MLT氏によるFraxinus5tsの[DAKSH Tool Changer](https://github.com/ankurv2k6/daksh-toolchanger-v2)搭載カスタム
 
 ![](/images/Fraxinus5ts_DAKSH_tool_changer.jpg)
+
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">いったー <a href="https://t.co/QpXxPYShpG">pic.twitter.com/QpXxPYShpG</a></p>&mdash; MLT (@qYOYZTLynzjzpJC) <a href="https://twitter.com/qYOYZTLynzjzpJC/status/1809486137272258795?ref_src=twsrc%5Etfw">July 6, 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
