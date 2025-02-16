@@ -81,3 +81,13 @@ MLT氏によるFraxinus5tsの[DAKSH Tool Changer](https://github.com/ankurv2k6/d
 ![](/images/community/Fraxinus5ts_DAKSH_tool_changer.jpg)
 
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">いったー <a href="https://t.co/QpXxPYShpG">pic.twitter.com/QpXxPYShpG</a></p>&mdash; MLT (@qYOYZTLynzjzpJC) <a href="https://twitter.com/qYOYZTLynzjzpJC/status/1809486137272258795?ref_src=twsrc%5Etfw">July 6, 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+### Kuromiベース
+
+#### Fukumi
+
+ちゃーはん氏設計のデルタ型3DプリンタであるKuromiのFraxinusプロジェクト仕様版
+
+![](/images/community/Fukumi.jpg)
+
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">Kuromiのコンパクト版 ”Fukumi”、ホットエンドとエクスローダーが届いて組み込め、印刷開始できるようになりました！以下はXYZ Cube印刷中の様子。 <a href="https://t.co/vlKAaugU5v">pic.twitter.com/vlKAaugU5v</a></p>&mdash; 福馬 洋平 (@fukumay1) <a href="https://twitter.com/fukumay1/status/1789533246575055008?ref_src=twsrc%5Etfw">May 12, 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
