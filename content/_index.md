@@ -27,6 +27,8 @@ Discord招待リンク：[https://fraxinus.jp/discord](/discord)
 
 Fraxinusについて詳しくはこちら：[Fraxinusについて](/about)
 
+コミュニティについて詳しくはこちら：[コミュニティ](/community)
+
 組立について詳しくはこちら：[組立](/docs/assembly)
 
 ![](/images/Fraxinus00w3-1.jpg)
