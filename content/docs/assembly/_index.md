@@ -33,6 +33,12 @@ menu:
 
 ## PDF版
 
+### Fraxinus00tw
+
+v1 (2025年2月更新)
+
+<script defer class="speakerdeck-embed" data-id="4649e988c59e452b9a89c38cba2da878" data-ratio="1.7777777777777777" src="//speakerdeck.com/assets/embed.js"></script>
+
 ### Fraxinus1k
 
 v0.9 (2023年3月更新)
