@@ -6,8 +6,13 @@ images:
 tags:
   - Fraxinus1k
   - Fraxinus3e
-menu: main
-weight: -210
+menu:
+  sidebar:
+    weight: -250
+    name: About Fraxinus
+  main:
+    weight: -250
+    name: About
 ---
 
 Fraxinus（フラクシネス）は自宅利用や省スペース工房で魅力的な3Dプリンターです。  

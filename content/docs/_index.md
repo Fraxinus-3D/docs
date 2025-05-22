@@ -2,7 +2,7 @@
 title: Documentation
 description: 本ページではFraxinus関連資料を紹介します。  
 linkTitle: Docs
-weight: -250
+weight: -230
 slug: docs
 menu:
   main:

@@ -5,7 +5,7 @@ redirect: https://discord.gg/fVrn9yaPUm
 menu:
   sidebar:
     weight: 900
-    name: Join Discord
+    name: 👉 Join Discord
   main:
     weight: -210
 ---
