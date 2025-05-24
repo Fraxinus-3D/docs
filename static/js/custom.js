@@ -83,4 +83,41 @@ document.addEventListener('DOMContentLoaded', function() {
       this.style.filter = 'brightness(1) contrast(1)';
     });
   });
+  
+  let lastScrollTop = 0;
+  let scrollDirection = 'up';
+  let isNavVisible = true;
+  
+  function handleNavScroll() {
+    const currentScroll = window.pageYOffset || document.documentElement.scrollTop;
+    const nav = document.getElementById('main-menu');
+    
+    if (!nav) return;
+    
+    if (currentScroll > lastScrollTop && currentScroll > 100) {
+      scrollDirection = 'down';
+      if (isNavVisible) {
+        nav.style.transform = 'translateY(-100%)';
+        nav.style.transition = 'transform 0.3s ease-in-out';
+        isNavVisible = false;
+      }
+    } else if (currentScroll < lastScrollTop || currentScroll <= 50) {
+      scrollDirection = 'up';
+      if (!isNavVisible) {
+        nav.style.transform = 'translateY(0)';
+        nav.style.transition = 'transform 0.3s ease-in-out';
+        isNavVisible = true;
+      }
+    }
+    
+    lastScrollTop = currentScroll <= 0 ? 0 : currentScroll;
+  }
+  
+  let scrollTimer = null;
+  window.addEventListener('scroll', function() {
+    if (scrollTimer !== null) {
+      clearTimeout(scrollTimer);
+    }
+    scrollTimer = setTimeout(handleNavScroll, 10);
+  });
 });

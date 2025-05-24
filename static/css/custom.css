@@ -211,22 +211,35 @@ svg:not(:root) {
   box-shadow: 0 10px 30px rgba(255, 107, 53, 0.1);
 }
 
-/* Fix entry alignment to match containers */
+/* Entry alignment - clean implementation */
 .entry {
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 2rem;
-  padding-right: 2rem;
-  max-width: 100%;
+  margin: 1rem auto;
+  padding: 1rem 2rem;
+  max-width: 1200px;
+  width: 100%;
   box-sizing: border-box;
+  transition: all 0.3s ease;
+  border-radius: 10px;
 }
 
-/* Ensure entry-content aligns with other containers */
-.entry .container.entry-content {
-  margin-left: 0;
-  margin-right: 0;
-  padding-left: 0;
-  padding-right: 0;
+.entry:hover {
+  background-color: var(--bg-primary);
+  transform: translateY(-3px);
+  box-shadow: 0 10px 30px rgba(255, 107, 53, 0.1);
+}
+
+/* Ensure entry content doesn't override container padding */
+.entry .container {
+  padding: 0;
+  margin: 0;
+  border: none;
+  box-shadow: none;
+  background: transparent;
+}
+
+/* Add top padding to main content to account for fixed nav */
+main {
+  padding-top: 120px;
 }
 
 /* Glowing accent borders */
@@ -392,11 +405,15 @@ svg:not(:root) {
   border-radius: 10px;
   padding: 0.5rem;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
-  position: sticky;
+  position: fixed;
   top: 1rem;
+  left: 50%;
+  transform: translateX(-50%);
   z-index: 100;
   margin-bottom: 1.5rem;
-  transition: background-color 0.3s ease, color 0.3s ease;
+  transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease-in-out;
+  width: calc(100% - 2rem);
+  max-width: 1200px;
 }
 
 /* Header Widgets Enhancement */
