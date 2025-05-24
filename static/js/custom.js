@@ -1,11 +1,37 @@
 /* Custom JS - Enhanced Interactivity */
 
 document.addEventListener('DOMContentLoaded', function() {
+  // Theme toggle functionality
+  const themeToggler = document.getElementById('theme-toggler');
+  const body = document.body;
+  const storedTheme = localStorage.getItem('theme');
+  
+  // Apply stored theme preference
+  if (storedTheme === 'light') {
+    body.classList.add('light-theme');
+  }
+  
+  // Theme toggle click handler
+  if (themeToggler) {
+    themeToggler.addEventListener('click', function() {
+      body.classList.toggle('light-theme');
+      
+      // Store theme preference
+      if (body.classList.contains('light-theme')) {
+        localStorage.setItem('theme', 'light');
+      } else {
+        localStorage.setItem('theme', 'dark');
+      }
+    });
+  }
+
+  // Floating animation for hero image
   const heroImage = document.querySelector('.header-info img');
   if (heroImage) {
     heroImage.classList.add('floating-element');
   }
 
+  // Scroll animations
   const observerOptions = {
     threshold: 0.1,
     rootMargin: '0px 0px -50px 0px'
@@ -28,6 +54,7 @@ document.addEventListener('DOMContentLoaded', function() {
     observer.observe(el);
   });
 
+  // Dynamic background gradient
   let mouseX = 0;
   let mouseY = 0;
 
@@ -35,11 +62,18 @@ document.addEventListener('DOMContentLoaded', function() {
     mouseX = e.clientX / window.innerWidth;
     mouseY = e.clientY / window.innerHeight;
     
-    const gradient = `radial-gradient(600px at ${e.clientX}px ${e.clientY}px, rgba(255, 107, 53, 0.1), transparent), 
-                      linear-gradient(135deg, #0f1419 0%, #1a1f28 100%)`;
-    document.body.style.background = gradient;
+    if (!body.classList.contains('light-theme')) {
+      const gradient = `radial-gradient(600px at ${e.clientX}px ${e.clientY}px, rgba(255, 107, 53, 0.1), transparent), 
+                        linear-gradient(135deg, #080b0e 0%, #141a24 100%)`;
+      document.body.style.background = gradient;
+    } else {
+      const gradient = `radial-gradient(600px at ${e.clientX}px ${e.clientY}px, rgba(255, 107, 53, 0.05), transparent), 
+                        linear-gradient(135deg, #f5f7fa 0%, #e9ecef 100%)`;
+      document.body.style.background = gradient;
+    }
   });
 
+  // Enhanced hover effects for images
   const images = document.querySelectorAll('img');
   images.forEach(img => {
     img.addEventListener('mouseenter', function() {

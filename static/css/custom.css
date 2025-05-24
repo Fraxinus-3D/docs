@@ -220,3 +220,131 @@ svg:not(:root) {
     font-size: 2rem;
   }
 }
+
+/* Theme Toggle Styles */
+:root {
+  /* Dark Theme Variables (Default) */
+  --primary-dark: #080b0e;
+  --primary-dark-alt: #141a24;
+  --accent-orange: #ff6b35;
+  --accent-blue: #00d4ff;
+  --accent-purple: #8b5cf6;
+  --text-light: #ffffff;
+  --text-medium: #b0b8c1;
+  --bg-gradient: linear-gradient(135deg, #080b0e 0%, #141a24 100%);
+  --card-bg: rgba(255, 255, 255, 0.08);
+  --border-glow: rgba(0, 212, 255, 0.4);
+  --nav-link-color: #ffffff;
+  --sidebar-text-color: #ffffff;
+}
+
+/* Light Theme Variables */
+.light-theme {
+  --primary-dark: #f5f7fa;
+  --primary-dark-alt: #e9ecef;
+  --text-light: #1a1f28;
+  --text-medium: #4a5568;
+  --bg-gradient: linear-gradient(135deg, #f5f7fa 0%, #e9ecef 100%);
+  --card-bg: rgba(0, 0, 0, 0.03);
+  --border-glow: rgba(255, 107, 53, 0.2);
+  --nav-link-color: #1a1f28;
+  --sidebar-text-color: #1a1f28;
+}
+
+/* Theme Toggler Button */
+.theme-toggler {
+  position: relative;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-left: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.3s ease;
+  overflow: hidden;
+}
+
+.theme-toggler:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.light-theme .theme-toggler:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.theme-toggler .light-icon,
+.theme-toggler .dark-icon {
+  position: absolute;
+  font-size: 20px;
+  transition: transform 0.5s ease, opacity 0.5s ease;
+}
+
+.theme-toggler .light-icon {
+  opacity: 0;
+  transform: translateY(20px);
+}
+
+.theme-toggler .dark-icon {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.light-theme .theme-toggler .light-icon {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.light-theme .theme-toggler .dark-icon {
+  opacity: 0;
+  transform: translateY(-20px);
+}
+
+/* Enhanced Sidebar Visibility */
+.sidebar {
+  color: var(--sidebar-text-color);
+}
+
+.sidebar .widget-title {
+  color: var(--accent-orange);
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.8);
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+
+.sidebar-menu a {
+  color: var(--sidebar-text-color);
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.8);
+  font-weight: 600;
+  transition: color 0.2s ease, text-shadow 0.2s ease;
+  text-decoration: none;
+  padding: 5px 0;
+  display: block;
+}
+
+.sidebar-menu a:hover {
+  color: var(--accent-blue);
+  text-shadow: 0 0 8px rgba(0, 212, 255, 0.5);
+}
+
+.light-theme .sidebar .widget-title {
+  text-shadow: none;
+}
+
+.light-theme .sidebar-menu a {
+  text-shadow: none;
+}
+
+/* Main menu container adjustments */
+.main-menu .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main-menu ul {
+  flex: 1;
+}

@@ -1,0 +1,29 @@
+{{- if not .Site.Params.settings.hideMainMenu -}}
+
+<nav id='main-menu' class='menu main-menu' aria-label='{{ i18n "mainMenu" }}'>
+  <div class='container'>
+    {{ partial "sidebar/toggler" . }}
+    <ul>
+    {{- range .Site.Menus.main -}}
+      {{- $isCurrent := ( or ( $.IsMenuCurrent "main" . ) ( $.HasMenuCurrent "main" . ) ) -}}
+      <li class='item {{- if $isCurrent }} current {{- end -}}'>
+        <a {{ if $isCurrent -}} aria-current='page' {{ end -}} href='{{ .URL }}'>
+          {{- with .Pre -}}{{- . -}}{{- end -}}
+          {{- .Name -}}
+          {{- with .Post -}}{{- . -}}{{- end -}}
+        </a>
+      </li>
+    {{- end -}}
+    </ul>
+    <button id='theme-toggler' class='theme-toggler' aria-label='Toggle dark/light theme'>
+      <span class='light-icon'>☀️</span>
+      <span class='dark-icon'>🌙</span>
+    </button>
+  </div>
+</nav>
+
+{{- else -}}
+
+{{ partial "sidebar/toggler" . }}
+
+{{- end -}}
