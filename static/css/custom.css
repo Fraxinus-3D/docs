@@ -3,8 +3,8 @@
 /* Theme Variables - Single Definition */
 :root {
   /* Dark Theme Variables (Default) */
-  --bg-primary: #000000;
-  --bg-secondary: #000000;
+  --bg-primary: #121212;
+  --bg-secondary: #1a1a1a;
   --accent-orange: #ff6b35;
   --accent-blue: #00d4ff;
   --accent-purple: #8b5cf6;
@@ -13,17 +13,17 @@
   --border-glow: rgba(255, 107, 53, 0.4);
   --nav-link-color: #ffffff;
   --sidebar-text-color: #ffffff;
-  --link-color: #00d4ff;
-  --link-hover-color: #ff6b35;
+  --link-color: #ff6b35;
+  --link-hover-color: #00d4ff;
   --sidebar-title-color: #ff6b35;
   --sidebar-label-color: #ffffff;
-  --card-bg: rgba(0, 0, 0, 1);
+  --card-bg: rgba(26, 26, 26, 1);
 }
 
 /* Light Theme Override */
 .light-theme {
-  --bg-primary: #ffffff;
-  --bg-secondary: #f5f7fa;
+  --bg-primary: #f8f8f2;
+  --bg-secondary: #f0f0e8;
   --text-primary: #1a1f28;
   --text-secondary: #4a5568;
   --border-glow: rgba(255, 107, 53, 0.2);
@@ -33,7 +33,7 @@
   --link-hover-color: #0056b3;
   --sidebar-title-color: #ff6b35;
   --sidebar-label-color: #1a1f28;
-  --card-bg: rgba(255, 255, 255, 0.03);
+  --card-bg: rgba(240, 240, 232, 0.5);
 }
 
 /* Global Enhancements */
@@ -209,6 +209,24 @@ svg:not(:root) {
   background-color: var(--bg-primary);
   transform: translateY(-3px);
   box-shadow: 0 10px 30px rgba(255, 107, 53, 0.1);
+}
+
+/* Fix entry alignment to match containers */
+.entry {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+/* Ensure entry-content aligns with other containers */
+.entry .container.entry-content {
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 0;
+  padding-right: 0;
 }
 
 /* Glowing accent borders */
