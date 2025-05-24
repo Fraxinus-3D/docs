@@ -79,11 +79,28 @@ main,
   transition: background-color 0.3s ease, color 0.3s ease;
 }
 
+/* Reduce spacing between sidebar widgets */
+.sidebar .widget {
+  margin-bottom: 0.5rem;
+}
+
 .sidebar .widget-title {
   color: var(--sidebar-title-color);
   text-shadow: 0 1px 2px rgba(0, 0, 0, 0.8);
-  font-size: 1.3rem;
-  margin-bottom: 1rem;
+  font-size: 1.1rem;
+  margin-bottom: 0.25rem;
+  margin-top: 0.5rem;
+}
+
+/* Compact sidebar sections */
+.sidebar section {
+  margin-bottom: 0.5rem;
+}
+
+/* Reduce spacing between sidebar separators */
+.sidebar hr {
+  margin: 0.5rem 0;
+  opacity: 0.2;
 }
 
 /* Language and Search Enhancement */
@@ -523,13 +540,66 @@ main {
   font-weight: 600;
   transition: color 0.2s ease, text-shadow 0.2s ease;
   text-decoration: none;
-  padding: 5px 0;
+  padding: 2px 0;
   display: block;
+  line-height: 1.2;
 }
 
 .sidebar-menu a:hover {
   color: var(--accent-orange);
   text-shadow: 0 0 8px rgba(255, 107, 53, 0.5);
+}
+
+/* Compact sidebar layout */
+.sidebar section {
+  margin-bottom: 0.5rem;
+}
+
+.sidebar hr, 
+.sidebar .separator {
+  margin: 0.25rem 0;
+  border-color: rgba(255, 107, 53, 0.2);
+}
+
+.sidebar nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.sidebar nav li {
+  margin-bottom: 0;
+  padding: 2px 0;
+}
+
+/* Reduce space between sidebar widgets */
+.sidebar .widget + .widget {
+  margin-top: 0.5rem;
+}
+
+/* Fix sidebar menu spacing */
+.sidebar-menu {
+  line-height: 1.2;
+}
+
+.sidebar-menu ul {
+  margin-top: 0.25rem;
+}
+
+.sidebar-menu li {
+  margin: 0;
+  padding: 0;
+}
+
+/* Compact language and search widgets */
+.widget-language,
+.widget-search {
+  margin-bottom: 0.5rem;
+}
+
+.widget-language .select-style,
+.widget-search .search-form {
+  margin-top: 0.25rem;
 }
 
 .light-theme .sidebar .widget-title {
