@@ -8,10 +8,13 @@
 
 <div class='container list-container'>
   <h2>{{- default ( i18n "update_history" ) -}}</h2>
+  {{ $currentPageYear := now.Format "2006" }}
   {{ range ( where ( where .Site.Pages.ByLastmod.Reverse "Type" "ne" "page" ) "Type" "eq" "docs").GroupByLastmod "2006" }}
   <div class='archive-group sep-after'>
-    <h3>{{ .Key }}</h3>
-    <ul class='list'>
+    <h3 class='collapsible-year-header{{ if ne .Key $currentPageYear }} collapsed{{ end }}' data-year='{{ .Key }}'>
+      {{ .Key }} <span class='toggle-icon'>{{ if eq .Key $currentPageYear }}[-]{{ else }}[+]{{ end }}</span>
+    </h3>
+    <ul class='list collapsible-year-list'{{ if ne .Key $currentPageYear }} style='display: none;'{{ end }}>
       {{ range  .Pages }}
         {{ .Render "li.lastupdated" }}
       {{ end }}

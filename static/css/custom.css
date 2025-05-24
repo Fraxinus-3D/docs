@@ -36,3 +36,97 @@ svg:not(:root) {
     border-bottom: none;
 }
 /* end for featherlight image */
+
+/* Hero Section Styles */
+.hero-section {
+  width: 100%;
+  max-height: 500px; /* Adjust as needed */
+  overflow: hidden;
+  text-align: center; /* Centers the image if it's narrower than the container */
+  background-color: #f0f0f0; /* Optional: a light background for the hero area */
+}
+
+.hero-section img {
+  width: 100%;
+  height: auto;
+  object-fit: cover; /* Ensures the image covers the area, might crop */
+  display: block;
+}
+
+/* Accent Color Application */
+a,
+.link { /* Assuming '.link' class might be used for link-like elements */
+  color: #FF8C00 !important; /* DarkOrange */
+}
+
+a:hover,
+.link:hover {
+  color: #FF6347 !important; /* Tomato - a slightly lighter/brighter orange for hover */
+}
+
+/* Accent Color for Buttons */
+.button,
+.btn,
+input[type="submit"], /* Targeting submit buttons as well */
+button { /* General button styling */
+  background-color: #FF8C00 !important; /* DarkOrange, using !important to override theme */
+  color: white !important; /* Ensuring text is readable */
+  border-color: #FF8C00 !important; /* Match border color */
+}
+
+.button:hover,
+.btn:hover,
+input[type="submit"]:hover,
+button:hover {
+  background-color: #FF6347 !important; /* Tomato for hover */
+  border-color: #FF6347 !important;
+}
+
+/* Collapsible Update History */
+.collapsible-year-header {
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.collapsible-year-header .toggle-icon {
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+/* Optional: Add some visual feedback on hover */
+.collapsible-year-header:hover {
+  opacity: 0.8;
+}
+
+/* Mobile Display Optimizations for Sidebar */
+@media (max-width: 767px) {
+  #sidebar {
+    width: 180px; /* Reduce sidebar width on smaller screens */
+    padding: 10px;  /* Reduce padding inside the sidebar */
+    font-size: 0.9em; /* Slightly smaller font size for sidebar content */
+  }
+
+  #sidebar .widget { /* Assuming widgets are inside the sidebar */
+    margin-bottom: 10px; /* Reduce margin for widgets */
+  }
+
+  #sidebar .widget .title { /* Assuming widget titles */
+    font-size: 1.1em; /* Slightly smaller widget titles */
+  }
+  
+  /* Adjust main content margin to accommodate the narrower sidebar */
+  /* The Minimo theme might have its own way of setting main content margin, */
+  /* so this might need adjustment. Common selectors are .main or #main. */
+  /* If the theme uses flexbox or grid for layout, this might be different. */
+  /* For now, let's assume a margin-left needs to be adjusted. */
+  .main { /* Or whatever the main content container class/ID is */
+    margin-left: 180px; /* Should match the new sidebar width */
+  }
+
+  /* If the theme originally hides the sidebar or uses a different layout on mobile, */
+  /* these rules might need to be more specific or adjusted. */
+  /* For example, if the theme sets sidebar to position: absolute or fixed on mobile, */
+  /* simply changing width might not be enough. */
+}
