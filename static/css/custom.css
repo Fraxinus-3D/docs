@@ -1,41 +1,59 @@
 /* Custom CSS - Enhanced Stylish Design */
 
-/* Modern Color Palette */
+/* Theme Variables - Single Definition */
 :root {
-  --primary-dark: #080b0e;
-  --primary-dark-alt: #141a24;
+  /* Dark Theme Variables (Default) */
+  --bg-primary: #000000;
+  --bg-secondary: #000000;
   --accent-orange: #ff6b35;
   --accent-blue: #00d4ff;
   --accent-purple: #8b5cf6;
-  --text-light: #ffffff;
-  --text-medium: #b0b8c1;
-  --bg-gradient: linear-gradient(135deg, #080b0e 0%, #141a24 100%);
-  --card-bg: rgba(255, 255, 255, 0.08);
-  --border-glow: rgba(0, 212, 255, 0.4);
+  --text-primary: #ffffff;
+  --text-secondary: #b0b8c1;
+  --border-glow: rgba(255, 107, 53, 0.4);
   --nav-link-color: #ffffff;
   --sidebar-text-color: #ffffff;
-  --link-color: var(--accent-blue);
-  --link-hover-color: var(--accent-orange);
-  --sidebar-title-color: var(--accent-orange);
-  --sidebar-label-color: var(--text-light);
+  --link-color: #00d4ff;
+  --link-hover-color: #ff6b35;
+  --sidebar-title-color: #ff6b35;
+  --sidebar-label-color: #ffffff;
+  --card-bg: rgba(0, 0, 0, 1);
+}
+
+/* Light Theme Override */
+.light-theme {
+  --bg-primary: #ffffff;
+  --bg-secondary: #f5f7fa;
+  --text-primary: #1a1f28;
+  --text-secondary: #4a5568;
+  --border-glow: rgba(255, 107, 53, 0.2);
+  --nav-link-color: #1a1f28;
+  --sidebar-text-color: #1a1f28;
+  --link-color: #ff6b35;
+  --link-hover-color: #0056b3;
+  --sidebar-title-color: #ff6b35;
+  --sidebar-label-color: #1a1f28;
+  --card-bg: rgba(255, 255, 255, 0.03);
 }
 
 /* Global Enhancements */
 body {
-  background: var(--primary-dark);
-  color: var(--text-light);
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
   font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
   transition: background-color 0.3s ease, color 0.3s ease;
 }
 
-/* Ensure all content areas have black background in dark mode */
-body:not(.light-theme) .entry-content,
-body:not(.light-theme) main,
-body:not(.light-theme) .container,
-body:not(.light-theme) .site-header,
-body:not(.light-theme) .site-footer,
-body:not(.light-theme) .entry {
-  background-color: #000000;
+/* Ensure all content areas have appropriate background in each theme */
+.entry-content,
+main,
+.container,
+.site-header,
+.site-footer,
+.entry,
+.main-menu {
+  background-color: var(--bg-primary);
+  transition: background-color 0.3s ease;
 }
 
 /* Navigation Links Enhancement */
@@ -54,7 +72,7 @@ body:not(.light-theme) .entry {
 /* Sidebar Text Enhancement */
 .sidebar {
   color: var(--sidebar-text-color);
-  background-color: var(--primary-dark-alt);
+  background-color: var(--bg-secondary);
   border-radius: 15px;
   padding: 15px;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
@@ -79,19 +97,19 @@ body:not(.light-theme) .entry {
 
 /* Link Enhancement */
 a {
-  color: var(--link-color, var(--accent-orange));
+  color: var(--link-color);
   text-decoration: underline;
   transition: color 0.2s ease;
 }
 
 a:hover {
-  color: var(--link-hover-color, var(--accent-blue));
+  color: var(--link-hover-color);
   text-decoration: underline;
 }
 
 /* Hero Header Styling */
 .site-header {
-  background: var(--primary-dark-alt);
+  background-color: var(--bg-primary);
   border-bottom: 1px solid var(--border-glow);
   transition: background-color 0.3s ease;
 }
@@ -119,7 +137,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Card-style containers */
 .container {
-  background: var(--primary-dark);
+  background-color: var(--bg-primary);
   border-radius: 15px;
   border: 1px solid var(--border-glow);
   padding: 2rem;
@@ -134,7 +152,7 @@ h1, h2, h3, h4, h5, h6 {
     border: 1px solid var(--border-glow);
     border-radius: 8px;
     background: var(--card-bg);
-    color: var(--text-light);
+    color: var(--text-primary);
     backdrop-filter: blur(10px);
     -webkit-appearance: none;
     margin: auto;
@@ -188,7 +206,7 @@ svg:not(:root) {
 }
 
 .entry:hover, .list-item:hover {
-  background: var(--primary-dark);
+  background-color: var(--bg-primary);
   transform: translateY(-3px);
   box-shadow: 0 10px 30px rgba(255, 107, 53, 0.1);
 }
@@ -254,40 +272,6 @@ svg:not(:root) {
   }
 }
 
-/* Theme Toggle Styles */
-:root {
-  /* Dark Theme Variables (Default) */
-  --primary-dark: #000000;
-  --primary-dark-alt: #000000;
-  --accent-orange: #ff6b35;
-  --accent-blue: #00d4ff;
-  --accent-purple: #8b5cf6;
-  --text-light: #ffffff;
-  --text-medium: #b0b8c1;
-  --bg-gradient: #000000;
-  --card-bg: #000000;
-  --border-glow: rgba(255, 107, 53, 0.4);
-  --nav-link-color: #ffffff;
-  --sidebar-text-color: #ffffff;
-}
-
-/* Light Theme Variables */
-.light-theme {
-  --primary-dark: #f5f7fa;
-  --primary-dark-alt: #e9ecef;
-  --text-light: #1a1f28;
-  --text-medium: #4a5568;
-  --bg-gradient: linear-gradient(135deg, #f5f7fa 0%, #e9ecef 100%);
-  --card-bg: rgba(0, 0, 0, 0.03);
-  --border-glow: rgba(255, 107, 53, 0.2);
-  --nav-link-color: #1a1f28;
-  --sidebar-text-color: #1a1f28;
-  --link-color: #ff6b35; /* Orange for better brand consistency in light mode */
-  --link-hover-color: #0056b3; /* Blue on hover */
-  --sidebar-title-color: #ff6b35; /* Orange for sidebar titles */
-  --sidebar-label-color: #1a1f28; /* Dark text for sidebar labels */
-}
-
 /* Theme Toggler Button */
 .theme-toggler {
   position: relative;
@@ -341,23 +325,6 @@ svg:not(:root) {
 }
 
 /* Enhanced Sidebar Visibility */
-.sidebar {
-  color: var(--sidebar-text-color);
-  background-color: var(--primary-dark-alt);
-  border-radius: 15px;
-  padding: 15px;
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
-  transition: background-color 0.3s ease, color 0.3s ease;
-}
-
-.sidebar .widget-title {
-  color: var(--sidebar-title-color);
-  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.8);
-  font-weight: 700;
-  font-size: 1.2rem;
-  margin-bottom: 0.8rem;
-}
-
 .sidebar-menu a {
   color: var(--sidebar-text-color);
   text-shadow: 0 1px 2px rgba(0, 0, 0, 0.8);
@@ -392,18 +359,18 @@ svg:not(:root) {
   border: 1px solid var(--border-glow);
   border-radius: 8px;
   padding: 0.5rem;
-  color: var(--text-light);
+  color: var(--text-primary);
   width: 100%;
 }
 
 .light-theme .widget-search .search-field {
   background-color: rgba(0, 0, 0, 0.05);
-  color: var(--text-light);
+  color: var(--text-primary);
 }
 
 /* Main menu container adjustments */
 .main-menu {
-  background-color: var(--primary-dark);
+  background-color: var(--bg-primary);
   border-radius: 10px;
   padding: 0.5rem;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
@@ -466,4 +433,20 @@ svg:not(:root) {
 .main-menu li a:hover {
   background-color: rgba(255, 107, 53, 0.2);
   color: var(--accent-orange);
+}
+
+/* Fix for any other elements that might need explicit background colors */
+.light-theme .entry-content,
+.light-theme .main,
+.light-theme .container,
+.light-theme .site-header,
+.light-theme .site-footer,
+.light-theme .entry,
+.light-theme .main-menu {
+  background-color: var(--bg-primary);
+}
+
+/* Fix for any other elements that might need explicit text colors */
+.light-theme {
+  color: var(--text-primary);
 }

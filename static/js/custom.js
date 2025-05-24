@@ -14,15 +14,19 @@ document.addEventListener('DOMContentLoaded', function() {
   // Theme toggle click handler with synchronization
   if (themeToggler) {
     themeToggler.addEventListener('click', function() {
+      // Temporarily disable transitions for instant theme change
       document.body.style.transition = 'none';
       document.querySelectorAll('*').forEach(el => {
         el.style.transition = 'none';
       });
       
+      // Toggle theme class
       body.classList.toggle('light-theme');
       
+      // Force reflow to apply changes immediately
       void body.offsetHeight;
       
+      // Re-enable transitions after a short delay
       setTimeout(() => {
         document.body.style.transition = '';
         document.querySelectorAll('*').forEach(el => {
@@ -66,23 +70,6 @@ document.addEventListener('DOMContentLoaded', function() {
     el.style.transform = 'translateY(30px)';
     el.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
     observer.observe(el);
-  });
-
-  // Dynamic background gradient
-  let mouseX = 0;
-  let mouseY = 0;
-
-  document.addEventListener('mousemove', (e) => {
-    mouseX = e.clientX / window.innerWidth;
-    mouseY = e.clientY / window.innerHeight;
-    
-    if (!body.classList.contains('light-theme')) {
-      document.body.style.background = '#000000';
-    } else {
-      const gradient = `radial-gradient(600px at ${e.clientX}px ${e.clientY}px, rgba(255, 107, 53, 0.05), transparent), 
-                        linear-gradient(135deg, #f5f7fa 0%, #e9ecef 100%)`;
-      document.body.style.background = gradient;
-    }
   });
 
   // Enhanced hover effects for images
