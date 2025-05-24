@@ -9,7 +9,7 @@ tags:
 menu:
   sidebar:
     weight: -250
-    name: About Fraxinus
+    name: Fraxinusについて
   main:
     weight: -250
     name: About
