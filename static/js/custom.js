@@ -84,40 +84,39 @@ document.addEventListener('DOMContentLoaded', function() {
     });
   });
   
+  /*
   let lastScrollTop = 0;
-  let scrollDirection = 'up';
   let isNavVisible = true;
   
   function handleNavScroll() {
     const currentScroll = window.pageYOffset || document.documentElement.scrollTop;
-    const nav = document.getElementById('main-menu');
+    const nav = document.querySelector('nav[aria-label="Main Menu"]');
     
-    if (!nav) return;
+    if (!nav) {
+      console.log('Navigation element not found');
+      return;
+    }
+    
+    console.log('Scroll position:', currentScroll, 'Last position:', lastScrollTop, 'Nav visible:', isNavVisible);
     
     if (currentScroll > lastScrollTop && currentScroll > 100) {
-      scrollDirection = 'down';
       if (isNavVisible) {
-        nav.style.transform = 'translateY(-100%)';
-        nav.style.transition = 'transform 0.3s ease-in-out';
+        nav.classList.add('nav-hidden');
         isNavVisible = false;
+        console.log('Hiding nav - using class');
       }
-    } else if (currentScroll < lastScrollTop || currentScroll <= 50) {
-      scrollDirection = 'up';
+    } 
+    else if (currentScroll < lastScrollTop || currentScroll <= 50) {
       if (!isNavVisible) {
-        nav.style.transform = 'translateY(0)';
-        nav.style.transition = 'transform 0.3s ease-in-out';
+        nav.classList.remove('nav-hidden');
         isNavVisible = true;
+        console.log('Showing nav - using class');
       }
     }
     
     lastScrollTop = currentScroll <= 0 ? 0 : currentScroll;
   }
   
-  let scrollTimer = null;
-  window.addEventListener('scroll', function() {
-    if (scrollTimer !== null) {
-      clearTimeout(scrollTimer);
-    }
-    scrollTimer = setTimeout(handleNavScroll, 10);
-  });
+  window.addEventListener('scroll', handleNavScroll, { passive: true });
+  */
 });

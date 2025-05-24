@@ -211,42 +211,161 @@ svg:not(:root) {
   box-shadow: 0 10px 30px rgba(255, 107, 53, 0.1);
 }
 
-/* Entry alignment - clean implementation */
+/* Main menu container adjustments - removed fixed positioning */
+.main-menu {
+  background-color: var(--bg-primary);
+  border-radius: 0;
+  padding: 0.5rem;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  z-index: 100;
+  margin-bottom: 1.5rem;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  width: 100%;
+}
+
+/* Main menu navigation styling - left-aligned */
+nav[aria-label="Main Menu"] {
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  background-color: var(--bg-primary);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  padding: 0.5rem 0;
+}
+
+/* Navigation container - left-aligned */
+nav[aria-label="Main Menu"] ul {
+  display: flex;
+  margin: 0;
+  padding-left: 1rem;
+  list-style: none;
+  align-items: center;
+}
+
+nav[aria-label="Main Menu"] li {
+  margin-right: 1.5rem;
+}
+
+nav[aria-label="Main Menu"] a {
+  color: var(--text-primary);
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.2s ease;
+}
+
+nav[aria-label="Main Menu"] a:hover {
+  color: var(--accent-orange);
+}
+
+/* Entry alignment fix - comprehensive solution */
 .entry {
   margin: 1rem auto;
   padding: 1rem 2rem;
   max-width: 1200px;
   width: 100%;
   box-sizing: border-box;
-  transition: all 0.3s ease;
-  border-radius: 10px;
 }
 
-.entry:hover {
-  background-color: var(--bg-primary);
-  transform: translateY(-3px);
-  box-shadow: 0 10px 30px rgba(255, 107, 53, 0.1);
+.entry .container,
+.entry-content,
+.entry-content .container,
+.entry .entry-content {
+  padding: 0 !important;
+  margin: 0 !important;
+  width: 100% !important;
+  max-width: 100% !important;
+  border: none !important;
+  box-shadow: none !important;
+  background: transparent !important;
 }
 
-/* Ensure entry content doesn't override container padding */
-.entry .container {
-  padding: 0;
-  margin: 0;
-  border: none;
-  box-shadow: none;
-  background: transparent;
+/* Fix for list items in entries */
+.entry ul {
+  padding-left: 2rem;
 }
 
-/* Add top padding to main content to account for fixed nav */
+/* Fix for entry headers */
+.entry h1, .entry h2, .entry h3 {
+  margin-left: 0;
+  padding-left: 0;
+}
+
+/* Add appropriate padding to main content */
 main {
-  padding-top: 120px;
+  padding-top: 20px;
 }
 
-/* Glowing accent borders */
-.sep-after:after {
-  background: linear-gradient(90deg, var(--accent-orange), var(--accent-blue), var(--accent-purple));
-  height: 3px;
-  border-radius: 2px;
+/* Header Widgets Enhancement */
+.header-widgets {
+  margin-top: 1.5rem;
+}
+
+.header-widgets .widget {
+  margin-bottom: 1.5rem;
+  border: none;
+  background: transparent;
+  box-shadow: none;
+}
+
+.header-widgets .widget-title {
+  font-size: 1.4rem;
+  color: var(--accent-orange);
+  margin-bottom: 1rem;
+  border: none;
+  background: transparent;
+  padding: 0;
+}
+
+.header-widgets .widget-content {
+  font-size: 1.1rem;
+}
+
+.main-menu .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: transparent;
+  box-shadow: none;
+  border: none;
+  padding: 0.5rem;
+  margin: 0;
+}
+
+.main-menu ul {
+  flex: 1;
+  display: flex;
+  gap: 0.5rem;
+}
+
+.main-menu li a {
+  font-weight: 600;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.main-menu li a:hover {
+  background-color: rgba(255, 107, 53, 0.2);
+  color: var(--accent-orange);
+}
+
+/* Fix for any other elements that might need explicit background colors */
+.light-theme .entry-content,
+.light-theme .main,
+.light-theme .container,
+.light-theme .site-header,
+.light-theme .site-footer,
+.light-theme .entry,
+.light-theme .main-menu {
+  background-color: var(--bg-primary);
+}
+
+/* Fix for any other elements that might need explicit text colors */
+.light-theme {
+  color: var(--text-primary);
 }
 
 /* Hero Content Layout */
@@ -396,92 +515,5 @@ main {
 
 .light-theme .widget-search .search-field {
   background-color: rgba(0, 0, 0, 0.05);
-  color: var(--text-primary);
-}
-
-/* Main menu container adjustments */
-.main-menu {
-  background-color: var(--bg-primary);
-  border-radius: 10px;
-  padding: 0.5rem;
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
-  position: fixed;
-  top: 1rem;
-  left: 50%;
-  transform: translateX(-50%);
-  z-index: 100;
-  margin-bottom: 1.5rem;
-  transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease-in-out;
-  width: calc(100% - 2rem);
-  max-width: 1200px;
-}
-
-/* Header Widgets Enhancement */
-.header-widgets {
-  margin-top: 1.5rem;
-}
-
-.header-widgets .widget {
-  margin-bottom: 1.5rem;
-  border: none;
-  background: transparent;
-  box-shadow: none;
-}
-
-.header-widgets .widget-title {
-  font-size: 1.4rem;
-  color: var(--accent-orange);
-  margin-bottom: 1rem;
-  border: none;
-  background: transparent;
-  padding: 0;
-}
-
-.header-widgets .widget-content {
-  font-size: 1.1rem;
-}
-
-.main-menu .container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background: transparent;
-  box-shadow: none;
-  border: none;
-  padding: 0.5rem;
-  margin: 0;
-}
-
-.main-menu ul {
-  flex: 1;
-  display: flex;
-  gap: 0.5rem;
-}
-
-.main-menu li a {
-  font-weight: 600;
-  padding: 0.5rem 1rem;
-  border-radius: 5px;
-  transition: background-color 0.2s ease, color 0.2s ease;
-}
-
-.main-menu li a:hover {
-  background-color: rgba(255, 107, 53, 0.2);
-  color: var(--accent-orange);
-}
-
-/* Fix for any other elements that might need explicit background colors */
-.light-theme .entry-content,
-.light-theme .main,
-.light-theme .container,
-.light-theme .site-header,
-.light-theme .site-footer,
-.light-theme .entry,
-.light-theme .main-menu {
-  background-color: var(--bg-primary);
-}
-
-/* Fix for any other elements that might need explicit text colors */
-.light-theme {
   color: var(--text-primary);
 }
