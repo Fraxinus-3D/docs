@@ -236,6 +236,45 @@ nav[aria-label="Main Menu"] {
   padding: 0.5rem 0;
 }
 
+/* Center the main content container */
+main, 
+section > nav,
+footer,
+.container:not(.main-menu .container),
+.entry {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  box-sizing: border-box;
+}
+
+/* Ensure content is centered on large screens */
+@media (min-width: 1400px) {
+  main, 
+  section > nav,
+  footer,
+  .container:not(.main-menu .container),
+  .entry {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+  main, 
+  section > nav,
+  footer,
+  .container:not(.main-menu .container),
+  .entry {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+
 /* Navigation container - left-aligned */
 nav[aria-label="Main Menu"] ul {
   display: flex;
@@ -267,6 +306,7 @@ nav[aria-label="Main Menu"] a:hover {
   max-width: 1200px;
   width: 100%;
   box-sizing: border-box;
+  text-align: left; /* Ensure text is left-aligned within centered container */
 }
 
 .entry .container,
@@ -285,6 +325,8 @@ nav[aria-label="Main Menu"] a:hover {
 /* Fix for list items in entries */
 .entry ul {
   padding-left: 2rem;
+  margin-left: 0;
+  list-style-position: outside;
 }
 
 /* Fix for entry headers */
