@@ -22,9 +22,20 @@
 
 /* Global Enhancements */
 body {
-  background: var(--bg-gradient);
+  background: var(--primary-dark);
   color: var(--text-light);
   font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Ensure all content areas have black background in dark mode */
+body:not(.light-theme) .entry-content,
+body:not(.light-theme) main,
+body:not(.light-theme) .container,
+body:not(.light-theme) .site-header,
+body:not(.light-theme) .site-footer,
+body:not(.light-theme) .entry {
+  background-color: #000000;
 }
 
 /* Navigation Links Enhancement */
@@ -80,9 +91,9 @@ a:hover {
 
 /* Hero Header Styling */
 .site-header {
-  background: linear-gradient(135deg, rgba(255, 107, 53, 0.1) 0%, rgba(139, 92, 246, 0.1) 100%);
-  backdrop-filter: blur(10px);
+  background: var(--primary-dark-alt);
   border-bottom: 1px solid var(--border-glow);
+  transition: background-color 0.3s ease;
 }
 
 .header-info img {
@@ -108,12 +119,12 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Card-style containers */
 .container {
-  background: var(--card-bg);
+  background: var(--primary-dark);
   border-radius: 15px;
   border: 1px solid var(--border-glow);
-  backdrop-filter: blur(10px);
   padding: 2rem;
   margin: 1rem 0;
+  transition: background-color 0.3s ease;
 }
 
 /* CSS for Lang Select - Enhanced */
@@ -177,7 +188,7 @@ svg:not(:root) {
 }
 
 .entry:hover, .list-item:hover {
-  background: var(--card-bg);
+  background: var(--primary-dark);
   transform: translateY(-3px);
   box-shadow: 0 10px 30px rgba(255, 107, 53, 0.1);
 }
@@ -246,16 +257,16 @@ svg:not(:root) {
 /* Theme Toggle Styles */
 :root {
   /* Dark Theme Variables (Default) */
-  --primary-dark: #080b0e;
-  --primary-dark-alt: #141a24;
+  --primary-dark: #000000;
+  --primary-dark-alt: #000000;
   --accent-orange: #ff6b35;
   --accent-blue: #00d4ff;
   --accent-purple: #8b5cf6;
   --text-light: #ffffff;
   --text-medium: #b0b8c1;
-  --bg-gradient: linear-gradient(135deg, #080b0e 0%, #141a24 100%);
-  --card-bg: rgba(255, 255, 255, 0.08);
-  --border-glow: rgba(0, 212, 255, 0.4);
+  --bg-gradient: #000000;
+  --card-bg: #000000;
+  --border-glow: rgba(255, 107, 53, 0.4);
   --nav-link-color: #ffffff;
   --sidebar-text-color: #ffffff;
 }
@@ -392,7 +403,7 @@ svg:not(:root) {
 
 /* Main menu container adjustments */
 .main-menu {
-  background-color: var(--primary-dark-alt);
+  background-color: var(--primary-dark);
   border-radius: 10px;
   padding: 0.5rem;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);

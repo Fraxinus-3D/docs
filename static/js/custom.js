@@ -77,9 +77,7 @@ document.addEventListener('DOMContentLoaded', function() {
     mouseY = e.clientY / window.innerHeight;
     
     if (!body.classList.contains('light-theme')) {
-      const gradient = `radial-gradient(600px at ${e.clientX}px ${e.clientY}px, rgba(255, 107, 53, 0.1), transparent), 
-                        linear-gradient(135deg, #080b0e 0%, #141a24 100%)`;
-      document.body.style.background = gradient;
+      document.body.style.background = '#000000';
     } else {
       const gradient = `radial-gradient(600px at ${e.clientX}px ${e.clientY}px, rgba(255, 107, 53, 0.05), transparent), 
                         linear-gradient(135deg, #f5f7fa 0%, #e9ecef 100%)`;
