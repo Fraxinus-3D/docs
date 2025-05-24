@@ -23,7 +23,18 @@
       <header id='header' class='header site-header'>
         <div class='container sep-after'>
           <div class='header-info'>
-            <img src="/images/Fraxinus-5.jpg" alt="Fraxinus Logo">
+            <div class='hero-content'>
+              <img src="/images/Fraxinus-5.jpg" alt="Fraxinus 3D Printer" class="hero-image">
+              <div class='hero-text'>
+                <h1 class='site-title title gradient-text'>{{ .Site.Title }}</h1>
+                <p class='desc site-desc'>{{ .Site.Params.info.description }}</p>
+                <div class='tech-badges'>
+                  <span class='badge'>CoreXY</span>
+                  <span class='badge'>Compact</span>
+                  <span class='badge'>3D Printer</span>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </header>

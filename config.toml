@@ -52,7 +52,7 @@ defaultContentLanguageInSubdir = false
     showReadingTime = false
     showLastmod = true
     taxonomyCloudShuffle = true
-    accentColor = "#e46c0a"
+    accentColor = "#ff6b35"
     hideMainMenu = false
     DisableLanguageSwitchingButton = false
 
