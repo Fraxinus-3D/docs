@@ -11,10 +11,24 @@ document.addEventListener('DOMContentLoaded', function() {
     body.classList.add('light-theme');
   }
   
-  // Theme toggle click handler
+  // Theme toggle click handler with synchronization
   if (themeToggler) {
     themeToggler.addEventListener('click', function() {
+      document.body.style.transition = 'none';
+      document.querySelectorAll('*').forEach(el => {
+        el.style.transition = 'none';
+      });
+      
       body.classList.toggle('light-theme');
+      
+      void body.offsetHeight;
+      
+      setTimeout(() => {
+        document.body.style.transition = '';
+        document.querySelectorAll('*').forEach(el => {
+          el.style.transition = '';
+        });
+      }, 50);
       
       // Store theme preference
       if (body.classList.contains('light-theme')) {
