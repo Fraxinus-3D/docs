@@ -38,6 +38,10 @@ body {
 /* Sidebar Text Enhancement */
 .sidebar {
   color: var(--sidebar-text-color);
+  background-color: var(--primary-dark-alt);
+  border-radius: 15px;
+  padding: 15px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
 }
 
 .sidebar .widget-title {
@@ -306,6 +310,10 @@ svg:not(:root) {
 /* Enhanced Sidebar Visibility */
 .sidebar {
   color: var(--sidebar-text-color);
+  background-color: var(--primary-dark-alt);
+  border-radius: 15px;
+  padding: 15px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
 }
 
 .sidebar .widget-title {
