@@ -1,0 +1,20 @@
+# {{ .Site.Title }}
+
+> {{ .Site.Params.Description }}
+
+## Articles
+{{ $yearMonthGroups := slice -}}
+{{ range where (where (sort (.Site.GetPage "/docs").Pages "Date" "desc") "Draft" "ne" true) "Sitemap.Disable" "ne" true -}}
+{{ $yearMonth := .Date.Format "2006/01" -}}
+{{ if not (in $yearMonthGroups $yearMonth) }}
+* {{ $yearMonth -}}
+{{ $yearMonthGroups = $yearMonthGroups | append $yearMonth -}}
+{{ end }}
+    * [{{ .Title }}]({{ .Permalink }})
+{{- end }}
+
+## Others
+
+{{- $baseURL := .Site.BaseURL | strings.TrimSuffix "/" }}
+* [About]({{ $baseURL }}/about/): Fraxinus Projectについて
+* [Device]({{ $baseURL }}/community/): Fraxinusコミュニティについて

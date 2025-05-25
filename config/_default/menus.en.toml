@@ -1,0 +1,56 @@
+############# English navigation ##############
+
+# main menu
+[[main]]
+name = "Home"
+url = "/"
+weight = 1
+
+[[main]]
+name = "About"
+url = "/about"
+weight = 2
+
+[[main]]
+name = "Community"
+url = "/community"
+weight = 3
+
+[[main]]
+weight = 4
+name = "Pages"
+
+[[main]]
+parent = "Pages"
+name = "Assembly Document"
+url = "/docs/assembly/about"
+weight = 101
+
+[[main]]
+parent = "Pages"
+name = "Enclosure"
+url = "/docs/enclosure"
+weight = 102
+
+[[main]]
+parent = "Pages"
+name = "Trident"
+url = "/docs/trident"
+weight = 103
+
+
+# footer menu
+[[footer]]
+name = "About"
+url = "/about"
+weight = 1
+
+[[footer]]
+name = "Documentation List"
+url = "/docs"
+weight = 2
+
+[[footer]]
+name = "Privacy Policy"
+url = "/privacy-policy"
+weight = 3

@@ -1,17 +1,18 @@
 ---
-date: 2022-06-13T01:02:10+09:00
-lastmod: 2023-03-01T23:06:12+09:00
-title: STEP3 フレームの組立
+title: "[STEP3] フレームの組立"
+meta_title: ""
 description: 本ページではSTEP2で加工した部品の組立について紹介します。  
-images:
-  - /images/fraxinus-assembly-3-frame-0.jpg
+draft: false
+author: "Fraxinus Project"
 categories:
-  - 組立
+  - 組立資料
 tags:
   - Fraxinus1k
 toc: false
-authors: ["fraxinus"]
-weight: -30
+date: 2022-06-13T01:02:10+09:00
+lastmod: 2023-03-01T23:06:12+09:00
+images:
+  - /images/fraxinus-assembly-3-frame-0.jpg
 aliases:
   - /docs/assembly/1stgen/step3/
 ---

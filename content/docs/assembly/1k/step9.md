@@ -1,17 +1,18 @@
 ---
-date: 2022-06-13T01:02:10+09:00
-lastmod: 2023-03-01T23:06:24+09:00
-title: STEP9 電装周りの組立
+title: "[STEP9] 電装周りの組立"
+meta_title: ""
 description: 本ページではSTEP8までで組立たフレームに電装周り一式を取り付けるまでを紹介します。  
-images:
-  - /images/fraxinus-assembly-9-electronics-0.jpg
+draft: false
+author: "Fraxinus Project"
 categories:
-  - 組立
+  - 組立資料
 tags:
   - Fraxinus1k
 toc: false
-authors: ["fraxinus"]
-weight: -90
+date: 2022-06-13T01:02:10+09:00
+lastmod: 2023-03-01T23:06:24+09:00
+images:
+  - /images/fraxinus-assembly-9-electronics-0.jpg
 aliases:
   - /docs/assembly/1stgen/step8/
 ---

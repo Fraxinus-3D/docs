@@ -1,11 +1,15 @@
 ---
 title: エンクロージャ
+meta_title: ""
 description: 本ページではエンクロージャ版Fraxinusについて紹介します。
-weight: 10
+draft: false
 slug: enclosure
-menu:
-  sidebar:
-    name: エンクロージャ
+author: "Fraxinus Project"
+categories:
+  - Fraxinus紹介
+tags:
+  - Fraxinus1k
+  - Fraxinus3e
 date: 2022-08-11T17:42:10+09:00
 lastmod: 2022-08-11T17:42:10+09:00
 ---

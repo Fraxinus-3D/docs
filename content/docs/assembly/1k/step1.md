@@ -1,17 +1,17 @@
 ---
-date: 2022-06-13T01:02:10+09:00
-lastmod: 2023-03-01T23:06:04+09:00
-title: STEP1 部品の手配と印刷
+title: "[STEP1] 部品の手配と印刷"
+meta_title: ""
 description: 本ページではFraxinus組み立てに必要な部品手配と部品印刷について紹介します。  
-images:
-  - /images/fraxinus-assembly-1-print-stl.jpg
+draft: false
+author: "Fraxinus Project"
 categories:
-  - 組立
+  - 組立資料
 tags:
   - Fraxinus1k
-toc: false
-authors: ["fraxinus"]
-weight: -10
+date: 2022-06-13T01:02:10+09:00
+lastmod: 2023-03-01T23:06:04+09:00
+images:
+  - /images/fraxinus-assembly-1-print-stl.jpg
 aliases:
   - /docs/assembly/1stgen/step1/
 ---

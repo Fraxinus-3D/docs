@@ -1,11 +1,15 @@
 ---
 title: Enclosure
+meta_title: ""
 description: This page introduces the enclosure version Fraxinus.
-weight: 10
+draft: false
+author: "Fraxinus Project"
+categories:
+  - Fraxinus Introduction
+tags:
+  - Fraxinus1k
+  - Fraxinus3e
 slug: enclosure
-menu:
-  sidebar:
-    name: Enclosure Version
 date: 2022-08-11T17:42:10+09:00
 lastmod: 2022-08-11T17:42:10+09:00
 ---

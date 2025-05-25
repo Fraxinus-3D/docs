@@ -1,0 +1,68 @@
+############# English navigation ##############
+
+# main menu
+[[main]]
+name = "Home"
+url = "/"
+weight = 1
+
+[[main]]
+name = "Fraxinusについて"
+url = "/about"
+weight = 2
+
+[[main]]
+name = "コミュニティ"
+url = "/community"
+weight = 3
+
+[[main]]
+weight = 4
+name = "資料一覧"
+
+[[main]]
+parent = "資料一覧"
+name = "組立資料"
+url = "/docs/assembly/about"
+weight = 101
+
+[[main]]
+parent = "資料一覧"
+name = "エンクロージャ"
+url = "/docs/enclosure"
+weight = 102
+
+[[main]]
+parent = "資料一覧"
+name = "トライデント"
+url = "/docs/trident"
+weight = 103
+
+[[main]]
+parent = "資料一覧"
+name = "フライングガントリー"
+url = "/docs/flying-gantry"
+weight = 104
+
+[[main]]
+parent = "資料一覧"
+name = "マイクロ3Dプリンタ"
+url = "/docs/micro-printers"
+
+
+
+# footer menu
+[[footer]]
+name = "Fraxinusについて"
+url = "/about"
+weight = 1
+
+[[footer]]
+name = "資料一覧"
+url = "/docs"
+weight = 2
+
+[[footer]]
+name = "プライバシーポリシー"
+url = "/privacy-policy"
+weight = 3

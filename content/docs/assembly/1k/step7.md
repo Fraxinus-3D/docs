@@ -1,17 +1,18 @@
 ---
-date: 2022-06-13T01:02:10+09:00
-lastmod: 2023-03-01T23:06:20+09:00
-title: STEP7 XYガントリーの組立
+title: "[STEP7] XYガントリーの組立"
+meta_title: ""
 description: 本ページではSTEP6までで組立たフレームにXYガントリーを取り付けるまでを紹介します。  
-images:
-  - /images/fraxinus-assembly-7-xy-gantry-0.jpg
+draft: false
+author: "Fraxinus Project"
 categories:
-  - 組立
+  - 組立資料
 tags:
   - Fraxinus1k
 toc: false
-authors: ["fraxinus"]
-weight: -70
+date: 2022-06-13T01:02:10+09:00
+lastmod: 2023-03-01T23:06:20+09:00
+images:
+  - /images/fraxinus-assembly-7-xy-gantry-0.jpg
 aliases:
   - /docs/assembly/1stgen/step6/
 ---

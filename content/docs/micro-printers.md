@@ -1,11 +1,18 @@
 ---
 title: マイクロ3Dプリンタ
+meta_title: ""
 description: 本ページではFraxinusプロジェクトのマイクロ3Dプリンタについて紹介します。
-weight: 12
+draft: false
 slug: micro-printers
-menu:
-  sidebar:
-    name: マイクロ3Dプリンタ
+author: "Fraxinus Project"
+categories:
+  - Fraxinus紹介
+tags:
+  - Fraxinus00
+  - Fraxinus00w
+  - Fraxinus00w2
+  - Fraxinus00w3
+  - Fraxinus0w
 date: 2024-11-10T14:01:52+09:00
 lastmod: 2024-11-18T02:00:10+09:00
 ---

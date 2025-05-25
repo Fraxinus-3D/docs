@@ -1,17 +1,18 @@
 ---
-date: 2022-06-13T01:02:10+09:00
-lastmod: 2023-03-01T23:06:14+09:00
-title: STEP4 KP3Sの解体
+title: "[STEP4] KP3Sの解体"
+meta_title: ""
 description: 本ページではKP3Sの解体方法を紹介します。  
-images:
-  - /images/fraxinus-assembly-4-teardown-kp3s-0.jpg
+draft: false
+author: "Fraxinus Project"
 categories:
-  - 組立
+  - 組立資料
 tags:
   - Fraxinus1k
 toc: false
-authors: ["fraxinus"]
-weight: -40
+date: 2022-06-13T01:02:10+09:00
+lastmod: 2023-03-01T23:06:14+09:00
+images:
+  - /images/fraxinus-assembly-4-teardown-kp3s-0.jpg
 ---
 
 本ページではKP3Sの解体方法を紹介します。  

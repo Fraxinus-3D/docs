@@ -5,4 +5,10 @@ SRC_DIR=$(cd $(dirname ${BASH_SOURCE:-$0})/../; pwd)
 
 . ${SRC_DIR}/.env
 
-docker run --rm -v /etc/group:/etc/group:ro -v /etc/passwd:/etc/passwd:ro -u $(id -u $USER):$(id -g $USER) -v ${PWD}:/src peaceiris/hugo:${HUGO_VERSION} "" --minify --enableGitInfo --gc -d public
+BUILD_COMMAND="build --minify --enableGitInfo --gc -d public"
+
+if [ "$(uname -s)" = "Linux" ]; then
+    docker run --rm -v /etc/group:/etc/group:ro -v /etc/passwd:/etc/passwd:ro -u $(id -u $USER):$(id -g $USER) -v ${PWD}:/src peaceiris/hugo:v${HUGO_VERSION} "" ${BUILD_COMMAND}
+elif [ "$(uname -s)" = "Darwin" ]; then
+    docker run --rm -v ${PWD}:/src peaceiris/hugo:v${HUGO_VERSION} "" ${BUILD_COMMAND}
+fi
