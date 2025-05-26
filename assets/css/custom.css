@@ -33,3 +33,16 @@
 }
 
 /* end for featherlight image */
+
+/* header logo image size */
+@media (max-width: 399px) {
+  .navbar-brand {
+    max-width: 120px;
+  }
+}
+@media (max-width: 369px) {
+  .navbar-brand {
+    max-width: 100px;
+  }
+}
+/* end for header logo image */
