@@ -63,3 +63,8 @@
 
 <!-- Mermaid -->
 {{ partial "mermaid/assets/js" . }}
+
+<!-- Redirect -->
+{{ if .Params.redirect }}
+<meta http-equiv="refresh" content="0; url={{ .Params.redirect }}" />
+{{ end }}
