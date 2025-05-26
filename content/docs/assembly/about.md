@@ -36,7 +36,7 @@ v0.9 (2023年3月更新)
 Speaker DeckにPDF版も公開しています（2023年7月2日公開）  
 https://speakerdeck.com/fukumay/fraxinus1k-zu-li-shuo-ming-shu-japanese-v-0-dot-9
 
-English Version: [Assembly Document](/en/docs/assembly/)
+English Version: [Assembly Document](/en/docs/assembly/about/)
 
 <script defer class="speakerdeck-embed" data-id="3ac376056d5b48b3ad62afa6e1e962af" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script>
 

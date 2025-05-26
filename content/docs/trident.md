@@ -29,7 +29,7 @@ Fraxinus3eとFraxinus1kにはトライデント型ベッド調整機構を搭載
 
 ![](/images/Fraxinus3tc-photo-1.jpg)
 
-Fraxinus3tについては[組立資料ページ](/docs/assembly/)に組立方法を公開しています。
+Fraxinus3tについては[組立資料ページ](/docs/assembly/about/)に組立方法を公開しています。
 
 ## Fraxinus1tc2
 

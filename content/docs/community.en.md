@@ -43,7 +43,7 @@ Enclosed micro 3D printer designed by c-bata ([Article](https://nwpct1.hatenablo
 
 #### Fraxinus00tw
 
-Stylish toaster-like micro 3D printer designed by SummerOrange ([Assembly Guide](/docs/assembly/#fraxinus00tw))
+Stylish toaster-like micro 3D printer designed by SummerOrange ([Assembly Guide](/docs/assembly/about/#fraxinus00tw))
 
 ![](/images/community/Fraxinus00tw.png)
 

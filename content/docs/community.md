@@ -43,7 +43,7 @@ c-bata氏設計のエンクロージャタイプのマイクロ3Dプリンタ（
 
 #### Fraxinus00tw
 
-SummerOrange氏設計の某おしゃれトースター風マイクロ3Dプリンタ（[組み立て資料](/docs/assembly/#fraxinus00tw)）
+SummerOrange氏設計の某おしゃれトースター風マイクロ3Dプリンタ（[組み立て資料](/docs/assembly/about/#fraxinus00tw)）
 
 ![](/images/community/Fraxinus00tw.png)
 

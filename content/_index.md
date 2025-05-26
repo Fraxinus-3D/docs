@@ -40,6 +40,6 @@ features:
     button:
       enable: true
       label: "組み立て資料を見る"
-      link: "/docs/assembly"
+      link: "/docs/assembly/about"
 
 ---

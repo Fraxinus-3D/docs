@@ -33,5 +33,5 @@ features:
     button:
       enable: true
       label: "View Assembly Guides"
-      link: "/en/docs/assembly"
+      link: "/en/docs/assembly/about"
 ---
