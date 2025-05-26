@@ -1,11 +1,12 @@
 ---
 title: About
+meta_title: "About"
 description: About Fraxinus
-tags:
-  - Fraxinus1k
-  - Fraxinus3e
-menu: main
-weight: -210
+draft: false
+slug: about
+author: "Fraxinus Project"
+categories:
+  - Fraxinus紹介
 ---
 
 Fraxinus is a compact 3D printer for home and small workshop use.  

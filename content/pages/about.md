@@ -1,12 +1,12 @@
 ---
 title: About
+meta_title: "About"
 description: Fraxinusの特徴やコンセプトについて
 draft: false
-images:
-- images/Fraxinus-1.jpg
-tags:
-  - Fraxinus1k
-  - Fraxinus3e
+slug: about
+author: "Fraxinus Project"
+categories:
+  - Fraxinus紹介
 ---
 
 Fraxinus（フラクシネス）は自宅利用や省スペース工房で魅力的な3Dプリンターです。  
