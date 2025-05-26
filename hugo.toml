@@ -66,13 +66,6 @@ target = 'assets/notwatching/hugo_stats.json'
 [outputs]
 home = ["HTML", "RSS", "WebAppManifest", "SearchIndex", "llms"]
 
-[outputFormats.llms]
-baseName = "llms"
-mediaType = "text/plain"
-isPlainText = true
-rel = "alternate"
-root = true
-
 ############################# Imaging ############################
 [imaging]
 # See https://github.com/disintegration/imaging
@@ -123,6 +116,13 @@ mediaType = "application/json"
 baseName = "searchindex"
 isPlainText = true
 notAlternative = true
+
+[outputFormats.llms]
+baseName = "llms"
+mediaType = "text/plain"
+isPlainText = true
+rel = "alternate"
+root = true
 
 ############################# Languages ##############################
 
