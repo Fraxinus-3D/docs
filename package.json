@@ -5,7 +5,7 @@
   "license": "MIT",
   "author": "Fraxinus Project",
   "scripts": {
-    "dev": "hugo server --bind=0.0.0.0 --watch --minify --gc",
+    "dev": "hugo server --bind=0.0.0.0 --watch --minify --gc --cleanDestinationDir",
     "build": "./scripts/build.sh",
     "preview": "hugo server --disableFastRender --navigateToChanged --templateMetrics --templateMetricsHints --watch --forceSyncStatic -e production --minify",
     "update-modules": "node ./scripts/clearModules.js && hugo mod clean --all && hugo mod get -u ./... && hugo mod tidy",
