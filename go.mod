@@ -1,4 +1,4 @@
-module hugoplate.netlify.app
+module github.com/fraxinus-3d/docs
 
 go 1.21
 

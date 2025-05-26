@@ -17,4 +17,3 @@
 
 {{- $baseURL := .Site.BaseURL | strings.TrimSuffix "/" }}
 * [About]({{ $baseURL }}/about/): Fraxinus Projectについて
-* [Device]({{ $baseURL }}/community/): Fraxinusコミュニティについて
