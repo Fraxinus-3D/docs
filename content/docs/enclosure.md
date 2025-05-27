@@ -8,13 +8,16 @@ author: "Fraxinus Project"
 categories:
   - Fraxinus紹介
 tags:
-  - Fraxinus1k
-  - Fraxinus3e
+  - Fraxinus1kc
+  - Fraxinus1kc2
+  - Fraxinus1tcl
+  - Fraxinus3ec
+  - Fraxinus3tcl
 date: 2022-08-11T17:42:10+09:00
-lastmod: 2022-08-11T17:42:10+09:00
+lastmod: 2025-05-27T10:44:56+09:00
 ---
 
-Fraxinus1kについては2種類、Fraxinus3eについては1種類のエンクロージャがあります。
+Fraxinus1kについては3種類、Fraxinus3eについては2種類のエンクロージャがあります。
 
 <!-- Fraxinus3tcl -->
 <div style="width: 100%; aspect-ratio: 1.33;">
@@ -25,14 +28,31 @@ Fraxinus1kについては2種類、Fraxinus3eについては1種類のエンク�
   </iframe>
 </div>
 
-## Fraxinus1kc
+
+## Fraxinus1k
+
+低背トップハット（cl）、一体型（c2）、トップハット（c）の3種類です。
+
+![](/images/Fraxinus1tcl_1tc2_1ksc.jpg)
+
+### Fraxinus1kc
 
 ![](/images/Fraxinus1kc-photo-1.jpg)
 
-## Fraxinus1kc2
+### Fraxinus1kc2
 
 ![](/images/Fraxinus1kc2-photo-1.jpg)
 
-## Fraxinus3ec
+### Fraxinus1tcl
+
+![](/images/Fraxinus1tcl.jpg)
+
+## Fraxinus3e
+
+### Fraxinus3ec
 
 ![](/images/Fraxinus3ec-photo-1.jpg)
+
+### Fraxinus3tcl
+
+![](/images/Fraxinus3tcl.jpg)

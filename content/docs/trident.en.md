@@ -1,25 +1,49 @@
 ---
 title: Trident Version
 meta_title: ""
-description: This page introduces the trident version Fraxinus.
+description: This page introduces the trident version of Fraxinus.
 draft: false
+slug: trident
 author: "Fraxinus Project"
 categories:
   - Fraxinus Introduction
 tags:
-  - Fraxinus3tc
   - Fraxinus1tc2
-slug: trident
+  - Fraxinus3tc
+  - Fraxinus1tcl
+  - Fraxinus3tcl
+  - Fraxinus5ts
 date: 2023-07-06T09:28:10+09:00
-lastmod: 2023-07-06T09:28:10+09:00
+lastmod: 2025-05-27T10:44:46+09:00
 ---
 
-Fraxinus3e and Fraxinus1k have trident versions, Fraxinus3tc and Fraxinus1tc2.
+Fraxinus's t series is equipped with a trident-type bed adjustment mechanism.
+
+<!-- Fraxinus1t -->
+<div style="width: 100%; aspect-ratio: 1.33;">
+  <iframe
+    style="width: 100%; height: 100%;"
+    src="https://gmail5004514.autodesk360.com/g/shares/SH30dd5QT870c25f12fcf2d06513e0db51a4?mode=embed"
+    allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true" frameborder="0">
+  </iframe>
+</div>
+
+## Fraxinus1tc2
+
+![](/images/Fraxinus1tc2-photo-1.jpg)
 
 ## Fraxinus3tc
 
 ![](/images/Fraxinus3tc-photo-1.jpg)
 
-## Fraxinus1tc2
+## Fraxinus1tcl
 
-![](/images/Fraxinus1tc2-photo-1.jpg)
+![](/images/Fraxinus1tcl.jpg)
+
+## Fraxinus3tcl
+
+![](/images/Fraxinus3tcl.jpg)
+
+## Fraxinus5ts
+
+![](/images/Fraxinus5ts.jpg)
