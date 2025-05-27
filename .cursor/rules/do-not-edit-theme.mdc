@@ -1,0 +1,7 @@
+---
+description:
+globs: themes/**
+alwaysApply: false
+---
+Do NOT edit themes directory. Its okay to look.
+For files in ./themes/hugoplate/layouts, copy them into ./layouts and modify them.

@@ -1,0 +1,48 @@
+:root {
+  --link-color: #ff6b35;
+  --link-hover-color: #0056b3;
+}
+
+:root.dark {
+  /* Dark Theme Variables */
+  --link-color: #ff6b35;
+  --link-hover-color: #00d4ff;
+}
+
+/* Link Enhancement */
+.content a {
+  color: var(--link-color);
+  text-decoration: underline;
+  transition: color 0.2s ease;
+}
+
+.content a:hover {
+  color: var(--link-hover-color);
+  text-decoration: underline;
+}
+
+/* end for link enhancement */
+
+/* CSS for featherlight image */
+.featherlight img {
+  margin: 0 !important;
+}
+
+.content a.featherlight-img {
+  border-bottom: none;
+}
+
+/* end for featherlight image */
+
+/* header logo image size */
+@media (max-width: 399px) {
+  .navbar-brand {
+    max-width: 120px;
+  }
+}
+@media (max-width: 369px) {
+  .navbar-brand {
+    max-width: 100px;
+  }
+}
+/* end for header logo image */

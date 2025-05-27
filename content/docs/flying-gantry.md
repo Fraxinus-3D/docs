@@ -1,11 +1,16 @@
 ---
 title: フライングガントリー
+meta_title: ""
 description: 本ページではフライングガントリー構造のFraxinusについて紹介します。
-weight: 12
+draft: false
 slug: flying-gantry
-menu:
-  sidebar:
-    name: フライングガントリー
+author: "Fraxinus Project"
+categories:
+  - Fraxinus紹介
+tags:
+  - Fraxinus1fg
+  - Fraxinus3fg
+  - Fraxinus5fg
 date: 2024-11-18T02:01:52+09:00
 lastmod: 2024-11-18T02:04:16+09:00
 ---

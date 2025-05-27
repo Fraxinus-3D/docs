@@ -1,0 +1,196 @@
+######################## default configuration ####################
+baseURL = "https://fraxinus.jp"
+title = "Fraxinus"
+theme = "hugoplate"
+timeZone = "Asia/Tokyo"
+summaryLength = 10 # see https://gohugo.io/content-management/excerpts/
+disableLanguages = [
+] # see https://gohugo.io/content-management/multilingual/
+hasCJKLanguage = true # see: https://gohugo.io/getting-started/configuration/#hascjklanguage
+defaultContentLanguage = 'ja'
+defaultContentLanguageInSubdir = false
+preserveTaxonomyNames = true
+enableRobotsTXT = true # generate robots.txt
+pygmentsCodefences = true # Syntax Highlighting see: https://gohugo.io/content-management/syntax-highlighting/ )
+enableEmoji = true
+enableGitInfo = true
+
+########################### Services #############################
+[services]
+[services.googleAnalytics]
+ID = '' # see https://gohugo.io/templates/internal/#configure-google-analytics
+
+[services.disqus]
+shortname = '' # we use disqus to show comments in blog posts . To install disqus please follow this tutorial https://portfolio.peter-baumgartner.net/2017/09/10/how-to-install-disqus-on-hugo/
+
+[services.cloudflareAnalytics]
+beacon = '2486d709061242a48d2897e8c77219f9'
+
+[privacy]
+[privacy.cloudflareAnalytics]
+disable = false
+respectDoNotTrack = true
+
+########################## Permalinks ############################
+[permalinks.page]
+"pages" = "/:slugorcontentbasename/"
+
+
+########################## Pagination ############################
+[pagination]
+disableAliases = false
+pagerSize = 10
+path = 'page'
+
+
+############################# Build ##############################
+[build]
+[build.buildStats]
+enable = true
+[[build.cachebusters]]
+source = 'assets/notwatching/hugo_stats\.json'
+target = 'css'
+
+############################# Modules ############################
+[module]
+[[module.mounts]]
+source = 'assets'
+target = 'assets'
+[[module.mounts]]
+disableWatch = true
+source = 'hugo_stats.json'
+target = 'assets/notwatching/hugo_stats.json'
+
+
+############################# Outputs ############################
+[outputs]
+home = ["HTML", "RSS", "WebAppManifest", "SearchIndex", "llms"]
+
+############################# Imaging ############################
+[imaging]
+# See https://github.com/disintegration/imaging
+# Default JPEG or WebP quality setting. Default is 75.
+quality = 80
+resampleFilter = "Lanczos"
+
+############################ Caches ##############################
+[caches]
+[caches.images]
+dir = ":resourceDir/_gen"
+maxAge = "720h"
+
+[caches.assets]
+dir = ":resourceDir/_gen"
+maxAge = "720h"
+
+
+############################ Markup ##############################
+[markup]
+[markup.goldmark.renderer]
+unsafe = true
+
+[markup.highlight]
+style = 'monokai' # see https://xyproto.github.io/splash/docs/all.html
+lineNumbersInTable = false
+
+[markup.tableOfContents]
+startLevel = 2
+endLevel = 5
+ordered = true
+
+
+########################### Media types ###########################
+[mediaTypes]
+[mediaTypes."application/manifest+json"]
+suffixes = ["webmanifest"]
+
+
+########################### Output Format ##########################
+[outputFormats]
+[outputFormats.WebAppManifest]
+mediaType = "application/manifest+json"
+rel = "manifest"
+
+[outputFormats.SearchIndex]
+mediaType = "application/json"
+baseName = "searchindex"
+isPlainText = true
+notAlternative = true
+
+[outputFormats.llms]
+baseName = "llms"
+mediaType = "text/plain"
+isPlainText = true
+rel = "alternate"
+root = true
+
+############################# Languages ##############################
+
+############################# Plugins ##############################
+
+# CSS Plugins
+[[params.plugins.css]]
+link = "plugins/swiper/swiper-bundle.css"
+lazy = true
+[[params.plugins.css]]
+link = "plugins/glightbox/glightbox.css"
+lazy = true
+[[params.plugins.css]]
+link = "plugins/font-awesome/v6/brands.css"
+lazy = true
+[[params.plugins.css]]
+link = "plugins/font-awesome/v6/solid.css"
+lazy = true
+[[params.plugins.css]]
+link = "plugins/font-awesome/v6/icons.css"
+lazy = true
+[[params.plugins.css]]
+link = "css/featherlight.min.css"
+lazy = true
+
+# JS Plugins
+[[params.plugins.js]]
+link = "js/search.js"
+lazy = false
+[[params.plugins.js]]
+link = "plugins/swiper/swiper-bundle.js"
+lazy = false
+[[params.plugins.js]]
+link = "plugins/cookie.js"
+lazy = false
+[[params.plugins.js]]
+link = "plugins/glightbox/glightbox.js"
+lazy = true
+[[params.plugins.js]]
+link = "js/gallery-slider.js"
+lazy = true
+[[params.plugins.js]]
+link = "js/accordion.js"
+lazy = true
+[[params.plugins.js]]
+link = "js/tab.js"
+lazy = true
+[[params.plugins.js]]
+link = "js/modal.js"
+lazy = true
+[[params.plugins.js]]
+link = "plugins/youtube-lite.js"
+lazy = true
+[[params.plugins.js]]
+link = "js/jquery-3.3.1.min.js"
+lazy = true
+[[params.plugins.js]]
+link = "js/jquery.sticky.js"
+lazy = true
+[[params.plugins.js]]
+link = "js/clipboard.min.js"
+lazy = true
+[[params.plugins.js]]
+link = "js/featherlight.min.js"
+lazy = true
+[[params.plugins.js]]
+link = "js/image-featherlight.js"
+lazy = true
+[[params.plugins.js]]
+link = "js/custom.js"
+lazy = true

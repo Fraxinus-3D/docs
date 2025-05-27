@@ -1,11 +1,11 @@
 # THIRD PARTY NOTICES
 
-## [minimo](https://github.com/MunifTanjim/minimo)
+## [hugoplate](https://github.com/zeon-studio/hugoplate)
 
 ```
-MIT License
+The MIT License (MIT)
 
-Copyright (c) 2017 Munif Tanjim
+Copyright (c) 2023 - Present, Zeon Studio
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

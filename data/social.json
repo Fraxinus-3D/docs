@@ -1,0 +1,14 @@
+{
+  "main": [
+    {
+      "name": "X",
+      "icon": "fab fa-x-twitter",
+      "link": "https://x.com/fukumay1"
+    },
+    {
+      "name": "github",
+      "icon": "fab fa-github",
+      "link": "https://github.com/Fraxinus-3D"
+    }
+  ]
+}

@@ -1,8 +1,0 @@
-{{- $dateFormat := ( .Site.Params.settings.dateFormat | default "2006, Jan 02" ) -}}
-<span class='updated-on'>
-  {{- partial "svg/icon" "edit" -}}
-  <span class='screen-reader-text'>{{ i18n "lastUpdated" }} </span>
-  <time class='entry-date' datetime='{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}'>
-    {{- .Lastmod.Format $dateFormat -}}
-  </time>
-</span>

@@ -1,13 +1,16 @@
 # Fraxinus
 
-CoreXY構造を採用したコンパクト3Dプリンター「Fraxinus（フラクシネス）」プロジェクトのウェブサイト
+Fraxinus（フラクシネス）は印刷サイズと比較しコンパクトで高速動作を実現した3Dプリンターなどのデジタル加工機です。  
+[エンクロージャ版](../docs/enclosure)や[トライデント版](../docs/trident)、[フライングガントリー版](../docs/flying-gantry)、[マイクロ3Dプリンタ](../docs/micro-printers)もあり、
+さまざまな方々がハードウェア・ソフトウェアを学びながら様々な開発や改造をしています。  
+興味を持って頂きましたらぜひ一緒にノウハウ共有して、同好の方々と楽しく交流できると嬉しいです！  
+👉[Join Discord](https://fraxinus.jp/discord)
 
-2024年11月現在印刷サイズは70mm角、170mm角、220mm角、310mm角、510mm角の5種を展開しています。
+![](./static/images/Fraxinus-5.jpg)
 
-![](./static/images/Fraxinus00w.jpg)
-![](./static/images/Fraxinus1k.jpg)
-![](./static/images/Fraxinus3e.jpg)
-![](./static/images/Fraxinus5ts.jpg)
+## Editing
+
+編集方法については[DEVELOPMENT.md](./DEVELOPMENT.md)を参照してください。
 
 ## License
 
@@ -21,8 +24,7 @@ CoreXY構造を採用したコンパクト3Dプリンター「Fraxinus（フラ�
 
 The following resources are included/used in the theme:
 
-- [Minimo](https://github.com/MunifTanjim/minimo) by Munif Tanjim - Licensed under the [MIT License](https://github.com/MunifTanjim/minimo/blob/e6bf20b9751ec7c5ea60aa4d9ca79529465aeee9/LICENSE).
+- [hugoplate](https://github.com/zeon-studio/hugoplate) by Zeon Studio - Licensed under the [MIT License](https://github.com/zeon-studio/hugoplate/blob/349436c8d33b26b0c0d261f3b0a15aedd66ae22c/LICENSE).
 - [Feather](https://feather.netlify.com/) by Cole Bemis - Licensed under the [MIT License](https://github.com/colebemis/feather/blob/f81cd40fdcdd5e94f3f97eb670a5058e3aac528d/LICENSE).
-- [Hugo Learn Theme](https://github.com/matcornic/hugo-theme-learn) by Mathieu Cornic - Licensed under the [MIT License](https://github.com/matcornic/hugo-theme-learn/blob/e817f53d690d35f181c896e0e320cb40f797e88c/LICENSE.md).
 
 See [THIRD-PARTY-NOTICES.md](./THIRD-PARTY-NOTICES.md) for other third party resources.

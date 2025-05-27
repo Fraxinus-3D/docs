@@ -1,22 +1,21 @@
-{{ partial "header" . }}
-
-{{ partial "header/header" . }}
-
-{{ if .Content }}
-<div class='entry'>
-  {{ partial "entry/content" . }}
-</div>
+{{ define "main" }}
+  {{ partial "page-header" . }}
+  <section class="section">
+    <div class="container">
+  {{ if .Content }}
+    {{ partial "entry/content" . }}
+  {{ end }}
+      <ul class="text-center">
+        {{ range .RegularPages }}
+          <li class="m-3">
+            <a
+              href="{{ .RelPermalink }}"
+              class="text-text-dark dark:text-darkmode-text-dark block text-xl">
+              {{ .Title }}
+            </a>
+          </li>
+        {{ end }}
+      </ul>
+    </div>
+  </section>
 {{ end }}
-
-<div class='container list-container'>
-  <h2>{{- default ( i18n "update_history" ) -}}</h2>
-  <ul class='list'>
-    {{ range .Paginator.Pages.ByDate.Reverse }}
-      {{ .Render "li.lastupdated" }}
-    {{ end }}
-  </ul>
-
-  {{ partial "nav/pagination" . }}
-</div>
-
-{{ partial "footer" . }}
