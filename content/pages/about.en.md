@@ -6,7 +6,7 @@ draft: false
 slug: about
 author: "Fraxinus Project"
 categories:
-  - Fraxinus紹介
+  - Fraxinus Introduction
 ---
 
 Fraxinus is a compact 3D printer for home and small workshop use.  
