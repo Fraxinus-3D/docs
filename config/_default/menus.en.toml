@@ -38,6 +38,17 @@ name = "Trident"
 url = "/docs/trident"
 weight = 103
 
+[[main]]
+parent = "Pages"
+name = "Flying Gantry"
+url = "/docs/flying-gantry"
+weight = 104
+
+[[main]]
+parent = "Pages"
+name = "Micro 3D Printers"
+url = "/docs/micro-printers"
+
 
 # footer menu
 [[footer]]
