@@ -40,7 +40,7 @@ weight = 103
 
 [[main]]
 parent = "資料一覧"
-name = "フライングガントリー"
+name = "フライングガントリ"
 url = "/docs/flying-gantry"
 weight = 104
 

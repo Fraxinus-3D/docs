@@ -1,7 +1,7 @@
 ---
-title: フライングガントリー
+title: フライングガントリ
 meta_title: ""
-description: 本ページではフライングガントリー構造のFraxinusについて紹介します。
+description: 本ページではフライングガントリ構造のFraxinusについて紹介します。
 draft: false
 slug: flying-gantry
 author: "Fraxinus Project"
@@ -15,7 +15,7 @@ date: 2024-11-18T02:01:52+09:00
 lastmod: 2024-11-18T02:04:16+09:00
 ---
 
-フライングガントリーのFraxinusは、コンパクト性をキープしつつフライングガントリー構造を特徴としています。
+フライングガントリのFraxinusは、コンパクト性をキープしつつフライングガントリ構造を特徴としています。
 
 サイズ違いで1fg, 3fg, 5fg, 9fgの4種類があります。
 

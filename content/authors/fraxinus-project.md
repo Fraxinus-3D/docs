@@ -14,6 +14,6 @@ social:
 ---
 
 Fraxinus（フラクシネス）は印刷サイズと比較しコンパクトで高速動作を実現した
-3Dプリンターなどのデジタル加工機です。  
-[エンクロージャ版](../docs/enclosure)や[トライデント版](../docs/trident)、[フライングガントリー版](../docs/flying-gantry)、[マイクロ3Dプリンタ](../docs/micro-printers)もあり、
+3Dプリンタなどのデジタル加工機です。  
+[エンクロージャ版](../docs/enclosure)や[トライデント版](../docs/trident)、[フライングガントリ版](../docs/flying-gantry)、[マイクロ3Dプリンタ](../docs/micro-printers)もあり、
 さまざまな方々がハードウェア・ソフトウェアを学びながら様々な開発や改造をしています。  

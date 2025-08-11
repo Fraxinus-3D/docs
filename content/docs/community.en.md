@@ -47,7 +47,7 @@ Stylish toaster-like micro 3D printer designed by SummerOrange ([Assembly Guide]
 
 ![](/images/community/Fraxinus00tw.png)
 
-<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">SummerOrangeさん作の某おしゃれトースター風マイクロ3Dプリンター「Fraxinus00tw」が完成したとDiscordでご報告頂き紹介こちらにも。使い勝手やメンテナンス性も考慮されていてヒーテットベッドも装備されつつバッテリー駆動も可能で、なにより超キュートで素敵です！ <a href="https://t.co/UGz911Mnf6">pic.twitter.com/UGz911Mnf6</a></p>&mdash; 福馬 洋平 (@fukumay1) <a href="https://twitter.com/fukumay1/status/1884396047113543918?ref_src=twsrc%5Etfw">January 29, 2025</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">SummerOrangeさん作の某おしゃれトースター風マイクロ3Dプリンタ「Fraxinus00tw」が完成したとDiscordでご報告頂き紹介こちらにも。使い勝手やメンテナンス性も考慮されていてヒーテットベッドも装備されつつバッテリー駆動も可能で、なにより超キュートで素敵です！ <a href="https://t.co/UGz911Mnf6">pic.twitter.com/UGz911Mnf6</a></p>&mdash; 福馬 洋平 (@fukumay1) <a href="https://twitter.com/fukumay1/status/1884396047113543918?ref_src=twsrc%5Etfw">January 29, 2025</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 #### prokosinus00
 
