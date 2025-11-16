@@ -7,22 +7,22 @@ variations:
   - name: "Fraxinus00tw"
     designation: "Designed by @PlasticMikan"
     avatar: "/images/community/Fraxinus00tw.jpg"
-    content: "Fraxinus00twは70mm四方の印刷サイズを持ちUSB-PD電源で動作可能な、コンパクトでとてもキュートなCoreXY構造の3Dプリンタです。"
+    content: "Fraxinus00twは70mm四方の印刷サイズを持ち、USB-PD電源で動作可能な、コンパクトでとてもキュートなマイクロ3Dプリンタです。"
 
   - name: "prokosinus00"
     designation: "Designed by @prokokoko"
     avatar: "/images/community/prokosinus00.jpg"
-    content: "prokosinus00は70x75x70mmの印刷サイズを持ちCoreXYをクワッドモータで駆動する、出先での紹介に好適なマイクロ3Dプリンタです。"
+    content: "prokosinus00は70x75x70mmの印刷サイズを持ち、CoreXY構造をクワッドモータで駆動するマイクロ3Dプリンタです。"
 
   - name: "Fraxinus00cw"
     designation: "Designed by @c_bata_"
     avatar: "/images/community/Fraxinus00cw.jpg"
-    content: "Fraxinus00cwは95x69x69mmの印刷サイズを持ちフルエンクロージングされた、CoreXY構造のマイクロ3Dプリンタです。"
+    content: "Fraxinus00cwは95x69x69mmの印刷サイズを持ち、CoreXY構造のフルエンクロージングされたマイクロ3Dプリンタです。"
 
   - name: "Fraxinus00w3"
     designation: "Designed by @fukumay1"
     avatar: "/images/Fraxinus00w3_21.jpg"
-    content: "Fraxinus00は66mm四方の印刷サイズを持ちUSB-PD電源で動作可能な、出先での紹介に好適なCoreXY構造のマイクロ3Dプリンタです。"
+    content: "Fraxinus00は66mm四方の印刷サイズを持ち、CoreXY構造でUSB-PD電源で動作可能なマイクロ3Dプリンタです。"
 
   - name: "Fraxinus0w rev2"
     designation: "Designed by @fukumay1"
