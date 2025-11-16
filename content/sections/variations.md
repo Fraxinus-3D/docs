@@ -22,12 +22,12 @@ variations:
   - name: "Fraxinus00w3"
     designation: "Designed by @fukumay1"
     avatar: "/images/Fraxinus00w3_21.jpg"
-    content: "Fraxinus00は66mm四方の印刷サイズを持ち、CoreXY構造でUSB-PD電源で動作可能なマイクロ3Dプリンタです。"
+    content: "Fraxinus00w3は66mm四方の印刷サイズを持ち、CoreXY構造でUSB-PD電源で動作可能なマイクロ3Dプリンタです。"
 
   - name: "Fraxinus0w"
     designation: "Designed by @fukumay1"
     avatar: "/images/Fraxinus0w-rev2.jpg"
-    content: "Fraxinus0は120mm四方の印刷サイズを持つコンパクトなCoreXY構造の3Dプリンタです。"
+    content: "Fraxinus0wは120mm四方の印刷サイズを持つコンパクトなCoreXY構造の3Dプリンタです。"
 
   - name: "Fraxinus1tcl"
     designation: "Designed by @fukumay1"
