@@ -4,30 +4,50 @@ title: "Fraxinusの種類"
 description: "数あるFraxinusの一部を紹介します。  [コミュニティについて](/community)のページでは、派生機種のより詳細な情報をご覧いただけます。"
 
 variations:
-  - name: "Fraxinus00 w3"
+  - name: "Fraxinus00tw"
+    designation: "Designed by @PlasticMikan"
+    avatar: "/images/community/Fraxinus00tw.jpg"
+    content: "Fraxinus00twは70mm四方の印刷サイズを持ちUSB-PD電源で動作可能な、コンパクトでとてもキュートなCoreXY構造の3Dプリンタです。"
+
+  - name: "Fraxinus00pk"
+    designation: "Designed by @prokokoko"
+    avatar: "/images/community/Fraxinus1pk.jpg"
+    content: "Fraxinus00pkは70x75x70mmの印刷サイズを持ちCoreXYをクワッドモータで駆動する、出先での紹介に好適なマイクロ3Dプリンタです。"
+
+  - name: "Fraxinus00cw"
+    designation: "Designed by @c_bata_"
+    avatar: "/images/community/Fraxinus00cw.jpg"
+    content: "Fraxinus00cwは95x69x69mmの印刷サイズを持ちフルエンクロージングされた、CoreXY構造のマイクロ3Dプリンタです。"
+
+  - name: "Fraxinus00w3"
     designation: "Designed by @fukumay1"
-    avatar: "/images/Fraxinus00w3-1.jpg"
-    content: "Fraxinus00は66mm四方の印刷サイズを持ちUSB-PD電源で動作可能な、コンパクトで出先での紹介に好適なCoreXY構造の3Dプリンタです。"
+    avatar: "/images/Fraxinus00w3_21.jpg"
+    content: "Fraxinus00は66mm四方の印刷サイズを持ちUSB-PD電源で動作可能な、出先での紹介に好適なCoreXY構造のマイクロ3Dプリンタです。"
 
   - name: "Fraxinus0w rev2"
     designation: "Designed by @fukumay1"
     avatar: "/images/Fraxinus0w-rev2.jpg"
     content: "Fraxinus00は120mm四方の印刷サイズを持ちUSB-PD電源やモバイルバッテリーで動作可能な、コンパクトで出先でのデモや機能紹介に好適なCoreXY構造の3Dプリンタです。"
 
-  - name: "Fraxinus1k"
+  - name: "Fraxinus1tcl"
     designation: "Designed by @fukumay1"
-    avatar: "/images/Fraxinus1k.jpg"
-    content: "170mm四方の印刷サイズを持つ自宅利用や省スペース工房で魅力的な第2世代のCoreXY構造3Dプリンタです。"
+    avatar: "/images/Fraxinus1tcl.jpg"
+    content: "170mm四方の印刷サイズとトライデントベッドレベリング構造を持つ、自宅利用や省スペース工房で魅力的な第2世代のCoreXY構造3Dプリンタです。"
 
-  - name: "Fraxinus3e"
+  - name: "Fraxinus3tcl"
     designation: "Designed by @fukumay1"
-    avatar: "/images/Fraxinus3e.jpg"
-    content: "220mm四方の印刷サイズを持つ自宅利用や省スペース工房で魅力的な第2世代のCoreXY構造3Dプリンタです。"
+    avatar: "/images/Fraxinus3tcl.jpg"
+    content: "220mm四方の印刷サイズとトライデントベッドレベリング構造を持つ、自宅利用や省スペース工房で魅力的な第2世代のCoreXY構造3Dプリンタです。"
 
   - name: "Fraxinus5ts"
     designation: "Designed by @fukumay1"
     avatar: "/images/Fraxinus5ts.jpg"
-    content: "Fraxinus5tsは310mm四方の印刷サイズを持つ自宅利用や省スペース工房で魅力的なCoreXY構造3Dプリンタです。主要なアルミフレームを汎用的なNFS5-2020を用い、従来より入手性や剛性を向上させました。"
+    content: "Fraxinus5tsは310mm四方の印刷サイズとトライデントベッドレベリング構造を持つ、自宅利用や省スペース工房で魅力的なCoreXY構造3Dプリンタです。"
+
+  - name: "Fraxinus9fg"
+    designation: "Designed by @fukumay1"
+    avatar: "/images/Fraxinus9fg.jpg"
+    content: "Fraxinus9fgは510mm四方の印刷サイズとフライングガントリー構造を持つ、自宅利用や省スペース工房で魅力的なCoreXY構造3Dプリンタです。"
 
 # don't create a separate page
 build:
