@@ -12,7 +12,7 @@ variations:
   - name: "prokosinus00"
     designation: "Designed by @prokokoko"
     avatar: "/images/community/prokosinus00.jpg"
-    content: "Fraxinus00pkは70x75x70mmの印刷サイズを持ちCoreXYをクワッドモータで駆動する、出先での紹介に好適なマイクロ3Dプリンタです。"
+    content: "prokosinus00は70x75x70mmの印刷サイズを持ちCoreXYをクワッドモータで駆動する、出先での紹介に好適なマイクロ3Dプリンタです。"
 
   - name: "Fraxinus00cw"
     designation: "Designed by @c_bata_"
