@@ -9,9 +9,9 @@ variations:
     avatar: "/images/community/Fraxinus00tw.jpg"
     content: "Fraxinus00twは70mm四方の印刷サイズを持ちUSB-PD電源で動作可能な、コンパクトでとてもキュートなCoreXY構造の3Dプリンタです。"
 
-  - name: "Fraxinus00pk"
+  - name: "prokosinus00"
     designation: "Designed by @prokokoko"
-    avatar: "/images/community/Fraxinus1pk.jpg"
+    avatar: "/images/community/prokosinus00.jpg"
     content: "Fraxinus00pkは70x75x70mmの印刷サイズを持ちCoreXYをクワッドモータで駆動する、出先での紹介に好適なマイクロ3Dプリンタです。"
 
   - name: "Fraxinus00cw"
