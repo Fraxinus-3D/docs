@@ -6,7 +6,7 @@ banner:
   title: "Fraxinus -- Fast and Compact"
   content: "
 Fraxinus（フラクシネス）は造形サイズと比較しコンパクトで高速動作を実現した3Dプリンタなどのデジタル加工機です。
-[エンクロージャ版](../docs/enclosure)や[トライデント版](../docs/trident)、[フライングガントリ版](../docs/flying-gantry)、[マイクロ3Dプリンタ](../docs/micro-printers)もあり、 さまざまな方々がハードウェア・ソフトウェアを学びながら様々な開発や改造をしています。
+[エンクロージャ版](../docs/enclosure)、[トライデント版](../docs/trident)、[フライングガントリ版](../docs/flying-gantry)、[マイクロ3Dプリンタ](../docs/micro-printers)などあり、 さまざまな方々がハードウェア・ソフトウェアを学びながら様々な開発や改造をしています。
 興味を持って頂きましたらぜひ一緒にノウハウ共有し、お互い楽しく交流できると嬉しいです！"
   image: "/images/Fraxinus-5.jpg"
   button:
