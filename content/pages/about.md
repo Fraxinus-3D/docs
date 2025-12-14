@@ -28,13 +28,13 @@ USB-PD電源やモバイルバッテリーで動作可能で、出先でのデ�
 
 ## Fraxinus0w
 
-Fraxinus0w rev2はCoreXYの構造を持つコンパクトな3Dプリンタです。  
+Fraxinus0w rev2はCoreXYの構造を持つコンパクトな3DプリンタでFraxinus00wの印刷サイズを拡大したものです。  
 USB-PD電源やモバイルバッテリーで動作可能で、出先でのデモや機能紹介に好適です。
 
-* 本体サイズ：147x160x147mm（上部ヘッド、チューブ凸除く）
-* 印刷サイズ：66x70x66mm
+* 本体サイズ：203x215x203mm（上部ヘッド、チューブ凸除く）
+* 印刷サイズ：120x120x120mm
 
-![](/images/Fraxinus00w3-1.jpg)
+![](/images/Fraxinus0w-rev2.jpg)
 
 ## Fraxinus1k
 
