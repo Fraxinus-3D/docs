@@ -194,3 +194,8 @@ lazy = true
 [[params.plugins.js]]
 link = "js/custom.js"
 lazy = true
+
+######################## Slider / Testimonial params ########################
+[params.testimonial]
+# Autoplay delay in milliseconds for testimonial slider (0 to disable autoplay)
+autoplayDelay = 5000
