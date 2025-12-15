@@ -3,7 +3,8 @@ title: Home
 description: Fraxinus（フラクシネス）公式サイトです。FraxinusはCoreXY型のコンパクトな3Dプリンタです。
 # Banner
 banner:
-  title: "Fraxinus -- Fast and Compact"
+  title: "Fraxinus"
+  subtitle: "— Fast and Compact —"
   content: "
 Fraxinus（フラクシネス）は造形サイズと比較しコンパクトで高速動作を実現した3Dプリンタなどのデジタル加工機です。
 [エンクロージャ版](../docs/enclosure)、[トライデント版](../docs/trident)、[フライングガントリ版](../docs/flying-gantry)、[マイクロ3Dプリンタ](../docs/micro-printers)などあり、 さまざまな方々がハードウェア・ソフトウェアを学びながら様々な開発や改造をしています。

@@ -69,26 +69,36 @@ $(document).ready(function(){
 
 
 jQuery(document).ready(function() {
-  // Add link button for every
-  var text, clip = new ClipboardJS('.anchor');
+  // Add link button for headings that have an id
+  var text;
   $("h1~h2,h1~h3,h1~h4,h1~h5,h1~h6").append(function(index, html){
     var element = $(this);
+    // only add anchor if the element has an id
+    var id = element[0].id;
+    if (!id || id.trim() === "") {
+      return "";
+    }
     var url = encodeURI(document.location.origin + document.location.pathname);
-    var link = url + "#"+element[0].id;
-    return " <span class='anchor' data-clipboard-text='"+link+"'>" +
+    var link = url + "#" + id;
+    return " <span class='anchor' data-clipboard-text='" + link + "'>" +
       "<i class='fas fa-link fa-lg'></i>" +
-      "</span>"
-    ;
+      "</span>";
   });
 
-  $(".anchor").on('mouseleave', function(e) {
-    $(this).attr('aria-label', null).removeClass('tooltipped tooltipped-s tooltipped-w');
-  });
+  // initialize ClipboardJS only if anchors exist
+  var $anchors = $(".anchor");
+  if ($anchors.length) {
+    var clip = new ClipboardJS('.anchor');
 
-  clip.on('success', function(e) {
+    $anchors.on('mouseleave', function(e) {
+      $(this).attr('aria-label', null).removeClass('tooltipped tooltipped-s tooltipped-w');
+    });
+
+    clip.on('success', function(e) {
       e.clearSelection();
       $(e.trigger).attr('aria-label', 'Link copied to clipboard!').addClass('tooltipped tooltipped-s');
-  });
+    });
+  }
   $('code.language-mermaid').each(function(index, element) {
     var content = $(element).html().replace(/&amp;/g, '&');
     $(element).parent().replaceWith('<div class="mermaid" align="center">' + content + '</div>');

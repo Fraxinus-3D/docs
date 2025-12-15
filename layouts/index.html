@@ -4,10 +4,20 @@
     <section class="section pt-14">
       <div class="container">
         <div class="row justify-center">
+          <div class="col-12">
+            <a href="{{ .image }}" data-featherlight="image">
+              {{ partial "image" (dict "Src" .image "Alt" "Banner image" "Loading" "eager" "Class" "mx-auto lg:!max-w-[800px]" "DisplayXL" "800x" ) }}
+            </a>
+          </div>
           <div class="lg:col-7 md:col-9 mb-8 text-center">
             <h1 class="mb-4 text-h3 lg:text-h1">
               {{ .title | markdownify }}
             </h1>
+            {{ with .subtitle }}
+              <h2 class="mb-2 text-h5 lg:text-h3">
+                {{ . | markdownify }}
+              </h2>
+            {{ end }}
             <p class="mb-8 content dark:text-darkmode-text-light">
               {{ .content | markdownify }}
             </p>
@@ -24,11 +34,6 @@
                 </a>
               {{ end }}
             {{ end }}
-          </div>
-          <div class="col-12">
-            <a href="{{ .image }}" data-featherlight="image">
-              {{ partial "image" (dict "Src" .image "Alt" "Banner image" "Loading" "eager" "Class" "mx-auto lg:!max-w-[800px]" "DisplayXL" "800x" ) }}
-            </a>
           </div>
         </div>
       </div>

@@ -1,7 +1,8 @@
 ---
 # Banner
 banner:
-  title: "Fraxinus -- Fast and Compact"
+  title: "Fraxinus"
+  subtitle: "- Fast and Compact -"
   content: "Fraxinus is a compact and high-speed CoreXY 3D printer and digital fabrication machine project. We have various versions like the [Enclosure](./docs/enclosure), [Trident](./docs/trident), [Flying Gantry](./docs/flying-gantry), and [Micro 3D Printer](./docs/micro-printers). Many people are enjoying learning hardware and software through development and customization. If you are interested, we would love for you to join us, share knowledge, and connect with others who share your passion!"
   image: "/images/Fraxinus-5.jpg"
   button:
