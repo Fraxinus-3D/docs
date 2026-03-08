@@ -75,3 +75,23 @@ Notes:
 
 - Hugo modules may need network access during build setup.
 - A Hugo module compatibility warning may appear; successful site generation is the primary check.
+
+## Pull Requests
+
+- If an agent creates or updates a PR body, append this footer at the end:
+- State the actual agent/tool name used to create the PR body.
+- State the actual model name used for that PR. Do not hardcode a fixed model name.
+
+```md
+🤖 Generated with [<actual agent/tool name>](<actual agent/tool URL>) using <actual model name>
+```
+
+Examples:
+
+```md
+🤖 Generated with [OpenAI Codex](https://openai.com/codex) using <actual model name>
+```
+
+```md
+🤖 Generated with [Claude Code](https://claude.com/claude-code) using <actual model name>
+```
