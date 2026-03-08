@@ -1,19 +1,55 @@
-# {{ .Site.Title }}
+# {{ site.Title }}
 
-> {{ .Site.Params.Description }}
+> Official Fraxinus documentation for fast and compact CoreXY 3D printers and related digital fabrication machines.
 
-## Articles
-{{ $yearMonthGroups := slice -}}
-{{ range where (where (sort (.Site.GetPage "/docs").Pages "Date" "desc") "Draft" "ne" true) "Sitemap.Disable" "ne" true -}}
-{{ $yearMonth := .Date.Format "2006/01" -}}
-{{ if not (in $yearMonthGroups $yearMonth) }}
-* {{ $yearMonth -}}
-{{ $yearMonthGroups = $yearMonthGroups | append $yearMonth -}}
+{{- $defaultSite := index site.Sites 0 -}}
+{{- $englishSite := site -}}
+{{- range site.Sites -}}{{- if eq .Language.Lang "en" -}}{{- $englishSite = . -}}{{- end -}}{{- end -}}
+{{- $aboutJa := $defaultSite.GetPage "/pages/about" -}}
+{{- $docsJa := $defaultSite.GetPage "/docs" -}}
+{{- $assemblyJa := $defaultSite.GetPage "/docs/assembly/about" -}}
+{{- $communityJa := $defaultSite.GetPage "/docs/community" -}}
+{{- $enclosureJa := $defaultSite.GetPage "/docs/enclosure" -}}
+{{- $tridentJa := $defaultSite.GetPage "/docs/trident" -}}
+{{- $flyingJa := $defaultSite.GetPage "/docs/flying-gantry" -}}
+{{- $microJa := $defaultSite.GetPage "/docs/micro-printers" -}}
+{{- $aboutEn := $englishSite.GetPage "/pages/about" -}}
+{{- $docsEn := $englishSite.GetPage "/docs" -}}
+{{- $assemblyEn := $englishSite.GetPage "/docs/assembly/about" -}}
+{{- $communityEn := $englishSite.GetPage "/docs/community" -}}
+{{- $enclosureEn := $englishSite.GetPage "/docs/enclosure" -}}
+{{- $tridentEn := $englishSite.GetPage "/docs/trident" -}}
+{{- $flyingEn := $englishSite.GetPage "/docs/flying-gantry" -}}
+{{- $microEn := $englishSite.GetPage "/docs/micro-printers" -}}
+
+## Project Summary
+* Fraxinus is the official documentation site for the Fraxinus Project, a fast and compact CoreXY 3D printer and digital fabrication machine project.
+* The most authoritative pages are the home page, About page, model overview pages, assembly guides, and community page on this site.
+* Pages are published in Japanese and English. Japanese pages are the primary source for the original project context, with English translations provided for major overview and documentation pages.
+
+## Primary Japanese Pages
+{{ with $aboutJa }}* [{{ .Title }}]({{ .Permalink }}): {{ .Params.summary | default .Params.description }}{{ end }}
+{{ with $docsJa }}* [{{ .Title }}]({{ .Permalink }}): {{ .Params.summary | default .Params.description }}{{ end }}
+{{ with $assemblyJa }}* [{{ .Title }}]({{ .Permalink }}): {{ .Params.summary | default .Params.description }}{{ end }}
+{{ with $communityJa }}* [{{ .Title }}]({{ .Permalink }}): {{ .Params.summary | default .Params.description }}{{ end }}
+
+## Primary English Pages
+{{ with $aboutEn }}* [{{ .Title }}]({{ .Permalink }}): {{ .Params.summary | default .Params.description }}{{ end }}
+{{ with $docsEn }}* [{{ .Title }}]({{ .Permalink }}): {{ .Params.summary | default .Params.description }}{{ end }}
+{{ with $assemblyEn }}* [{{ .Title }}]({{ .Permalink }}): {{ .Params.summary | default .Params.description }}{{ end }}
+{{ with $communityEn }}* [{{ .Title }}]({{ .Permalink }}): {{ .Params.summary | default .Params.description }}{{ end }}
+
+## Model Pages
+{{ with $enclosureJa }}* [JA {{ .Title }}]({{ .Permalink }}): {{ .Params.summary | default .Params.description }}{{ end }}
+{{ with $tridentJa }}* [JA {{ .Title }}]({{ .Permalink }}): {{ .Params.summary | default .Params.description }}{{ end }}
+{{ with $flyingJa }}* [JA {{ .Title }}]({{ .Permalink }}): {{ .Params.summary | default .Params.description }}{{ end }}
+{{ with $microJa }}* [JA {{ .Title }}]({{ .Permalink }}): {{ .Params.summary | default .Params.description }}{{ end }}
+{{ with $enclosureEn }}* [EN {{ .Title }}]({{ .Permalink }}): {{ .Params.summary | default .Params.description }}{{ end }}
+{{ with $tridentEn }}* [EN {{ .Title }}]({{ .Permalink }}): {{ .Params.summary | default .Params.description }}{{ end }}
+{{ with $flyingEn }}* [EN {{ .Title }}]({{ .Permalink }}): {{ .Params.summary | default .Params.description }}{{ end }}
+{{ with $microEn }}* [EN {{ .Title }}]({{ .Permalink }}): {{ .Params.summary | default .Params.description }}{{ end }}
+
+## Recent Documentation
+{{ range first 10 (where (where (sort $docsJa.RegularPages "Lastmod" "desc") "Draft" "ne" true) "Sitemap.Disable" "ne" true) }}
+* [{{ .Title }}]({{ .Permalink }}): {{ .Params.summary | default .Params.description }}
 {{ end }}
-    * [{{ .Title }}]({{ .Permalink }})
-{{- end }}
-
-## Others
-
-{{- $baseURL := .Site.BaseURL | strings.TrimSuffix "/" }}
-* [About]({{ $baseURL }}/about/): Fraxinus Projectについて

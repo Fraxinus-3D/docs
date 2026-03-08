@@ -4,6 +4,14 @@ meta_title: ""
 description: 本ページではFraxinus組み立てについて紹介します。
 draft: false
 author: "Fraxinus Project"
+summary: Fraxinus組立の概要ページです。安全上の注意、PDF版手順書、Fraxinus1k組立ステップへの入口をまとめています。
+image: /images/fraxinus-assembly-1-print-stl.jpg
+keywords:
+  - Fraxinus
+  - 組立
+  - 組立資料
+  - Fraxinus1k
+  - 3Dプリンタ
 categories:
   - 組立資料
   - 紹介資料

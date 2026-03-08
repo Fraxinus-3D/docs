@@ -1,21 +1,11 @@
+{{ $meta := partial "seo/page-meta.html" . }}
+
 <!-- base url -->
-{{ if or (eq site.BaseURL "/") (eq site.BaseURL "http://localhost:1313/") }}
-{{ else }}
+{{ if and (ne site.BaseURL "/") (ne site.BaseURL "http://localhost:1313/") }}
 <base href="{{ .Permalink }}" />
 {{ end }}
 
-
-<!-- title -->
-{{ $title := site.Title }}
-<!-- checking page meta title -->
-{{ if .Params.meta_title }}
-{{ $title = .Params.meta_title }}
-<!-- checking page title -->
-{{ else if .Params.title }}
-{{ $title = print .Params.title " - " site.Title }}
-{{ end }}
-
-<title>{{ $title }}</title>
+<title>{{ $meta.title }}</title>
 
 <!-- meta noindex -->
 {{ if .Param "noindex" }}
@@ -24,9 +14,7 @@
 
 
 <!-- meta canonical -->
-{{ with .Params.canonical }}
-<link rel="canonical" href="{{ . }}" itemprop="url" />
-{{ end }}
+<link rel="canonical" href="{{ $meta.canonical }}" itemprop="url" />
 
 
 <!-- multilingual SEO optimizations -->
@@ -34,7 +22,7 @@
 {{ range .AllTranslations }}
 <link rel="alternate" hreflang="{{ .Lang }}" href="{{ .Permalink }}" />
 {{ end }}
-<link rel="alternate" hreflang="x-default" href="{{ .Permalink }}" />
+<link rel="alternate" hreflang="x-default" href="{{ $meta.x_default_url }}" />
 {{ end }}
 
 
@@ -47,7 +35,7 @@
 
 
 <!-- meta description -->
-<meta name="description" content="{{ .Params.description | default site.Params.metadata.description }}" />
+<meta name="description" content="{{ $meta.description }}" />
 
 <!-- meta author -->
 {{ with site.Params.metadata.author }}
@@ -55,108 +43,41 @@
 {{ end }}
 
 
-<!-- checking og description -->
-{{ $description := .Summary }}
-{{ if .Params.meta_description }}
-{{ $description = .Params.meta_description }}
-<!-- checking page description -->
-{{ else if .Params.description }}
-{{ $description = .Params.description }}
-<!-- checking page description -->
-{{ else if site.Params.metadata.description }}
-{{ $description = site.Params.metadata.description }}
-{{ end }}
-
-
-<!-- checking og image -->
-{{ $imagePath := site.Params.metadata.image }}
-{{ if .Params.meta_image }}
-{{ $imagePath = .Params.meta_image }}
-<!-- checking multiple images -->
-{{ else if .Params.images }}
-{{ range first 1 .Params.images }}
-{{ $imagePath = . }}
-{{ end }}
-<!-- checking single images -->
-{{ else if .Params.image }}
-{{ $imagePath = .Params.image }}
-{{ end }}
-
-
 <!-- ######### Opengraph and Twitter image meta ############## -->
-
-<!-- check cdn/static image -->
-{{ if or (hasPrefix $imagePath "http") (fileExists (add `static/` (string $imagePath))) }}
+{{ with $meta.image_url }}
 <meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:image" content="{{ $imagePath | absURL }}" />
-<meta property="og:image" content="{{ $imagePath | absURL }}" />
-{{ else }}
-<!-- check cdn/static image -->
-
-<!-- content and assets image path variable -->
-{{ $contentImage:= .Resources.GetMatch (printf "*%s*" $imagePath) }}
-{{ $assetImage:= fileExists (add `assets/` (string $imagePath)) }}
-
-
-<!-- check image existence -->
-{{ if or $contentImage $assetImage }}
-<!-- content or assets folder detection -->
-{{ if $contentImage }}
-{{ .Scratch.Set "image-exists" $contentImage }}
-{{ else if $assetImage }}
-{{ .Scratch.Set "image-exists" (resources.Get $imagePath) }}
+<meta name="twitter:image" content="{{ . }}" />
+<meta name="twitter:image:alt" content="{{ $meta.image_alt }}" />
+<meta property="og:image" content="{{ . }}" />
+<meta property="og:image:alt" content="{{ $meta.image_alt }}" />
 {{ end }}
-
-{{ $image:= .Scratch.Get "image-exists" }}
-
-
-<!-- image extension -->
-{{ $imageExt:= path.Ext $image }}
-
-
-<!-- If not SVG  -->
-{{ if ne $imageExt `.svg` }}
-{{ $imageWidth := $image.Width }}
-{{ $imageHeight := $image.Height }}
-{{ if (and (gt $imageWidth 144) (gt $imageHeight 144)) }}
-<meta property="og:image" content="{{ $image.Permalink }}" />
-<meta name="twitter:image" content="{{ $image.Permalink }}" />
-<meta name="twitter:card"
-  content="{{- if (and (gt $imageWidth 300) (gt $imageHeight 157) (not (eq $imageWidth $imageHeight))) -}}summary_large_image{{- else -}}summary{{- end -}}" />
-{{ end }}
-<!-- /if image gt 144px -->
-<meta property="og:image:width" content="{{ $imageWidth }}" />
-<meta property="og:image:height" content="{{ $imageHeight }}" />
-{{ end }}
-
-
-<!-- /if not svg -->
-<meta property="og:image:type" content="image/{{- if eq $imageExt `.svg` -}}
-        svg+xml
-      {{- else -}}
-        {{- replaceRE `^jpg$` `jpeg` $imageExt -}}
-      {{- end -}}" />
-{{ end }}
-
-
-<!-- /if image exist -->
-{{ end }}
-<!-- /check cdn/static image -->
 <!-- ######### /Opengraph and Twitter image meta ############## -->
 
 <!-- ######### opengraph others meta ############## -->
-<meta property="og:title" content="{{ $title }}" />
-<meta property="og:description" content="{{ $description }}" />
-<meta property="og:type" content="website" />
+<meta property="og:title" content="{{ $meta.title }}" />
+<meta property="og:description" content="{{ $meta.description }}" />
+<meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}" />
 <meta property="og:url" content="{{ .Permalink }}" />
+<meta property="og:site_name" content="{{ site.Title }}" />
+<meta property="og:locale" content="{{ $meta.og_locale }}" />
+{{ if .IsTranslated }}
+  {{ range .AllTranslations }}
+    {{ if ne .Lang $.Lang }}
+      {{ $translationMeta := partial "seo/page-meta.html" . }}
+<meta property="og:locale:alternate" content="{{ $translationMeta.og_locale }}" />
+    {{ end }}
+  {{ end }}
+{{ end }}
+{{ if .IsPage }}
+<meta property="article:published_time" content="{{ .PublishDate.Format "2006-01-02T15:04:05Z07:00" }}" />
+<meta property="article:modified_time" content="{{ .Lastmod.Format "2006-01-02T15:04:05Z07:00" }}" />
+{{ end }}
 
 <!-- ########## twitter others meta ############### -->
-<meta name="twitter:title" content="{{ $title }}" />
-<meta name="twitter:description" content="{{ $description }}" />
+<meta name="twitter:title" content="{{ $meta.title }}" />
+<meta name="twitter:description" content="{{ $meta.description }}" />
 
 {{ with site.Params.metadata.twitter }}
 <meta name="twitter:site" content="@{{ . }}" />
-{{ end }}
-{{ with site.Params.metadata.author }}
 <meta name="twitter:creator" content="@{{ . }}" />
 {{ end }}

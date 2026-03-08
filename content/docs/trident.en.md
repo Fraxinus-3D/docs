@@ -5,6 +5,14 @@ description: This page introduces the trident version of Fraxinus.
 draft: false
 slug: trident
 author: "Fraxinus Project"
+summary: Overview page for the Fraxinus t-series. It covers the main models that use the trident-style bed adjustment mechanism.
+image: /images/Fraxinus5ts.jpg
+keywords:
+  - Fraxinus
+  - trident
+  - Fraxinus5ts
+  - CoreXY
+  - 3D printer
 categories:
   - Fraxinus Introduction
 tags:
@@ -17,7 +25,7 @@ date: 2023-07-06T09:28:10+09:00
 lastmod: 2025-05-27T10:44:46+09:00
 ---
 
-Fraxinus's t series is equipped with a trident-type bed adjustment mechanism.
+Fraxinus's t series is equipped with a trident-type bed adjustment mechanism. For larger custom examples and derivatives, also see the [community page](/en/docs/community/).
 
 <!-- Fraxinus1t -->
 <div style="width: 100%; aspect-ratio: 1.33;">
@@ -30,20 +38,20 @@ Fraxinus's t series is equipped with a trident-type bed adjustment mechanism.
 
 ## Fraxinus1tc2
 
-![](/images/Fraxinus1tc2-photo-1.jpg)
+![Fraxinus1tc2 printer photo](/images/Fraxinus1tc2-photo-1.jpg)
 
 ## Fraxinus3tc
 
-![](/images/Fraxinus3tc-photo-1.jpg)
+![Fraxinus3tc printer photo](/images/Fraxinus3tc-photo-1.jpg)
 
 ## Fraxinus1tcl
 
-![](/images/Fraxinus1tcl.jpg)
+![Fraxinus1tcl printer photo](/images/Fraxinus1tcl.jpg)
 
 ## Fraxinus3tcl
 
-![](/images/Fraxinus3tcl.jpg)
+![Fraxinus3tcl printer photo](/images/Fraxinus3tcl.jpg)
 
 ## Fraxinus5ts
 
-![](/images/Fraxinus5ts.jpg)
+![Fraxinus5ts printer photo](/images/Fraxinus5ts.jpg)
