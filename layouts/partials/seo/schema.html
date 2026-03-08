@@ -1,0 +1,79 @@
+{{- $meta := partial "seo/page-meta.html" . -}}
+{{- $schemas := slice -}}
+{{- $sameAs := slice -}}
+{{- with site.Data.social.main -}}
+  {{- range . -}}
+    {{- with .link -}}
+      {{- $sameAs = $sameAs | append . -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+
+{{- $organization := dict
+  "@context" "https://schema.org"
+  "@type" "Organization"
+  "name" site.Title
+  "url" site.Home.Permalink
+  "logo" (site.Params.logo | absURL)
+  "sameAs" $sameAs
+-}}
+
+{{- if .IsHome -}}
+  {{- $website := dict
+    "@context" "https://schema.org"
+    "@type" "WebSite"
+    "name" site.Title
+    "url" site.Home.Permalink
+    "description" $meta.description
+    "inLanguage" site.Language.Lang
+  -}}
+  {{- $schemas = $schemas | append $website | append $organization -}}
+{{- end -}}
+
+{{- if not .IsHome -}}
+  {{- $breadcrumbItems := slice (dict "@type" "ListItem" "position" 1 "name" (T "home" | default "Home") "item" site.Home.Permalink) -}}
+  {{- $position := 2 -}}
+  {{- range .Ancestors.Reverse -}}
+    {{- if and (not .IsHome) (ne .Title "Pages") -}}
+      {{- $breadcrumbItems = $breadcrumbItems | append (dict "@type" "ListItem" "position" $position "name" .Title "item" .Permalink) -}}
+      {{- $position = add $position 1 -}}
+    {{- end -}}
+  {{- end -}}
+  {{- $breadcrumbItems = $breadcrumbItems | append (dict "@type" "ListItem" "position" $position "name" .Title "item" .Permalink) -}}
+  {{- $breadcrumb := dict
+    "@context" "https://schema.org"
+    "@type" "BreadcrumbList"
+    "itemListElement" $breadcrumbItems
+  -}}
+  {{- $schemas = $schemas | append $breadcrumb -}}
+{{- end -}}
+
+{{- if .IsPage -}}
+  {{- $articleType := "Article" -}}
+  {{- if eq .Section "docs" -}}
+    {{- $articleType = "TechArticle" -}}
+  {{- end -}}
+  {{- $article := dict
+    "@context" "https://schema.org"
+    "@type" $articleType
+    "headline" $meta.title
+    "description" $meta.description
+    "url" .Permalink
+    "mainEntityOfPage" .Permalink
+    "inLanguage" .Site.Language.Lang
+    "datePublished" (.PublishDate.Format "2006-01-02T15:04:05Z07:00")
+    "dateModified" (.Lastmod.Format "2006-01-02T15:04:05Z07:00")
+    "author" (dict "@type" "Organization" "name" (.Params.author | default site.Params.metadata.author))
+    "publisher" (dict "@type" "Organization" "name" site.Title "logo" (dict "@type" "ImageObject" "url" (site.Params.logo | absURL)))
+  -}}
+  {{- with $meta.image_url -}}
+    {{- $article = merge $article (dict "image" (slice .)) -}}
+  {{- end -}}
+  {{- $schemas = $schemas | append $article -}}
+{{- end -}}
+
+{{- range $schemas -}}
+  <script type="application/ld+json">
+    {{- . | jsonify (dict "indent" "  ") | safeJS -}}
+  </script>
+{{- end -}}

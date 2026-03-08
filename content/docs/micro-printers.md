@@ -5,6 +5,14 @@ description: 本ページではFraxinusプロジェクトのマイクロ3Dプリ
 draft: false
 slug: micro-printers
 author: "Fraxinus Project"
+summary: Fraxinusのマイクロ3Dプリンタ系列を紹介するページです。Fraxinus00からFraxinus0wまでの小型モデルを一覧できます。
+image: /images/Fraxinus0-front-view.jpg
+keywords:
+  - Fraxinus
+  - マイクロ3Dプリンタ
+  - Fraxinus00
+  - Fraxinus0w
+  - CoreXY
 categories:
   - Fraxinus紹介
 tags:
@@ -17,7 +25,7 @@ date: 2024-11-10T14:01:52+09:00
 lastmod: 2024-11-18T02:00:10+09:00
 ---
 
-Fraxinusシリーズはアクリルフレームを用いた、コンパクトで出先でのデモや機能紹介に好適なCoreXY構造のマイクロ3Dプリンタです。
+Fraxinusシリーズはアクリルフレームを用いた、コンパクトで出先でのデモや機能紹介に好適なCoreXY構造のマイクロ3Dプリンタです。コミュニティ由来の派生機は[コミュニティ](/docs/community/)も参照してください。
 
 現在5種類（00, 00w, 00w2, 00w3, 0w）あります。
 
@@ -29,7 +37,7 @@ Fraxinusシリーズはアクリルフレームを用いた、コンパクトで
 
 そのほかにも[コミュニティメンバーが設計製作したプリンタ](../community)もあります。
 
-![](/images/Fraxinus0-front-view.jpg)
+![Fraxinusマイクロ3Dプリンタ系列の前面比較画像](/images/Fraxinus0-front-view.jpg)
 
 <!-- Fraxinus00w3 -->
 <div style="width: 100%; aspect-ratio: 1.33;">
@@ -51,38 +59,38 @@ Fraxinusシリーズはアクリルフレームを用いた、コンパクトで
 
 ## Fraxinus00
 
-![](/images/Fraxinus00.jpg)
+![Fraxinus00の外観レンダリング画像](/images/Fraxinus00.jpg)
 
-![](/images/Fraxinus00-photo-1.jpg)
+![Fraxinus00の実機写真 1](/images/Fraxinus00-photo-1.jpg)
 
-![](/images/Fraxinus00-photo-2.jpg)
+![Fraxinus00の実機写真 2](/images/Fraxinus00-photo-2.jpg)
 
 ## Fraxinus00w
 
-![](/images/Fraxinus00w.jpg)
+![Fraxinus00wの外観画像](/images/Fraxinus00w.jpg)
 
-![](/images/Fraxinus00w-photo-1.jpg)
+![Fraxinus00wの実機写真](/images/Fraxinus00w-photo-1.jpg)
 
 ## Fraxinus00w2
 
-![](/images/Fraxinus00w2.jpg)
+![Fraxinus00w2の外観画像](/images/Fraxinus00w2.jpg)
 
-![](/images/Fraxinus00w2-photo-1.jpg)
+![Fraxinus00w2の実機写真](/images/Fraxinus00w2-photo-1.jpg)
 
-![](/images/Fraxinus00w2-compare.jpg)
+![Fraxinus00w2の比較画像](/images/Fraxinus00w2-compare.jpg)
 
 ## Fraxinus00w3
 
-![](/images/Fraxinus00w3-1.jpg)
+![Fraxinus00w3の外観画像 1](/images/Fraxinus00w3-1.jpg)
 
-![](/images/Fraxinus00w3-2.jpg)
+![Fraxinus00w3の外観画像 2](/images/Fraxinus00w3-2.jpg)
 
-![](/images/Fraxinus00w3-photo-1.jpg)
+![Fraxinus00w3の実機写真](/images/Fraxinus00w3-photo-1.jpg)
 
 ## Fraxinus0w
 
-![](/images/Fraxinus0w-rev1.jpg)
+![Fraxinus0w rev1の外観画像](/images/Fraxinus0w-rev1.jpg)
 
-![](/images/Fraxinus0w-rev2.jpg)
+![Fraxinus0w rev2の外観画像](/images/Fraxinus0w-rev2.jpg)
 
-![](/images/Fraxinus0w-compare.jpg)
+![Fraxinus0wの比較画像](/images/Fraxinus0w-compare.jpg)

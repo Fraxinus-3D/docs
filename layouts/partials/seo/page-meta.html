@@ -1,0 +1,76 @@
+{{- $page := . -}}
+{{- $title := site.Title -}}
+{{- if $page.Params.meta_title -}}
+  {{- $title = $page.Params.meta_title -}}
+{{- else if and (not $page.IsHome) $page.Params.title -}}
+  {{- $title = print $page.Params.title " - " site.Title -}}
+{{- end -}}
+
+{{- $description := site.Params.metadata.description -}}
+{{- with $page.Params.summary -}}
+  {{- $description = . -}}
+{{- end -}}
+{{- with $page.Params.description -}}
+  {{- $description = . -}}
+{{- end -}}
+{{- with $page.Params.meta_description -}}
+  {{- $description = . -}}
+{{- end -}}
+{{- $description = $description | plainify | htmlUnescape | strings.TrimSpace -}}
+
+{{- $imagePath := site.Params.metadata.image -}}
+{{- with $page.Params.banner.image -}}
+  {{- $imagePath = . -}}
+{{- end -}}
+{{- with $page.Params.image -}}
+  {{- $imagePath = . -}}
+{{- end -}}
+{{- with $page.Params.images -}}
+  {{- $imagePath = index . 0 -}}
+{{- end -}}
+{{- with $page.Params.meta_image -}}
+  {{- $imagePath = . -}}
+{{- end -}}
+
+{{- $imageURL := "" -}}
+{{- with $imagePath -}}
+  {{- if hasPrefix . "http" -}}
+    {{- $imageURL = . -}}
+  {{- else -}}
+    {{- $imageURL = . | absURL -}}
+  {{- end -}}
+{{- end -}}
+
+{{- $imageAlt := $page.Title | default site.Title -}}
+{{- with $page.Params.banner.image_alt -}}
+  {{- $imageAlt = . -}}
+{{- end -}}
+
+{{- $canonical := $page.Params.canonical | default $page.Permalink -}}
+{{- $defaultLang := "" -}}
+{{- with index site.Sites 0 -}}
+  {{- $defaultLang = .Language.Lang -}}
+{{- end -}}
+{{- $xDefaultURL := $canonical -}}
+{{- if $page.IsTranslated -}}
+  {{- range $page.AllTranslations -}}
+    {{- if eq .Lang $defaultLang -}}
+      {{- $xDefaultURL = .Permalink -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+
+{{- $localeMap := dict "ja-jp" "ja_JP" "en-us" "en_US" -}}
+{{- $languageCode := lower ($page.Site.LanguageCode | default $page.Site.Language.Lang) -}}
+{{- $ogLocale := index $localeMap $languageCode | default (replace $languageCode "-" "_") -}}
+
+{{- return (dict
+  "title" $title
+  "description" $description
+  "image_path" $imagePath
+  "image_url" $imageURL
+  "image_alt" $imageAlt
+  "canonical" $canonical
+  "x_default_url" $xDefaultURL
+  "og_locale" $ogLocale
+) -}}

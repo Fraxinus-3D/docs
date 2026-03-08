@@ -4,6 +4,14 @@ meta_title: ""
 description: This page introduces how to assemble Fraxinus.
 draft: false
 author: "Fraxinus Project"
+summary: Overview page for assembling Fraxinus. It gathers safety notes, PDF manuals, and the main entry points for the Fraxinus1k build steps.
+image: /images/fraxinus-assembly-1-print-stl.jpg
+keywords:
+  - Fraxinus
+  - assembly guide
+  - build guide
+  - Fraxinus1k
+  - CoreXY
 categories:
   - Assembly Guide
   - Introduction Materials

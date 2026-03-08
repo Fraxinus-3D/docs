@@ -3,7 +3,7 @@
     <div class="container">
       <div class="row justify-center">
         <article class="lg:col-10">
-          {{ $image:= .Params.image }}
+          {{ $image:= .Params.page_image }}
           {{ if $image }}
             <div class="mb-10">
               {{ partial "image" (dict "Src" $image "Context" .Page "Alt" .Title "Class" "w-full rounded") }}
