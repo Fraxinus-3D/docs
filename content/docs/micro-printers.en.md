@@ -35,6 +35,14 @@ There are 5 types of compact CoreXY micro 3D printers using acrylic frames, suit
 
 In addition, there are also [printers designed and built by community members](../community).
 
+| Model | Body Size (mm) | Print Size | Power | Key Feature |
+|-------|---------------|------------|-------|-------------|
+| 00 | 160×157×194 | 70 mm cube | USB-PD / mobile battery (external) | Original model |
+| 00w | 153×152×176 | 70 mm cube | USB-PD / mobile battery (internal) | Fully self-contained with built-in battery |
+| 00w2 | 147×152×162 | 66 mm cube | USB-PD (external) | Touch screen, more compact |
+| 00w3 | 147×160×147 | 66 mm cube | USB-PD (external) | Further height reduction, redesigned gantry |
+| 0w | 203×215×203 | 120 mm cube | USB-PD / mobile battery | Larger print volume |
+
 ![Front comparison image of the Fraxinus micro printer lineup](/images/Fraxinus0-front-view.jpg)
 
 <!-- Fraxinus00w3 -->
@@ -57,6 +65,8 @@ Includes models under the following licenses.
 
 ## Fraxinus00
 
+The original model in the series. It has a 70 mm cube print volume and runs on USB-PD power or an external mobile battery.
+
 ![Fraxinus00 render image](/images/Fraxinus00.jpg)
 
 ![Fraxinus00 real build photo 1](/images/Fraxinus00-photo-1.jpg)
@@ -65,11 +75,15 @@ Includes models under the following licenses.
 
 ## Fraxinus00w
 
+This model can house a mobile battery internally, making it fully self-contained for on-the-go use. The tradeoff is a slightly larger body size, but the print volume remains the same 70 mm cube as the 00.
+
 ![Fraxinus00w render image](/images/Fraxinus00w.jpg)
 
 ![Fraxinus00w real build photo](/images/Fraxinus00w-photo-1.jpg)
 
 ## Fraxinus00w2
+
+By removing the built-in battery and relying on an external USB-PD power supply, the body is even more compact. It also features a touch screen for easier operation. The print size is slightly smaller at 66 mm cube.
 
 ![Fraxinus00w2 render image](/images/Fraxinus00w2.jpg)
 
@@ -79,6 +93,8 @@ Includes models under the following licenses.
 
 ## Fraxinus00w3
 
+Keeps the same 66 mm cube print size as the 00w2 while further reducing the body height (162 mm to 147 mm). A redesigned gantry structure achieves an even more compact form factor.
+
 ![Fraxinus00w3 render image 1](/images/Fraxinus00w3-1.jpg)
 
 ![Fraxinus00w3 render image 2](/images/Fraxinus00w3-2.jpg)
@@ -86,6 +102,8 @@ Includes models under the following licenses.
 ![Fraxinus00w3 real build photo](/images/Fraxinus00w3-photo-1.jpg)
 
 ## Fraxinus0w
+
+The largest micro printer in the series with a 120 mm cube print volume. It offers the same build area as a VORON v0.2 in a slightly smaller body.
 
 ![Fraxinus0w rev1 render image](/images/Fraxinus0w-rev1.jpg)
 
