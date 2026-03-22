@@ -28,6 +28,7 @@
   var testimonialOptions = {
     spaceBetween: 24,
     loop: true,
+    centeredSlides: true,
     pagination: {
       el: ".testimonial-slider-pagination",
       type: "bullets",
@@ -35,10 +36,10 @@
     },
     breakpoints: {
       768: {
-        slidesPerView: 2,
+        slidesPerView: 2.2,
       },
       992: {
-        slidesPerView: 3,
+        slidesPerView: 3.2,
       },
     },
   };
