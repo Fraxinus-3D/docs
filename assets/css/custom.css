@@ -46,3 +46,48 @@
   }
 }
 /* end for header logo image */
+
+/* Dark Band + Glassmorphism Carousel */
+.variations-dark-band {
+  padding: 1rem 0;
+}
+
+.variations-dark-band .variation-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.variations-dark-band .variation-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 16px 32px rgba(0, 0, 0, 0.3);
+}
+
+/* Active slide emphasis */
+.variations-dark-band .swiper-slide-active .variation-card {
+  transform: scale(1.03);
+  border-color: rgba(255, 255, 255, 0.35);
+}
+
+/* Pagination bullets for dark background */
+.variations-dark-band .swiper-pagination-bullet {
+  background: rgba(255, 255, 255, 0.5) !important;
+}
+
+.variations-dark-band .swiper-pagination-bullet-active {
+  background: #ff6b35 !important;
+}
+
+/* Glassmorphism fallback for browsers without backdrop-blur */
+@supports not (backdrop-filter: blur(12px)) {
+  .variations-dark-band .variation-card {
+    background: rgba(30, 30, 30, 0.85);
+  }
+}
+
+/* Link colors inside dark band */
+.variations-dark-band .content a {
+  color: #ff6b35;
+}
+
+.variations-dark-band .content a:hover {
+  color: #00d4ff;
+}
