@@ -1,0 +1,37 @@
+{{- if hugo.IsMultilingual -}}
+{{- $translations := dict -}}
+{{- range .AllTranslations -}}
+  {{- $translations = merge $translations (dict .Lang .RelPermalink) -}}
+{{- end -}}
+{{- $currentLang := .Lang -}}
+{{- $defaultLang := site.Language.Lang -}}
+{{- with index site.Sites 0 -}}
+  {{- $defaultLang = .Language.Lang -}}
+{{- end -}}
+<script>
+  (() => {
+    const manualLangKey = "fraxinus.lang";
+    const autoCheckedKey = "fraxinus.autoLanguageChecked";
+    const currentLang = {{ $currentLang | jsonify | safeJS }};
+    const defaultLang = {{ $defaultLang | jsonify | safeJS }};
+    const translations = {{ $translations | jsonify | safeJS }};
+
+    try {
+      if (localStorage.getItem(manualLangKey)) return;
+      if (sessionStorage.getItem(autoCheckedKey)) return;
+      sessionStorage.setItem(autoCheckedKey, "1");
+    } catch {
+      return;
+    }
+
+    const browserLang = navigator.languages?.[0] || navigator.language || "";
+    const targetLang = browserLang.toLowerCase().startsWith("ja")
+      ? defaultLang
+      : "en";
+    const targetPath = translations[targetLang];
+
+    if (!targetPath || targetLang === currentLang) return;
+    location.replace(targetPath);
+  })();
+</script>
+{{- end -}}

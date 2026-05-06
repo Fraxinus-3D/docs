@@ -13,7 +13,9 @@
   {{ $pageTranslations.Set .Language.Lang .RelPermalink }}
 {{ end }}
 
-<select class="{{ $class }}" onchange="location = this.value">
+<select
+  class="{{ $class }}"
+  onchange="try { localStorage.setItem('fraxinus.lang', this.options[this.selectedIndex].id); } catch (e) {} location = this.value">
   {{ range site.Languages }}
     {{/* Fill the dropdown with all known languages */}}
     {{ $link := $pageTranslations.Get .Lang }}
