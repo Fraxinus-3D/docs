@@ -40,13 +40,13 @@ In addition, there are also [printers designed and built by community members](.
 
 | Model | Body Size (mm) | Print Size | Power | Key Feature |
 |-------|---------------|------------|-------|-------------|
-| 00 | 160×157×194 | 70 mm cube | USB-PD / mobile battery (external) | Original model |
+| 00 | 160×157×194 | 70 mm cube | USB-PD / mobile battery (can be internal) | Original model |
 | 00w | 153×152×176 | 70 mm cube | USB-PD / mobile battery (internal) | Fully self-contained with built-in battery |
-| 00w2 | 147×152×162 | 66 mm cube | USB-PD (external) | Touch screen, more compact |
-| 00w3 | 147×160×147 | 66 mm cube | USB-PD (external) | Further height reduction, redesigned gantry |
-| 00w3 (mold) | 147×160×147 | 66 mm cube | USB-PD (external) | 3D-printed version of the 00w3 |
-| 0w | 203×215×203 | 120 mm cube | USB-PD / mobile battery | Larger print volume |
-| 0w3 | 197×215×198 | 120 mm cube | USB-PD (external) | Larger print volume derived from the 00w3 |
+| 00w2 | 147×152×162 | 66 mm cube | USB-PD / mobile battery (external) | Touch screen, more compact |
+| 00w3 | 147×160×147 | 66 mm cube | USB-PD / mobile battery (external) | Further height reduction, redesigned gantry |
+| 00w3 (mold) | 147×160×147 | 66 mm cube | USB-PD / mobile battery (external) | 3D-printed version of the 00w3 |
+| 0w | 203×215×203 | 120 mm cube | USB-PD / mobile battery (can be internal) | Larger print volume |
+| 0w3 | 197×215×198 | 120 mm cube | USB-PD / mobile battery (external) | Larger print volume derived from the 00w3 |
 
 ![Front comparison image of the Fraxinus micro printer lineup](/images/Fraxinus0-front-view.jpg)
 
