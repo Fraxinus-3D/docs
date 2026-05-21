@@ -103,3 +103,17 @@ Fraxinus project version of Kuromi, a delta 3D printer designed by Chahan
 ![Fukumi delta printer photo](/images/community/Fukumi.jpg)
 
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">Kuromiのコンパクト版 "Fukumi"、ホットエンドとエクスローダーが届いて組み込め、印刷開始できるようになりました！以下はXYZ Cube印刷中の様子。 <a href="https://t.co/vlKAaugU5v">pic.twitter.com/vlKAaugU5v</a></p>&mdash; 福馬 洋平 (@fukumay1) <a href="https://twitter.com/fukumay1/status/1789533246575055008?ref_src=twsrc%5Etfw">May 12, 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+
+### Printers Related to the Fraxinus Community
+
+In addition to custom machines directly based on Fraxinus, this section introduces compact 3D printers connected to knowledge and design ideas shared through the Fraxinus community.
+
+#### SM-100
+
+Compact CoreXY 3D printer designed by c-bata and powered entirely by 100W USB PD ([GitHub](https://github.com/c-bata/SM-100)). Based on experience from the Fraxinus 00 series and the Fraxinus community, SM-100 focuses on a compact footprint for small living spaces, cooling for motors and electronics, and improved fire safety.
+
+After completion, the printer has also been shown running in daily use.
+
+<blockquote class="twitter-tweet" data-dnt="true"><p lang="ja" dir="ltr">今日も元気に動いてくれてる <a href="https://t.co/jX6MQ5RbDq">pic.twitter.com/jX6MQ5RbDq</a></p>&mdash; c-bata (@c_bata_) <a href="https://twitter.com/c_bata_/status/2055927274499969287?ref_src=twsrc%5Etfw">May 17, 2026</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+c-bata has also shared the [build process](https://x.com/c_bata_/status/1986760952344383538) for the stainless-steel sheet-metal chassis.

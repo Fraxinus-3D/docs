@@ -103,3 +103,17 @@ MLT氏によるFraxinus5tsの[DAKSH Tool Changer](https://github.com/ankurv2k6/d
 ![Fukumiの完成写真](/images/community/Fukumi.jpg)
 
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">Kuromiのコンパクト版 ”Fukumi”、ホットエンドとエクスローダーが届いて組み込め、印刷開始できるようになりました！以下はXYZ Cube印刷中の様子。 <a href="https://t.co/vlKAaugU5v">pic.twitter.com/vlKAaugU5v</a></p>&mdash; 福馬 洋平 (@fukumay1) <a href="https://twitter.com/fukumay1/status/1789533246575055008?ref_src=twsrc%5Etfw">May 12, 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+### Fraxinusコミュニティの関連プリンタ
+
+Fraxinusを直接ベースにしたカスタム機だけでなく、コミュニティで共有された知見や設計思想と関わりのある小型3Dプリンタも紹介します。
+
+#### SM-100
+
+c-bata氏設計の、USB PD 100Wで動作する小型CoreXY 3Dプリンタ（[GitHub](https://github.com/c-bata/SM-100)）。Fraxinus 00シリーズやFraxinusコミュニティでの製作経験をもとに、狭い住環境でも常設しやすいコンパクトさ、モーターと電子部品の冷却、防火性を重視して設計されています。
+
+完成後の稼働の様子も公開されています。
+
+<blockquote class="twitter-tweet" data-dnt="true"><p lang="ja" dir="ltr">今日も元気に動いてくれてる <a href="https://t.co/jX6MQ5RbDq">pic.twitter.com/jX6MQ5RbDq</a></p>&mdash; c-bata (@c_bata_) <a href="https://twitter.com/c_bata_/status/2055927274499969287?ref_src=twsrc%5Etfw">May 17, 2026</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+ステンレス板金部品を使った筐体の[製作過程](https://x.com/c_bata_/status/1986760952344383538)も公開されています。
