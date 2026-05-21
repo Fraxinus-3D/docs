@@ -6,6 +6,7 @@
 {{- $englishSite := site -}}
 {{- range site.Sites -}}{{- if eq .Language.Lang "en" -}}{{- $englishSite = . -}}{{- end -}}{{- end -}}
 {{- $aboutJa := $defaultSite.GetPage "/pages/about" -}}
+{{- $jrrfJa := $defaultSite.GetPage "/pages/jrrf2026" -}}
 {{- $docsJa := $defaultSite.GetPage "/docs" -}}
 {{- $assemblyJa := $defaultSite.GetPage "/docs/assembly/about" -}}
 {{- $communityJa := $defaultSite.GetPage "/docs/community" -}}
@@ -14,6 +15,7 @@
 {{- $flyingJa := $defaultSite.GetPage "/docs/flying-gantry" -}}
 {{- $microJa := $defaultSite.GetPage "/docs/micro-printers" -}}
 {{- $aboutEn := $englishSite.GetPage "/pages/about" -}}
+{{- $jrrfEn := $englishSite.GetPage "/pages/jrrf2026" -}}
 {{- $docsEn := $englishSite.GetPage "/docs" -}}
 {{- $assemblyEn := $englishSite.GetPage "/docs/assembly/about" -}}
 {{- $communityEn := $englishSite.GetPage "/docs/community" -}}
@@ -29,12 +31,14 @@
 
 ## Primary Japanese Pages
 {{ with $aboutJa }}* [{{ .Title }}]({{ .Permalink }}): {{ .Params.summary | default .Params.description }}{{ end }}
+{{ with $jrrfJa }}* [{{ .Title }}]({{ .Permalink }}): {{ .Params.summary | default .Params.description }}{{ end }}
 {{ with $docsJa }}* [{{ .Title }}]({{ .Permalink }}): {{ .Params.summary | default .Params.description }}{{ end }}
 {{ with $assemblyJa }}* [{{ .Title }}]({{ .Permalink }}): {{ .Params.summary | default .Params.description }}{{ end }}
 {{ with $communityJa }}* [{{ .Title }}]({{ .Permalink }}): {{ .Params.summary | default .Params.description }}{{ end }}
 
 ## Primary English Pages
 {{ with $aboutEn }}* [{{ .Title }}]({{ .Permalink }}): {{ .Params.summary | default .Params.description }}{{ end }}
+{{ with $jrrfEn }}* [{{ .Title }}]({{ .Permalink }}): {{ .Params.summary | default .Params.description }}{{ end }}
 {{ with $docsEn }}* [{{ .Title }}]({{ .Permalink }}): {{ .Params.summary | default .Params.description }}{{ end }}
 {{ with $assemblyEn }}* [{{ .Title }}]({{ .Permalink }}): {{ .Params.summary | default .Params.description }}{{ end }}
 {{ with $communityEn }}* [{{ .Title }}]({{ .Permalink }}): {{ .Params.summary | default .Params.description }}{{ end }}

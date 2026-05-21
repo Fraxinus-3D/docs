@@ -17,7 +17,12 @@ url = "/community"
 weight = 3
 
 [[main]]
+name = "JRRF2026"
+url = "/jrrf2026"
 weight = 4
+
+[[main]]
+weight = 5
 name = "資料一覧"
 
 [[main]]
