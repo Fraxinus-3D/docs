@@ -117,3 +117,15 @@ After completion, the printer has also been shown running in daily use.
 <blockquote class="twitter-tweet" data-dnt="true"><p lang="ja" dir="ltr">今日も元気に動いてくれてる <a href="https://t.co/jX6MQ5RbDq">pic.twitter.com/jX6MQ5RbDq</a></p>&mdash; c-bata (@c_bata_) <a href="https://twitter.com/c_bata_/status/2055927274499969287?ref_src=twsrc%5Etfw">May 17, 2026</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 c-bata has also shared the [build process](https://x.com/c_bata_/status/1986760952344383538) for the stainless-steel sheet-metal chassis.
+
+#### Elk Micro
+
+Compact CoreXY 3D printer designed by Eitoku and powered by USB PD (20V, 45W or more) ([note](https://note.com/eitoku_note/n/n3164eba1a49d)). The Fraxinus 00 series was inspired by this machine. Aiming for a portable size that can even run from a mobile battery, it replaces an aluminum frame with a 3D-printed resin frame to keep the part count low. The maximum print size is 81 × 78 × 75 mm and the body weighs about 1.5 kg (excluding battery). The name comes from the two large motors on the front, which resemble a deer's antlers.
+
+It also supports printing ABS.
+
+<div style="display:flex;flex-wrap:wrap;gap:1rem;align-items:flex-start;">
+<div style="flex:1 1 320px;min-width:0;"><blockquote class="twitter-tweet" data-dnt="true"><p lang="ja" dir="ltr">自作Mini3DPrinterにバッテリを中にマウント出来るようにしました。<br>あと名称をElk Microに決めました。<br>名称の由来は、正面からの前の2つのモーターが大きなツノを連想されるので、鹿にちなんで命名しました。<br>(<a href="https://x.com/fukumay1?ref_src=twsrc%5Etfw">@fukumay1</a>さんご協力ありがとうございました) <a href="https://t.co/nU5tN0GqHR">pic.twitter.com/nU5tN0GqHR</a></p>&mdash; Eitoku (@hd1103) <a href="https://x.com/hd1103/status/1757023736035938357?ref_src=twsrc%5Etfw">February 12, 2024</a></blockquote></div>
+<div style="flex:1 1 320px;min-width:0;"><blockquote class="twitter-tweet" data-dnt="true"><p lang="ja" dir="ltr">自作ミニ3DPrinter。<br>未調整で、安定してABSが印刷出来ているのは嬉しい♪<br>色々試してみて、ABS印刷用のヒートベッドは、基本通り、アルミプレート＋マグネットシート＋ビルドプレートというのが、扱い安くて良いなぁ。<a href="https://x.com/hashtag/elkmicro?src=hash&amp;ref_src=twsrc%5Etfw">#elkmicro</a> <a href="https://t.co/wQJsdOBw5f">pic.twitter.com/wQJsdOBw5f</a></p>&mdash; Eitoku (@hd1103) <a href="https://x.com/hd1103/status/1844687342852075904?ref_src=twsrc%5Etfw">October 11, 2024</a></blockquote></div>
+</div>
+<script async src="https://platform.x.com/widgets.js" charset="utf-8"></script>
