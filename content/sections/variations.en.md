@@ -24,6 +24,21 @@ variations:
     avatar: "/images/Fraxinus00w3_21.jpg"
     content: "The Fraxinus00w3 is a micro 3D printer with a 66 mm square print area, a CoreXY structure, and can operate using USB-PD power."
 
+  - name: "Fraxinus00w4"
+    designation: "Designed by @fukumay1"
+    avatar: "/images/Fraxinus00w4-2.jpg"
+    content: "The Fraxinus00w4 is a compact CoreXY 3D printer with an 80 mm square print area that runs on USB-PD power, making it well suited to on-the-go introductions."
+
+  - name: "Fraxinus000w4"
+    designation: "Designed by @fukumay1"
+    avatar: "/images/Fraxinus000w4-photo-2.jpg"
+    content: "The Fraxinus000w4 is a compact CoreXY 3D printer with a 50 mm square print area that runs on USB-PD power, making it well suited to on-the-go introductions."
+
+  - name: "Fermion25"
+    designation: "Designed by @fukumay1"
+    avatar: "/images/Fermion25-photo-1.jpg"
+    content: "Fermion is a uniquely structured 3D printer for education and hands-on learning with a 25 mm cube print volume. Most parts can be 3D printed, and its palm-sized body makes it highly portable."
+
   - name: "Fraxinus0w"
     designation: "Designed by @fukumay1"
     avatar: "/images/Fraxinus0w-rev2.jpg"

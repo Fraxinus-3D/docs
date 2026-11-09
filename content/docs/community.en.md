@@ -21,7 +21,7 @@ slug: community
 aliases:
     - /en/community/
 date: 2025-02-15T13:19:07+09:00
-lastmod: 2025-02-15T13:19:21+09:00
+lastmod: 2026-11-09T00:00:00+09:00
 ---
 
 The Fraxinus project also involves interaction among community members.
@@ -129,3 +129,14 @@ It also supports printing ABS.
 <div style="flex:1 1 320px;min-width:0;"><blockquote class="twitter-tweet" data-dnt="true"><p lang="ja" dir="ltr">自作ミニ3DPrinter。<br>未調整で、安定してABSが印刷出来ているのは嬉しい♪<br>色々試してみて、ABS印刷用のヒートベッドは、基本通り、アルミプレート＋マグネットシート＋ビルドプレートというのが、扱い安くて良いなぁ。<a href="https://x.com/hashtag/elkmicro?src=hash&amp;ref_src=twsrc%5Etfw">#elkmicro</a> <a href="https://t.co/wQJsdOBw5f">pic.twitter.com/wQJsdOBw5f</a></p>&mdash; Eitoku (@hd1103) <a href="https://x.com/hd1103/status/1844687342852075904?ref_src=twsrc%5Etfw">October 11, 2024</a></blockquote></div>
 </div>
 <script async src="https://platform.x.com/widgets.js" charset="utf-8"></script>
+
+#### Fermion25
+
+A uniquely structured 3D printer that Fukuma redesigned with locally available parts, as both a learning experience and an engineering exercise, after watching the project video of [QUARK](https://youtu.be/JCcKdnAFfds) designed by RobertGcode. With a 25 mm cube print volume, it is well suited to education and hands-on learning. Most parts can be 3D printed, and its palm-sized body (105×104×108 mm, excluding protruding parts) makes it highly portable. Special thanks to RobertGcode for sharing such a brilliant idea.
+
+![Front three-quarter render of the blue Fermion25 with spec text showing a 25x25x25 mm print size and 105x104x108 mm body size](/images/Fermion25-1.jpg)
+![Rear render of the Fermion25 showing its pulley and belt drive mechanism](/images/Fermion25-2.jpg)
+![Photo of the blue Fermion25 placed in front of plants, front side](/images/Fermion25-photo-1.jpg)
+![Photo of the blue Fermion25 in front of plants, rear side showing the drive pulleys](/images/Fermion25-photo-2.jpg)
+
+<blockquote class="twitter-tweet" data-dnt="true"><a href="https://twitter.com/fukumay1/status/2069417794438107554?ref_src=twsrc%5Etfw">Post by Yohei Fukuma (@fukumay1)</a></blockquote> <script async src="https://platform.x.com/widgets.js" charset="utf-8"></script>
