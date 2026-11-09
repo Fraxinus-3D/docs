@@ -26,17 +26,17 @@ variations:
 
   - name: "Fraxinus00w4"
     designation: "Designed by @fukumay1"
-    avatar: "/images/Fraxinus00w4-02.jpg"
+    avatar: "/images/Fraxinus00w4-2.jpg"
     content: "Fraxinus00w4は80mm四方の印刷サイズを持ちUSB-PD電源で動作可能な、コンパクトで出先での紹介に好適なCoreXY構造の3Dプリンターです。"
 
   - name: "Fraxinus000w4"
     designation: "Designed by @fukumay1"
-    avatar: "/images/Fraxinus000w4-04.jpg"
+    avatar: "/images/Fraxinus000w4-photo-2.jpg"
     content: "Fraxinus000w4は50mm四方の印刷サイズを持ちUSB-PD電源で動作可能な、コンパクトで出先での紹介に好適なCoreXY構造の3Dプリンターです。"
 
   - name: "Fermion25"
     designation: "Designed by @fukumay1"
-    avatar: "/images/Fermion25_03.jpg"
+    avatar: "/images/Fermion25-photo-1.jpg"
     content: "Fermionは25mm□の印刷サイズを持つ、教育/学習用途に最適な独自構造の3Dプリンターです。多くの部品は3Dプリントで製作でき、掌サイズで非常に高い可搬性を誇ります。"
 
   - name: "Fraxinus0w"

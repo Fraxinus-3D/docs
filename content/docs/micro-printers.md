@@ -6,7 +6,7 @@ draft: false
 slug: micro-printers
 author: "Fraxinus Project"
 summary: Fraxinusのマイクロ3Dプリンタ系列を紹介するページです。Fraxinus000系・00系・0w系など、小型CoreXYモデルの特徴や仕様を一覧できます。
-image: /images/Fraxinus_micro_All_11.jpg
+image: /images/Fraxinus-micro-all-1.jpg
 keywords:
   - Fraxinus
   - マイクロ3Dプリンタ
@@ -58,7 +58,7 @@ Fraxinusシリーズはアクリルフレームを用いた、コンパクトで
 | 0w | 203×215×203 | 120mm角 | USB-PD / モバイルバッテリー（内蔵可） | 造形サイズ拡大モデル |
 | 0w3 | 197×215×198 | 116mm角 | USB-PD / モバイルバッテリー（外部） | 00w3派生の造形サイズ拡大モデル |
 
-![Fraxinusマイクロ3Dプリンタ系列のサイズ比較図。左からFraxinus 00tw（本体163x183x235mm、印刷□70mm）、Fermion（105x104x108mm、□25mm）、Fraxinus 000w4（95x117x95mm、□50mm）、Fraxinus 00w4（125x137x125mm、□80mm）、Fraxinus 00w3（147x160x147mm、□66mm）、Fraxinus 0w3（197x215x198mm、□116mm）を正面から並べている](/images/Fraxinus_micro_All_11.jpg)
+![Fraxinusマイクロ3Dプリンタ系列のサイズ比較図。左からFraxinus 00tw（本体163x183x235mm、印刷□70mm）、Fermion（105x104x108mm、□25mm）、Fraxinus 000w4（95x117x95mm、□50mm）、Fraxinus 00w4（125x137x125mm、□80mm）、Fraxinus 00w3（147x160x147mm、□66mm）、Fraxinus 0w3（197x215x198mm、□116mm）を正面から並べている](/images/Fraxinus-micro-all-1.jpg)
 
 <!-- Fraxinus00w3 -->
 <div style="width: 100%; aspect-ratio: 1.33;">
@@ -82,13 +82,13 @@ Fraxinusシリーズはアクリルフレームを用いた、コンパクトで
 
 50mm四方の印刷サイズを持ちUSB-PD電源で動作可能な、コンパクトで出先での紹介に好適なCoreXY構造の3Dプリンターです。本体サイズは95×117×95mm（突起部除く）で、シリーズ最小のモデルです。外部のモバイルバッテリーでも動作し、前面にタッチスクリーンを搭載しています。（[Xでの紹介ポスト](https://x.com/fukumay1/status/2069808983955964148)）
 
-![Fraxinus000w4を斜め後方から見たレンダリング画像。印刷サイズ50x50x50mm、本体サイズ95x117x95mmの仕様テキスト付き](/images/Fraxinus000w4-01.jpg)
+![Fraxinus000w4を斜め後方から見たレンダリング画像。印刷サイズ50x50x50mm、本体サイズ95x117x95mmの仕様テキスト付き](/images/Fraxinus000w4-1.jpg)
 
-![Fraxinus000w4を正面から見たレンダリング画像。前面にタッチスクリーンを搭載](/images/Fraxinus000w4-02.jpg)
+![Fraxinus000w4を正面から見たレンダリング画像。前面にタッチスクリーンを搭載](/images/Fraxinus000w4-2.jpg)
 
-![Fraxinus000w4の実機を横から撮影した写真。隣のフィラメントスプールより小さい](/images/Fraxinus000w4-03.jpg)
+![Fraxinus000w4の実機を横から撮影した写真。隣のフィラメントスプールより小さい](/images/Fraxinus000w4-photo-1.jpg)
 
-![Fraxinus000w4の実機を正面から撮影した写真。タッチスクリーンが点灯し、左にフィラメントスプールがある](/images/Fraxinus000w4-04.jpg)
+![Fraxinus000w4の実機を正面から撮影した写真。タッチスクリーンが点灯し、左にフィラメントスプールがある](/images/Fraxinus000w4-photo-2.jpg)
 
 ## Fraxinus00
 
@@ -144,9 +144,9 @@ Fraxinusシリーズはアクリルフレームを用いた、コンパクトで
 
 80mm四方の印刷サイズを持ちUSB-PD電源で動作可能な、コンパクトで出先での紹介に好適なCoreXY構造の3Dプリンターです。本体サイズは125×137×125mm（突起部除く）で、00系では最大の造形サイズです。外部のモバイルバッテリーでも動作し、前面にタッチスクリーンを搭載しています。
 
-![Fraxinus00w4を斜め後方から見たレンダリング画像。印刷サイズ80x80x80mm、本体サイズ125x137x125mmの仕様テキスト付き](/images/Fraxinus00w4-01.jpg)
+![Fraxinus00w4を斜め後方から見たレンダリング画像。印刷サイズ80x80x80mm、本体サイズ125x137x125mmの仕様テキスト付き](/images/Fraxinus00w4-1.jpg)
 
-![Fraxinus00w4を正面から見たレンダリング画像。前面にタッチスクリーンを搭載](/images/Fraxinus00w4-02.jpg)
+![Fraxinus00w4を正面から見たレンダリング画像。前面にタッチスクリーンを搭載](/images/Fraxinus00w4-2.jpg)
 
 ## Fraxinus0w
 

@@ -6,7 +6,7 @@ draft: false
 slug: micro-printers
 author: "Fraxinus Project"
 summary: Overview page for the micro 3D printer branch of Fraxinus. It lists the features and specifications of compact CoreXY models, including the Fraxinus000, 00 and 0w lines.
-image: /images/Fraxinus_micro_All_11.jpg
+image: /images/Fraxinus-micro-all-1.jpg
 keywords:
   - Fraxinus
   - micro 3D printer
@@ -56,7 +56,7 @@ In addition, there are also [printers designed and built by community members](.
 | 0w | 203×215×203 | 120 mm cube | USB-PD / mobile battery (can be internal) | Larger print volume |
 | 0w3 | 197×215×198 | 116 mm cube | USB-PD / mobile battery (external) | Larger print volume derived from the 00w3 |
 
-![Size comparison chart of the Fraxinus micro 3D printer series, showing front views from left to right: Fraxinus 00tw (body 163x183x235 mm, print 70 mm square), Fermion (105x104x108 mm, 25 mm), Fraxinus 000w4 (95x117x95 mm, 50 mm), Fraxinus 00w4 (125x137x125 mm, 80 mm), Fraxinus 00w3 (147x160x147 mm, 66 mm), and Fraxinus 0w3 (197x215x198 mm, 116 mm)](/images/Fraxinus_micro_All_11.jpg)
+![Size comparison chart of the Fraxinus micro 3D printer series, showing front views from left to right: Fraxinus 00tw (body 163x183x235 mm, print 70 mm square), Fermion (105x104x108 mm, 25 mm), Fraxinus 000w4 (95x117x95 mm, 50 mm), Fraxinus 00w4 (125x137x125 mm, 80 mm), Fraxinus 00w3 (147x160x147 mm, 66 mm), and Fraxinus 0w3 (197x215x198 mm, 116 mm)](/images/Fraxinus-micro-all-1.jpg)
 
 <!-- Fraxinus00w3 -->
 <div style="width: 100%; aspect-ratio: 1.33;">
@@ -80,13 +80,13 @@ Includes models under the following licenses.
 
 A compact CoreXY 3D printer with a 50 mm square print area that runs on USB-PD power, making it well suited to on-the-go introductions. With a body size of 95×117×95 mm (excluding protruding parts), it is the smallest model in the series. It can also run on an external mobile battery and has a touch screen on the front. ([Announcement post on X](https://x.com/fukumay1/status/2069808983955964148))
 
-![Rear three-quarter render of the Fraxinus000w4 with spec text showing a 50x50x50 mm print size and 95x117x95 mm body size](/images/Fraxinus000w4-01.jpg)
+![Rear three-quarter render of the Fraxinus000w4 with spec text showing a 50x50x50 mm print size and 95x117x95 mm body size](/images/Fraxinus000w4-1.jpg)
 
-![Front render of the Fraxinus000w4 showing its front touch screen](/images/Fraxinus000w4-02.jpg)
+![Front render of the Fraxinus000w4 showing its front touch screen](/images/Fraxinus000w4-2.jpg)
 
-![Side photo of the Fraxinus000w4, smaller than the filament spool next to it](/images/Fraxinus000w4-03.jpg)
+![Side photo of the Fraxinus000w4, smaller than the filament spool next to it](/images/Fraxinus000w4-photo-1.jpg)
 
-![Front photo of the Fraxinus000w4 with its touch screen lit and a filament spool on the left](/images/Fraxinus000w4-04.jpg)
+![Front photo of the Fraxinus000w4 with its touch screen lit and a filament spool on the left](/images/Fraxinus000w4-photo-2.jpg)
 
 ## Fraxinus00
 
@@ -142,9 +142,9 @@ Keeps the same 66 mm cube print size as the 00w2 while further reducing the body
 
 A compact CoreXY 3D printer with an 80 mm square print area that runs on USB-PD power, making it well suited to on-the-go introductions. With a body size of 125×137×125 mm (excluding protruding parts), it has the largest print area in the 00 series. It can also run on an external mobile battery and has a touch screen on the front.
 
-![Rear three-quarter render of the Fraxinus00w4 with spec text showing an 80x80x80 mm print size and 125x137x125 mm body size](/images/Fraxinus00w4-01.jpg)
+![Rear three-quarter render of the Fraxinus00w4 with spec text showing an 80x80x80 mm print size and 125x137x125 mm body size](/images/Fraxinus00w4-1.jpg)
 
-![Front render of the Fraxinus00w4 showing its front touch screen](/images/Fraxinus00w4-02.jpg)
+![Front render of the Fraxinus00w4 showing its front touch screen](/images/Fraxinus00w4-2.jpg)
 
 ## Fraxinus0w
 

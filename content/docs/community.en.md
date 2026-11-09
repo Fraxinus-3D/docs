@@ -134,9 +134,9 @@ It also supports printing ABS.
 
 A uniquely structured 3D printer that Fukuma redesigned with locally available parts, as both a learning experience and an engineering exercise, after watching the project video of [QUARK](https://youtu.be/JCcKdnAFfds) designed by RobertGcode. With a 25 mm cube print volume, it is well suited to education and hands-on learning. Most parts can be 3D printed, and its palm-sized body (105×104×108 mm, excluding protruding parts) makes it highly portable. Special thanks to RobertGcode for sharing such a brilliant idea.
 
-![Front three-quarter render of the blue Fermion25 with spec text showing a 25x25x25 mm print size and 105x104x108 mm body size](/images/Fermion25_01.jpg)
-![Rear render of the Fermion25 showing its pulley and belt drive mechanism](/images/Fermion25_02.jpg)
-![Photo of the blue Fermion25 placed in front of plants, front side](/images/Fermion25_03.jpg)
-![Photo of the blue Fermion25 in front of plants, rear side showing the drive pulleys](/images/Fermion25_04.jpg)
+![Front three-quarter render of the blue Fermion25 with spec text showing a 25x25x25 mm print size and 105x104x108 mm body size](/images/Fermion25-1.jpg)
+![Rear render of the Fermion25 showing its pulley and belt drive mechanism](/images/Fermion25-2.jpg)
+![Photo of the blue Fermion25 placed in front of plants, front side](/images/Fermion25-photo-1.jpg)
+![Photo of the blue Fermion25 in front of plants, rear side showing the drive pulleys](/images/Fermion25-photo-2.jpg)
 
 <blockquote class="twitter-tweet" data-dnt="true"><a href="https://twitter.com/fukumay1/status/2069417794438107554?ref_src=twsrc%5Etfw">Post by Yohei Fukuma (@fukumay1)</a></blockquote> <script async src="https://platform.x.com/widgets.js" charset="utf-8"></script>
