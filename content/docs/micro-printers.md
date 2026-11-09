@@ -5,36 +5,42 @@ description: 本ページではFraxinusプロジェクトのマイクロ3Dプリ
 draft: false
 slug: micro-printers
 author: "Fraxinus Project"
-summary: Fraxinusのマイクロ3Dプリンタ系列を紹介するページです。Fraxinus00系や0w系など、小型CoreXYモデルの特徴や仕様を一覧できます。
-image: /images/Fraxinus0-front-view.jpg
+summary: Fraxinusのマイクロ3Dプリンタ系列を紹介するページです。Fraxinus000系・00系・0w系など、小型CoreXYモデルの特徴や仕様を一覧できます。
+image: /images/Fraxinus_micro_All_11.jpg
 keywords:
   - Fraxinus
   - マイクロ3Dプリンタ
+  - Fraxinus000w4
   - Fraxinus00
+  - Fraxinus00w4
   - Fraxinus0w
   - CoreXY
 categories:
   - Fraxinus紹介
 tags:
+  - Fraxinus000w4
   - Fraxinus00
   - Fraxinus00w
   - Fraxinus00w2
   - Fraxinus00w3
+  - Fraxinus00w4
   - Fraxinus0w
   - Fraxinus0w3
 date: 2024-11-10T14:01:52+09:00
-lastmod: 2024-11-18T02:00:10+09:00
+lastmod: 2026-11-09T00:00:00+09:00
 ---
 
 Fraxinusシリーズはアクリルフレームを用いた、コンパクトで出先でのデモや機能紹介に好適なCoreXY構造のマイクロ3Dプリンタです。コミュニティ由来の派生機は[コミュニティ](/docs/community/)も参照してください。
 
-現在7種類（00, 00w, 00w2, 00w3, 00w3 (mold), 0w, 0w3）あります。
+現在9種類（000w4, 00, 00w, 00w2, 00w3, 00w3 (mold), 00w4, 0w, 0w3）あります。
 
+* [Fraxinus000w4](#fraxinus000w4)
 * [Fraxinus00](#fraxinus00)
 * [Fraxinus00w](#fraxinus00w)
 * [Fraxinus00w2](#fraxinus00w2)
 * [Fraxinus00w3](#fraxinus00w3)
 * [Fraxinus00w3 (mold)](#fraxinus00w3-mold)
+* [Fraxinus00w4](#fraxinus00w4)
 * [Fraxinus0w](#fraxinus0w)
 * [Fraxinus0w3](#fraxinus0w3)
 
@@ -42,15 +48,17 @@ Fraxinusシリーズはアクリルフレームを用いた、コンパクトで
 
 | モデル | 本体サイズ (mm) | 造形サイズ | 電源 | 特徴 |
 |--------|---------------|-----------|------|------|
+| 000w4 | 95×117×95 | 50mm角 | USB-PD / モバイルバッテリー（外部） | シリーズ最小、タッチスクリーン搭載 |
 | 00 | 160×157×194 | 70mm角 | USB-PD / モバイルバッテリー（内蔵可） | 初代モデル |
 | 00w | 153×152×176 | 70mm角 | USB-PD / モバイルバッテリー（内蔵可） | バッテリー内蔵で完全自立動作可 |
 | 00w2 | 147×152×162 | 66mm角 | USB-PD / モバイルバッテリー（外部） | タッチスクリーン搭載、小型化 |
 | 00w3 | 147×160×147 | 66mm角 | USB-PD / モバイルバッテリー（外部） | 高さをさらに短縮、ガントリー再設計 |
 | 00w3 (mold) | 147×160×147 | 66mm角 | USB-PD / モバイルバッテリー（外部） | 00w3の3Dプリントバージョン |
+| 00w4 | 125×137×125 | 80mm角 | USB-PD / モバイルバッテリー（外部） | 00系最大の造形サイズ、タッチスクリーン搭載 |
 | 0w | 203×215×203 | 120mm角 | USB-PD / モバイルバッテリー（内蔵可） | 造形サイズ拡大モデル |
-| 0w3 | 197×215×198 | 120mm角 | USB-PD / モバイルバッテリー（外部） | 00w3派生の造形サイズ拡大モデル |
+| 0w3 | 197×215×198 | 116mm角 | USB-PD / モバイルバッテリー（外部） | 00w3派生の造形サイズ拡大モデル |
 
-![Fraxinusマイクロ3Dプリンタ系列の前面比較画像](/images/Fraxinus0-front-view.jpg)
+![Fraxinusマイクロ3Dプリンタ系列のサイズ比較図。左からFraxinus 00tw（本体163x183x235mm、印刷□70mm）、Fermion（105x104x108mm、□25mm）、Fraxinus 000w4（95x117x95mm、□50mm）、Fraxinus 00w4（125x137x125mm、□80mm）、Fraxinus 00w3（147x160x147mm、□66mm）、Fraxinus 0w3（197x215x198mm、□116mm）を正面から並べている](/images/Fraxinus_micro_All_11.jpg)
 
 <!-- Fraxinus00w3 -->
 <div style="width: 100%; aspect-ratio: 1.33;">
@@ -69,6 +77,18 @@ Fraxinusシリーズはアクリルフレームを用いた、コンパクトで
   * [@nhchiu](https://www.printables.com/@nhchiu)
   * [GPL-3.0](https://github.com/nhchiu/VoronMods/blob/main/LICENSE)
 
+
+## Fraxinus000w4
+
+50mm四方の印刷サイズを持ちUSB-PD電源で動作可能な、コンパクトで出先での紹介に好適なCoreXY構造の3Dプリンターです。本体サイズは95×117×95mm（突起部除く）で、シリーズ最小のモデルです。外部のモバイルバッテリーでも動作し、前面にタッチスクリーンを搭載しています。（[Xでの紹介ポスト](https://x.com/fukumay1/status/2069808983955964148)）
+
+![Fraxinus000w4を斜め後方から見たレンダリング画像。印刷サイズ50x50x50mm、本体サイズ95x117x95mmの仕様テキスト付き](/images/Fraxinus000w4-01.jpg)
+
+![Fraxinus000w4を正面から見たレンダリング画像。前面にタッチスクリーンを搭載](/images/Fraxinus000w4-02.jpg)
+
+![Fraxinus000w4の実機を横から撮影した写真。隣のフィラメントスプールより小さい](/images/Fraxinus000w4-03.jpg)
+
+![Fraxinus000w4の実機を正面から撮影した写真。タッチスクリーンが点灯し、左にフィラメントスプールがある](/images/Fraxinus000w4-04.jpg)
 
 ## Fraxinus00
 
@@ -120,6 +140,14 @@ Fraxinusシリーズはアクリルフレームを用いた、コンパクトで
 
 ![Fraxinus00w3-moldの実機写真](/images/Fraxinus00w3-mold-photo-2.jpg)
 
+## Fraxinus00w4
+
+80mm四方の印刷サイズを持ちUSB-PD電源で動作可能な、コンパクトで出先での紹介に好適なCoreXY構造の3Dプリンターです。本体サイズは125×137×125mm（突起部除く）で、00系では最大の造形サイズです。外部のモバイルバッテリーでも動作し、前面にタッチスクリーンを搭載しています。
+
+![Fraxinus00w4を斜め後方から見たレンダリング画像。印刷サイズ80x80x80mm、本体サイズ125x137x125mmの仕様テキスト付き](/images/Fraxinus00w4-01.jpg)
+
+![Fraxinus00w4を正面から見たレンダリング画像。前面にタッチスクリーンを搭載](/images/Fraxinus00w4-02.jpg)
+
 ## Fraxinus0w
 
 120mm角の造形サイズを持つ、シリーズ最大のマイクロプリンタです。VORON v0.2と同等の造形エリアを、ひと回り小さな本体に収めています。
@@ -130,7 +158,7 @@ Fraxinusシリーズはアクリルフレームを用いた、コンパクトで
 
 ## Fraxinus0w3
 
-00w3の派生で120mm角の造形サイズを持つ、シリーズ最大のマイクロプリンタです。VORON v0.2と同等の造形エリアを、ひと回り小さな本体に収めています。
+00w3の派生で116mm角の造形サイズを持つ、シリーズ最大級のマイクロプリンタです。VORON v0.2とほぼ同等の造形エリアを、ひと回り小さな本体に収めています。
 
 ![Fraxinus0w3の外観画像](/images/Fraxinus0w3-1.jpg)
 
